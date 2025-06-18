@@ -12,4 +12,9 @@
 | Sort             | `arr.sort()`         | Sorts in-place ascending  |
 | Reverse          | `arr.reverse()`      | Reverses in-place         |
 """
-arr = {}
+"""
+enumrate()
+arr = [1,4,7,'str1','str2']
+
+for index,data in enumerate(arr):
+    print(data,index)"""
