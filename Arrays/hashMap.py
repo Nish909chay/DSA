@@ -82,7 +82,7 @@ for ind,val in enumerate(arr):
 """
 
 # 2 SUM - UNIQUE PAIR COUNT - using SETS
-arr = [3, 7, 5, 1, 9, 2, 8, 4, 6]
+"""arr = [3, 7, 5, 1, 9, 2, 8, 4, 6]
 target = 10
 seen = set()
 output = set()
@@ -94,7 +94,50 @@ for val in arr:
     seen.add(val)
 
 print(output)
+"""
+
+"""
+arr = [3, 7, 5, 1, 9, 2, 8, 4, 6]
+target = 11
+
+arr.sort(reverse=True)
+print(arr)
+
+# decreasing order 2 ptr
+left = len(arr) - 1
+right = 0
+
+while right > left:
+    if(arr[left] + arr[right] > target):
+        right += 1
+    elif(arr[left] + arr[right] < target):
+        left -= 1
+    else:
+        print(f"pair found : {arr[left]} and {arr[right]}")
+        right += 1
+        left -= 1"""
+
+arr = arr = [1, 2, 2, 3, 4, 5, 6]
+target = 5
+
+
+arr.sort(reverse=True)
+print(arr)
+
+# Two pointers on a descending array
+left = len(arr) - 1
+right = 0
+
+while left > right:
+    current_sum = arr[left] + arr[right]
+    if current_sum > target:
+        right += 1  # move to smaller sum (go to smaller element)
+    elif current_sum < target:
+        left -= 1  # need bigger sum (go to larger element)
+    else:
+        print(f"Pair found: {arr[left]} and {arr[right]}")
+        right += 1
+        left -= 1
 
 
 
-    
