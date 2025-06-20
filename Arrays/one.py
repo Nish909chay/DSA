@@ -20,7 +20,7 @@ for index,data in enumerate(arr):
     print(data,index)"""
 # 2 SUM
 
-arr=[4,5,6,2,1,15,9]
+"""arr=[4,5,6,2,1,15,9]
 target = 20
 
 
@@ -35,6 +35,35 @@ while left < right:
         left += 1
     else:
         print(f"pair : {arr[left]} and {arr[right]}")
-        break
+        break"""
 
+
+# LCM
+"""import math
+a = 12
+b= 18
+max_num = max(a,b)
+print("jkf")
+
+while True:
+    if (max_num % a == 0) and (max_num % b == 0):
+        lcm = max_num
+        break
+    max_num += 1
+
+print(f"LCM is {lcm} ")"""
+
+"""
+# HCF
+a = 12
+b= 18
+min_num = min(a,b)
+
+while True:
+    if (a % min_num == 0) and (b % min_num == 0):
+        hcf = min_num
+        break
+    min_num -= 1
+
+print(f"HCF is {hcf} ")"""
 

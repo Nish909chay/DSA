@@ -117,7 +117,7 @@ while right > left:
         right += 1
         left -= 1"""
 
-arr = arr = [1, 2, 2, 3, 4, 5, 6]
+"""arr = arr = [1, 2, 2, 3, 4, 5, 6]
 target = 5
 
 
@@ -137,7 +137,7 @@ while left > right:
     else:
         print(f"Pair found: {arr[left]} and {arr[right]}")
         right += 1
-        left -= 1
+        left -= 1"""
 
 
 
