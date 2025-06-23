@@ -67,3 +67,14 @@ while True:
 
 print(f"HCF is {hcf} ")"""
 
+# subarray sum equals K using Brute Force
+arr = [5,3,8,1,2,1]
+c = 0
+k = 4
+for i in range(len(arr)):
+    sum = 0
+    for j in range(i,len(arr)):
+        sum += arr[j]
+        if(sum == k):
+            c+=1
+print(f"count = {c}")
