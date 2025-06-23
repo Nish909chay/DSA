@@ -125,7 +125,7 @@ max_prod = max(max_left, max_right)
 print("Max product subarray:", max_prod)"""
 
 #arr = [1,2,-3,0,-4,-5]
-arr =  [1,2,3,4,5,0]
+"""arr =  [1,2,3,4,5,0]
 left_pref = [0] * len(arr)
 right_pref = [0] * len(arr)
 max_left = max_right = 0
@@ -144,6 +144,27 @@ for ind in range(len(arr) - 1, -1, -1):
 
 # Final result
 max_prod = max(max_left, max_right)
-print("Max product subarray:", max_prod)
+print("Max product subarray:", max_prod)"""
+
+#optimizing this
+arr =  [1,2,3,4,5,0]
+#arr = [1,2,-3,0,-4,-5]
+curr_max = curr_min = 1
+max_prod = arr[0]
+
+for val in arr:
+    if(val == 0):
+        curr_max = curr_min = 1
+        max_prod = max(max_prod, 0)
+        continue
+
+    prod = curr_max * val
+    curr_max = max(val, prod, curr_min * val)
+    curr_min = min(val, prod, curr_min * val)
+    max_prod = max(curr_max, max_prod)
+
+print(max_prod)
+
+
 
 
