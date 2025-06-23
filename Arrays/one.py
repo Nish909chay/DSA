@@ -68,7 +68,7 @@ while True:
 print(f"HCF is {hcf} ")"""
 
 # subarray sum equals K using Brute Force
-arr = [5,3,8,1,2,1]
+"""arr = [5,3,8,1,2,1]
 c = 0
 k = 4
 for i in range(len(arr)):
@@ -77,4 +77,73 @@ for i in range(len(arr)):
         sum += arr[j]
         if(sum == k):
             c+=1
-print(f"count = {c}")
+print(f"count = {c}")"""
+
+# using hash map
+"""arr = [5,3,8,1,2,1]
+k = 4
+ln = len(arr)
+pref_arr = [0] * len(arr) + 1
+for val in range(1,len(arr)):
+    pref_arr[val] = pref_arr[val-1] + arr[val]
+seen = {0: 1}
+c = 0
+for val in range(1, ln + 1):
+    curr = pref_arr[val]
+    target = curr - k
+    if target in seen:
+        c += seen[target]       # occurence 
+    seen[curr] = seen.get(curr,0) + 1"""
+
+
+# Maximum Product Subarray in an Array
+"""arr = [1,2,-3,0,-4,-5]
+# arr =  [1,2,3,4,5,0]
+n = len(arr)
+
+left_pref = [0] * n
+right_pref = [0] * n
+
+max_left = max_right = 0
+
+# Left-to-right pass WITHOUT reset
+prod = 1
+for i in range(n):
+    prod *= arr[i]
+    left_pref[i] = prod
+    max_left = max(max_left, prod)
+
+# Right-to-left pass WITHOUT reset
+prod = 1
+for i in range(n - 1, -1, -1):
+    prod *= arr[i]
+    right_pref[i] = prod
+    max_right = max(max_right, prod)
+
+# Final result
+max_prod = max(max_left, max_right)
+print("Max product subarray:", max_prod)"""
+
+#arr = [1,2,-3,0,-4,-5]
+arr =  [1,2,3,4,5,0]
+left_pref = [0] * len(arr)
+right_pref = [0] * len(arr)
+max_left = max_right = 0
+
+prod = 1
+for ind in range(len(arr)):
+    prod *= arr[ind]
+    left_pref[ind] = prod 
+    max_left = max(max_left, prod)
+
+prod = 1
+for ind in range(len(arr) - 1, -1, -1):
+    prod *= arr[ind]
+    right_pref[ind] = prod
+    max_right = max(max_right, prod)
+
+# Final result
+max_prod = max(max_left, max_right)
+print("Max product subarray:", max_prod)
+
+
