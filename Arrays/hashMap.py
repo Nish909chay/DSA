@@ -139,5 +139,53 @@ while left > right:
         right += 1
         left -= 1"""
 
+"""
+238. Product of Array Except Self
+Medium
+
+Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+
+You must write an algorithm that runs in O(n) time and without using the division operation
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
+# Brute Force
+arr = [1,2,3,4]
+
+arr2 = [0] * len(arr)
+for ptr1 in range(len(arr)):
+    prod = 1                # reset
+    for ptr2 in range(len(arr)):
+        if(ptr1 == ptr2):
+            continue
+        prod *= arr[ptr2]
+    arr2[ptr1] = prod
+print(arr2)
+"""
+# Optimized 
+arr = [1,0,3,4]
+left = [0] * len(arr)
+right = [0] * len(arr)
+res_arr = [0] * len(arr)
+
+
+left[0] = 1
+for i in range(1,len(arr)):
+    left[i] = left[i - 1] * arr[i - 1]
+
+right[len(arr) - 1] = 1
+for i in range(len(arr) - 2, -1, -1):
+    right[i] = right[i + 1] * arr[i + 1]
+ 
+
+for i in range(len(res_arr)):
+    res_arr[i] = left[i] * right[i]
+
+print(res_arr)
+
+    
+    
+    
 
 
