@@ -300,5 +300,52 @@ Given an array of strings strs, group the anagrams together. You can return the 
 Example 1:
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
-"""
+
+from collections import Counter
 strs = ["eat","tea","tan","ate","nat","bat"]
+l1 = []
+l2 = []
+grouped = {}
+
+
+for i in strs:
+    key = ''.join(sorted(i))
+    if key not in grouped:
+        grouped[key] = []
+    grouped[key].append(i)
+
+print(grouped)
+
+#   OR
+from collections import defaultdict
+strs = ["eat","tea","tan","ate","nat","bat"]
+grouped = defaultdict(list)
+for i in strs:
+    key = ''.join(sorted(i))
+    grouped[key].append(i)
+
+res = grouped.values()
+print(res)
+"""
+"""
+Palindromic Substrings
+
+Given a string s, return the number of palindromic substrings in it.
+A string is a palindrome when it reads the same backward as forward.
+A substring is a contiguous sequence of characters within the string.
+
+str = "ababa"
+c = 0
+
+for i in range(0,len(str)):
+    for j in range(i,len(str)):
+        subs = str[i:j+1]
+        if subs == subs[::-1]:
+                c += 1
+            
+print(c)
+
+    OR
+"""
+
+
