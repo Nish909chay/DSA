@@ -346,6 +346,52 @@ for i in range(0,len(str)):
 print(c)
 
     OR
+
+str = "ababa"
+n = len(str)
+c = 0
+
+for center in range(2 * n - 1):
+    left = center // 2
+    right = left + (center % 2)
+
+    while left >= 0 and right < n and str[left] == str[right]:
+        c += 1
+        left -= 1
+        right += 1
+
+print(c)
 """
+
+"""
+Encode and Decode Strings
+You are given a list of strings, and you need to encode it into a single string (for transmission or storage), 
+and then decode that string back into the original list of strings.
+"""
+s = ["leet", "code", "rocks"]
+# encoding
+encoded = ""
+for i in s:
+    encoded += str(len(i)) + '#' + i
+
+# decoding time
+decoded = []
+i = 0
+while i < len(encoded):
+    j = i
+    while(encoded[j] != '#'):
+        j += 1
+    l = int(encoded[i:j])
+    word = encoded[j+1 : j+1+l]
+    decoded.append(word)
+    i = j + 1 + l
+    
+        
+    
+
+
+print(decoded)
+        
+
 
 
