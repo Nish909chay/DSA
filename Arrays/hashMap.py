@@ -162,7 +162,7 @@ for ptr1 in range(len(arr)):
         prod *= arr[ptr2]
     arr2[ptr1] = prod
 print(arr2)
-"""
+
 # Optimized 
 arr = [1,0,3,4]
 left = [0] * len(arr)
@@ -183,9 +183,122 @@ for i in range(len(res_arr)):
     res_arr[i] = left[i] * right[i]
 
 print(res_arr)
-
+"""
     
-    
-    
+"""
+Check Balanced Parentheses. 
+Given string str containing just the characters '(', ')', '{', '}', '[' and ']', 
+check if the input string is valid and return true if the string is balanced otherwise return false.
+
+str = "([{}]))"
+stack = [] 
+valid = True
+
+for i in str:
+    if(i == '(' or i == '{' or i == '['):
+        stack.append(i)
+    if(i == ')' or i == '}' or i == ']'):
+        if not stack:
+            valid = False
+            break
+        top = stack.pop()
+        if(i == '}' and top != '{'):
+            valid = False
+            break
+        elif(i == ')' and top != '('):
+            valid = False
+            break
+        elif(i == ']' and top != '['):
+            valid = False
+            break
 
 
+if(valid == True):
+    print("valid parenthesis")
+else:
+    print("invalid parenthesis")
+
+    OR
+
+str = "([{}][)"
+
+pmap = {')':'(', ']':'[', '}': '{'}
+
+stack = []
+valid = True
+ 
+for i in str:
+    if i in "({[":
+        stack.append(i)
+    elif i in ")}]":
+        if not stack:
+            valid = False
+            break
+
+        if(pmap[i] != stack.pop()):
+            valid = False
+            break
+
+
+
+if(valid == True):
+    print("valid parenthesis")
+else:
+    print("invalid parenthesis")
+
+"""
+
+"""
+Valid Anagram
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+Examples:
+Input : s = "anagram" , t = "nagaram"
+Output : true
+Explanation : We can rearrange the characters of string s to get string t as frequency of all characters from both strings is same.
+
+s = "cat" 
+t = "atc"
+anagram = True
+seen = {}
+seen2 = {}
+
+if(len(s) != len(t)):
+    anagram = False
+else:
+    for i in s:
+        seen[i] = seen.get(i,0) + 1
+
+    for i in t:
+        seen2[i] = seen2.get(i,0) + 1
+
+    for i in seen:
+        if(seen[i] != seen2.get(i,0)):
+            anagram = False
+            break
+
+            OR 
+
+if(anagram == True):
+    print("valid")
+else:
+    print("Invalid")
+
+from collections import Counter
+s = "cat" 
+t = "atca"
+if(Counter(s) == Counter(t)):
+    print("valid anagram")
+else:
+    print("invalid anagram")
+"""
+
+"""
+Group Anagrams
+
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+Example 1:
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+"""
+strs = ["eat","tea","tan","ate","nat","bat"]

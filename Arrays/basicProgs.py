@@ -213,7 +213,7 @@ n = 123
 arr = [int(d) for d in str(n)]
 for i in range(len(arr)-1, -1, -1):
     print(arr[i],end="")
-"""
+
 # oR
 
 n = 123
@@ -224,3 +224,20 @@ while n > 0:
     n //= 10
 
 print(rev)
+"""
+
+"""arr = [3,2,7,1,9,7,1,2,1]"""
+n = 153
+n1 = n 
+exp = len(str(n))
+sum = 0
+
+while n1 > 0:
+    m = (n1%10) 
+    sum += m ** exp
+    n1 //= 10
+
+print(sum)
+
+
+
