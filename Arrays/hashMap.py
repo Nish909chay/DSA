@@ -388,3 +388,59 @@ while i < len(encoded):
     
 print(decoded)
 """
+"""
+424. Longest Repeating Character Replacement
+
+You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character.
+ You can perform this operation at most k times.
+Return the length of the longest substring containing the same letter you can get after performing the above operations
+Input: s = "ABAB", k = 2
+Output: 4
+Explanation: Replace the two 'A's with two 'B's or vice versa.
+
+s = "ABAB"
+k = 2
+left = 0
+max_len = max_freq = 0
+count = {}
+for r in range(len(s)):
+    count[s[r]] = count.get(s[r],0) + 1
+    max_freq = max(max_freq, count[s[r]])
+    if((r-left+1) - max_freq) > k:
+        count[s[left]] -= 1
+        left += 1
+    max_len = max(max_len, r - left + 1)
+
+
+print(max_len)
+"""
+"""
+409. Longest Palindrome
+
+Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters.
+Letters are case sensitive, for example, "Aa" is not considered a palindrome.
+
+Example 1:
+Input: s = "abccccdd"
+Output: 7
+Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
+
+s = "abccccdda"
+max_len = 0
+found_odd = False
+cnt = {}
+for i in s:
+    cnt[i] = cnt.get(i,0) + 1
+
+for i in cnt.values():
+    if(i%2 == 0):
+        max_len += i
+    else:
+        max_len += i - 1
+        found_odd = True
+
+if(found_odd):
+    max_len += 1
+
+print(max_len)
+"""
