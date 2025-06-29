@@ -367,7 +367,7 @@ print(c)
 Encode and Decode Strings
 You are given a list of strings, and you need to encode it into a single string (for transmission or storage), 
 and then decode that string back into the original list of strings.
-"""
+
 s = ["leet", "code", "rocks"]
 # encoding
 encoded = ""
@@ -386,12 +386,5 @@ while i < len(encoded):
     decoded.append(word)
     i = j + 1 + l
     
-        
-    
-
-
 print(decoded)
-        
-
-
-
+"""
