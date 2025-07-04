@@ -463,7 +463,7 @@ Example 1:
 Input: nums = [3,4,5,1,2]
 Output: 1
 Explanation: The original array was [1,2,3,4,5] rotated 3 times.
-"""
+
 nums = [3,4,5,0,1,2]
 low = 0
 high = len(nums) - 1
@@ -475,4 +475,105 @@ while low < high:
         high = mid 
 
 print(nums[low])
+"""
+
+"""
+33. Search in Rotated Sorted Array
+Medium
+
+There is an integer array nums sorted in ascending order (with distinct values).
+Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). 
+For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2].
+Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+Example 1:
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
+
+nums = [4,5,6,7,0,1,2]
+target = 0
+low = 0
+high = len(nums) - 1
+while low < high:
+    mid = int((low + high) / 2)
+    if(nums[mid] == target):
+        print(mid)
     
+    if(nums[mid] > nums[low]):
+        if(nums[low] <= target < nums[mid]):
+            high = mid - 1
+        else:
+            low = mid + 1
+    
+    else:
+        if(nums[mid] < target < )
+DOUBT
+"""
+
+"""
+3 Sum : Find triplets that add up to a zero
+Example 1: 
+
+Input: nums = [-1,0,1,2,-1,-4]
+
+Output: [[-1,-1,2],[-1,0,1]]
+
+Explanation: Out of all possible unique triplets possible, [-1,-1,2] and [-1,0,1] satisfy the condition of summing up to zero with i!=j!=k
+
+Example 2:
+
+Input: nums=[-1,0,1,0]
+Output: Output: [[-1,0,1],[-1,1,0]]
+Explanation: Out of all possible unique triplets possible, [-1,0,1] and [-1,1,0] satisfy the condition of summing up to zero with i!=j!=k
+
+arr = [-1,0,1,2,-1,-4]
+target = 0
+res = set()
+for i in range(0,len(arr)):
+    for j in range(i+1,len(arr)):
+        for k in range(j+1,len(arr)):
+            sum = arr[i] + arr[j] + arr[k]
+            if(sum == 0):
+                res.add(tuple(sorted((arr[i],arr[j],arr[k]))))
+
+        
+ls = [list(t) for t in res]
+print(ls)
+
+
+best approach
+
+arr = [-4, -1, -1, 0, 1, 2]
+arr.sort()
+res = set()
+
+for i in range(0,len(arr) - 3):
+    left = i + 1
+    right = len(arr) - 1
+    if(i > 0 and arr[i] == arr[i-1]):
+        continue
+    while(left < right):    
+        sum = arr[left] + arr[right] + arr[i]
+        if(sum == 0 ):
+            res.add(tuple(sorted((arr[left], arr[right], arr[i]))))
+            while(left < right and arr[left] == arr[left + 1]):
+                left += 1
+            while(left < right and arr[right] == arr[right - 1]):
+                right -= 1
+            left += 1
+            right -= 1
+        elif(sum > 0):
+            right -= 1
+        else:
+            left += 1
+
+print(res)
+"""
+
+
+
+
+    
+
