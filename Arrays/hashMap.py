@@ -635,7 +635,7 @@ lst = [list(l) for l in output]
 print(f"max sum = {max_sum} and the subarray is = {lst}")
 
     Kadane's Technique
-    
+
 arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 ptr1 = 0 
 ptr2 = ptr1
