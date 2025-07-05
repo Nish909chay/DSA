@@ -476,42 +476,6 @@ while low < high:
 
 print(nums[low])
 """
-
-"""
-33. Search in Rotated Sorted Array
-Medium
-
-There is an integer array nums sorted in ascending order (with distinct values).
-Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). 
-For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2].
-Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
-
-You must write an algorithm with O(log n) runtime complexity.
-
-Example 1:
-Input: nums = [4,5,6,7,0,1,2], target = 0
-Output: 4
-
-nums = [4,5,6,7,0,1,2]
-target = 0
-low = 0
-high = len(nums) - 1
-while low < high:
-    mid = int((low + high) / 2)
-    if(nums[mid] == target):
-        print(mid)
-    
-    if(nums[mid] > nums[low]):
-        if(nums[low] <= target < nums[mid]):
-            high = mid - 1
-        else:
-            low = mid + 1
-    
-    else:
-        if(nums[mid] < target < )
-DOUBT
-"""
-
 """
 3 Sum : Find triplets that add up to a zero
 Example 1: 
@@ -572,8 +536,125 @@ for i in range(0,len(arr) - 3):
 print(res)
 """
 
+"""
+33. Search in Rotated Sorted Array
+Medium
+
+There is an integer array nums sorted in ascending order (with distinct values).
+Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). 
+For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2].
+Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+Example 1:
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
+
+arr = [4,5,6,7,0,1,2]
+target = 0
+low = 0
+high = len(arr) - 1
+
+while low <= high:
+    mid = (low + high) // 2
+    if(arr[mid] == target):
+        print(mid)
+        break
+    if(arr[low] <= arr[mid]):   # left half
+        if arr[low] <= target < arr[mid]: # left half
+            high = mid - 1
+        else:
+            low = mid + 1   # right half
+    else:
+        if arr[low] < target <= arr[high]:  # right half
+            low = mid + 1
+        else:
+            high = mid - 1  # left half
+
+"""
+
+"""
+1800. Maximum Ascending Subarray Sum
+Easy
+Given an array of positive integers nums, return the maximum possible sum of an strictly increasing subarray in nums.
+A subarray is defined as a contiguous sequence of numbers in an array.
+
+Input: nums = [12,17,15,13,10,11,12]
+Output: 33
+Explanation: [10,11,12] is the ascending subarray with the maximum sum of 33.
+
+arr = [10,20,30,5,10,50]
+curr_sum = max_sum = arr[0]
+
+for i in range(1, len(arr)):
+    if(arr[i] > arr[i-1]):
+        curr_sum += arr[i]
+    else:
+        max_sum = max(max_sum, curr_sum)
+        curr_sum = arr[i]
+        continue
+
+max_sum = max(max_sum, curr_sum)
 
 
+print(max_sum)
+"""
 
+"""
+Kadane's Algorithm : Maximum Subarray Sum in an Array 
+
+Problem Statement: Given an integer array arr, find the contiguous subarray (containing at least one number) which
+has the largest sum and returns its sum and prints the subarray.
+
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+res = []
+output = []
+ptr1 = 0 
+ptr2 = ptr1
+curr_sum = max_sum = 0
+
+while ptr2 >= ptr1 and ptr2 < len(arr):
+    res.append(arr[ptr2])
+    curr_sum += arr[ptr2]
+    if(curr_sum <= 0):
+        res.clear()
+        ptr1 += 1
+        ptr2 = ptr1
+        curr_sum = 0
+        continue
+    if curr_sum > max_sum:
+        max_sum = curr_sum
+        output = [tuple(res)]  # clear previous and store new best
+    elif curr_sum == max_sum and tuple(res) not in output:
+        output.append(tuple(res))
+
+    ptr2 += 1
+
+lst = [list(l) for l in output]
+print(f"max sum = {max_sum} and the subarray is = {lst}")
+
+    Kadane's Technique
     
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+ptr1 = 0 
+ptr2 = ptr1
+curr_sum = max_sum = arr[0]
 
+for i in range(0, len(arr)):
+    curr_sum = max(arr[i], curr_sum + arr[i])
+    max_sum = max(max_sum, curr_sum)
+
+
+print(max_sum)
+
+        Understanding the diff between list() and (list(l) for l in something)
+
+output = [(4, -1, 2, 1), (4, -1, 2, 1, 0)]
+print(output)
+
+lst = [list(li) for li in output]
+print(lst)   # Convert back to list if needed
+longest = max(lst, key=len)
+print(longest)
+"""
