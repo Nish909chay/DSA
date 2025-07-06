@@ -704,3 +704,59 @@ class MinStack(object):
 # param_3 = obj.top()
 # param_4 = obj.getMin()
 """
+"""
+232. Implement Queue using Stacks
+
+Implement a first in first out (FIFO) queue using only two stacks.
+ The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+Implement the MyQueue class:
+
+void push(int x) Pushes element x to the back of the queue.
+int pop() Removes the element from the front of the queue and returns it.
+int peek() Returns the element at the front of the queue.
+boolean empty() Returns true if the queue is empty, false otherwise.
+
+    def __init__(self):
+        self.stack1 = []
+        self.stack2 = []
+
+    def push(self, x):
+        self.stack1.append(x)
+        
+    def pop(self):
+        if not self.stack2:
+            while self.stack1:
+                self.stack2.append(self.stack1.pop()) 
+        return self.stack2.pop()
+        
+    def peek(self):
+        if not self.stack2:
+            while self.stack1:
+                self.stack2.append(self.stack1.pop())
+        return self.stack2[-1]
+        
+    def empty(self):
+        return not self.stack1 and not self.stack2
+"""
+
+"""
+739. Daily Temperatures
+Medium
+
+Given an array of integers temperatures represents the daily temperatures, 
+return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature.
+ If there is no future day for which this is possible, keep answer[i] == 0 instead.
+
+Input: temperatures = [73,74,75,71,69,72,76,73]
+Output: [1,1,4,2,1,1,0,0]
+
+Example 2
+Input: temperatures = [30,40,50,60]
+Output: [1,1,1,0]
+"""
+temp = [73, 74, 75, 71]
+m_stk = [] * len(temp)
+m_stk[0] = 0
+
+for i in range(1,len(temp)):
+    hasattr
