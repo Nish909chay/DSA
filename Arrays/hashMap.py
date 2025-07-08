@@ -753,10 +753,6 @@ Output: [1,1,4,2,1,1,0,0]
 Example 2
 Input: temperatures = [30,40,50,60]
 Output: [1,1,1,0]
+    DOUBT
 """
-temp = [73, 74, 75, 71]
-m_stk = [] * len(temp)
-m_stk[0] = 0
 
-for i in range(1,len(temp)):
-    hasattr
