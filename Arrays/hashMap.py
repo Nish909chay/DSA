@@ -775,7 +775,7 @@ For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] 
 If there is no next greater element, then the answer for this query is -1.
 
 Return an array ans of length nums1.length such that ans[i] is the next greater element as described above.
-"""
+---------- Brute force ------
 nums1 = [4,1,2]
 nums2 = [1,3,4,2]
 output = []
@@ -797,9 +797,35 @@ for i in range(len(nums1)):
 
 print(output)
 
+----------- Stack -----------------
 
+nums1 = [4,1,2]
+nums2 = [1,3,4,2]
+output = []
+stack = []
+memory = {}
 
+# monotonic decreasing stack (if asked greater - mononotic decreasig ) and (if asked smaller - monotonic increasing)
+stack.append(nums2[0])
+for i in range(1,len(nums2)):
+    if(stack and stack[-1] > nums2[i]):
+        stack.append(nums2[i])
+    else:
+        while(stack and stack[-1] < nums2[i]):
+            val = stack.pop()
+            memory[val] = nums2[i]
+        stack.append(nums2[i])
 
+while stack:
+    memory[stack.pop()] = -1 
 
+for i in range(len(nums1)):
+    if nums1[i] in memory:
+        output.append(memory[nums1[i]])
+    else:
+        output.append(-1)
 
+print(output)
+
+"""
 
