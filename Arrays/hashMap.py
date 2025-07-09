@@ -776,7 +776,26 @@ If there is no next greater element, then the answer for this query is -1.
 
 Return an array ans of length nums1.length such that ans[i] is the next greater element as described above.
 """
+nums1 = [4,1,2]
+nums2 = [1,3,4,2]
+output = []
+found = False
 
+for i in range(len(nums1)):
+    for j in range(len(nums2)):
+        if(nums1[i] == nums2[j]):
+            found = False
+            for k in range(j+1,len(nums2)):
+                if(nums1[i] < nums2[k]):
+                    output.append(nums2[k])
+                    found = True
+                    break
+            if(found != True):
+                output.append(-1)
+            break
+
+
+print(output)
 
 
 
