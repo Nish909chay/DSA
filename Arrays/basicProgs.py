@@ -226,18 +226,31 @@ while n > 0:
 print(rev)
 """
 
-"""arr = [3,2,7,1,9,7,1,2,1]"""
-n = 153
-n1 = n 
-exp = len(str(n))
-sum = 0
+"""print Prime Numbers upto range
+-------- Brute Force --------
+n = 20
 
-while n1 > 0:
-    m = (n1%10) 
-    sum += m ** exp
-    n1 //= 10
+for i in range(2,n):
+    is_prime = True
+    for j in range(2,i):
+        if(i%j == 0):
+            is_prime = False
+    if(is_prime):
+        print(i)
 
-print(sum)
+----------------- Optimized - O(n log log n) --------------
+n = 20
+prime_list = [True] * (n+1)
+prime_list[0] = prime_list[1] = False
 
+for i in range(2,int(n**0.5) + 1):
+    if prime_list[i]:
+        for j in range(i*i, n + 1, i):
+            prime_list[j] = False 
 
+for i in range(n + 1):
+    if(prime_list[i]):
+        print(i, end = " ")
+
+"""
 
