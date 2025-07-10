@@ -738,24 +738,6 @@ boolean empty() Returns true if the queue is empty, false otherwise.
     def empty(self):
         return not self.stack1 and not self.stack2
 """
-
-"""
-739. Daily Temperatures
-Medium
-
-Given an array of integers temperatures represents the daily temperatures, 
-return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature.
- If there is no future day for which this is possible, keep answer[i] == 0 instead.
-
-Input: temperatures = [73,74,75,71,69,72,76,73]
-Output: [1,1,4,2,1,1,0,0]
-
-Example 2
-Input: temperatures = [30,40,50,60]
-Output: [1,1,1,0]
-    DOUBT
-"""
-
 """
 17. Letter Combinations of a Phone Number
 Medium
@@ -828,4 +810,38 @@ for i in range(len(nums1)):
 print(output)
 
 """
+"""
+739. Daily Temperatures
+Medium
+
+Given an array of integers temperatures represents the daily temperatures, 
+return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature.
+ If there is no future day for which this is possible, keep answer[i] == 0 instead.
+
+Input: temperatures = [73,74,75,71,69,72,76,73]
+Output: [1,1,4,2,1,1,0,0]
+
+Example 2
+Input: temperatures = [30,40,50,60]
+Output: [1,1,1,0]
+    
+
+temp = [73,74,75,71,69,72,76,73]
+stack = []
+output= [0] * len(temp)
+stack.append(0)
+
+for i in range(1, len(temp)):
+    if(stack and temp[stack[-1]] > temp[i]):
+        stack.append(i)
+    else:
+        while(stack and temp[stack[-1]] < temp[i]):
+            val = stack.pop()   # returns the index 
+            output[val] = (i - val)
+        stack.append(i)
+
+print(output)
+"""
+
+
 
