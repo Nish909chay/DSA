@@ -197,8 +197,7 @@ Input
 [[], [100], [80], [60], [70], [60], [75], [85]]
 Output
 [null, 1, 1, 1, 2, 1, 4, 6]
-
-"""
+------------------------------------
 arr = [100, 80, 60, 70, 60, 75, 85]
 span = [0] * len(arr)
 stack = []
@@ -214,12 +213,46 @@ for i in range(len(arr)):
             
     
 print(span)
+"""
+"""
+150. Evaluate Reverse Polish Notation
+Medium
 
+You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.
+Evaluate the expression. Return an integer that represents the value of the expression.
+Example 1:
 
+Input: tokens = ["2","1","+","3","*"]
+Output: 9
+Explanation: ((2 + 1) * 3) = 9
+Example 2:
 
+Input: tokens = ["4","13","5","/","+"]
+Output: 6
+Explanation: (4 + (13 / 5)) = 6
+"""
+tokens = ["2","1","+","3","*"]
+stack = []
+for i in range(0,len(tokens)):
+    if(tokens[i] not in "+*/-"):
+        stack.append(int(tokens[i]))
+    else:
+        while stack:
+            right = stack.pop()
+            left = stack.pop()
+            break
+        if(tokens[i] == "+"):
+            res = left + right
+        if(tokens[i] == "-"):
+            res = left - right
+        if(tokens[i] == "/"):
+            res = int(left / right)
+        if(tokens[i] == "*"):
+            res = left * right
 
+        stack.append(int(res))
 
-    
+print(stack[-1])
 
 
 
