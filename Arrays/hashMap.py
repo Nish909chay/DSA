@@ -462,3 +462,50 @@ print(lst)   # Convert back to list if needed
 longest = max(lst, key=len)
 print(longest)
 """
+
+"""
+456. 132 Pattern
+Medium
+
+Given an array of n integers nums, 
+a 132 pattern is a subsequence of three integers nums[i], nums[j] and nums[k] such that i < j < k and nums[i] < nums[k] < nums[j].
+Return true if there is a 132 pattern in nums, otherwise, return false.
+
+Example 1:
+Input: nums = [1,2,3,4]
+Output: false
+Explanation: There is no 132 pattern in the sequence.
+
+Example 2:
+Input: nums = [3,1,4,2]
+Output: true
+Explanation: There is a 132 pattern in the sequence: [1, 4, 2].
+------------- Brute Force ------------
+arr = [3,1,4,2]
+is_132 = False
+
+for i in range(0,len(arr)):
+    for j in range(i,len(arr)):
+        for k in range(j,len(arr)):
+            if(arr[i] < arr[k] < arr[j]):
+                is_132 = True
+
+print(is_132)
+
+--------------stack -------------------
+arr = [3,1,4,2]
+is_132 = False
+stack = []
+second = float('-inf')
+
+for i in range(len(arr)-1, -1, -1):
+    if(arr[i] < second):
+        is_132 = True
+        break
+    while stack and stack[-1] < arr[i]:
+        second = stack.pop()
+
+    stack.append(arr[i])
+
+print(is_132)
+"""
