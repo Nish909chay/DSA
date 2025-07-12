@@ -509,3 +509,36 @@ for i in range(len(arr)-1, -1, -1):
 
 print(is_132)
 """
+"""
+303. Range Sum Query - Immutable
+
+Given an integer array nums, handle multiple queries of the following type:
+Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
+
+----------- Prefix Sum -------- used when multiple queries O(n) ---------------
+arr = [1,2,3,4,5]
+left = 0
+right = 4
+
+pref_arr = [0] * len(arr)
+pref_arr[0] = arr[0]
+
+for i in range(1,len(pref_arr)):
+    pref_arr[i] = arr[i] + pref_arr[i-1]
+
+if left == 0:
+    print(pref_arr[right])
+else:
+    print(pref_arr[right] - pref_arr[left-1])
+
+--------- Brute Force ----------- used when less queries O(n)
+arr = [1,2,3,4,5]
+left = 0
+right = 4
+sum = 0
+
+for i in range(left,right+1):
+    sum += arr[i]
+
+print(sum)
+"""
