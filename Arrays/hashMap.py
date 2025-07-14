@@ -542,3 +542,18 @@ for i in range(left,right+1):
 
 print(sum)
 """
+arr = [1,3,1,5,4]
+k = 0
+seen = set()
+output = set()
+
+for i in range(0, len(arr)):
+    diff = arr[i] - k
+    sum = arr[i] + k
+    if diff in seen:
+        output.add(tuple(sorted((arr[i], diff))))
+    elif sum in seen:
+        output.add(tuple(sorted((arr[i], sum))))
+    seen.add(arr[i])
+
+print(len(output))
