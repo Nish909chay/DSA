@@ -414,18 +414,10 @@ for i in range(n + 1):
         print(i, end = " ")
 
 """
-
-n = 20
-prime_list = [True] * (n+1)
-prime_list[0] = prime_list[1] = False
-
-for i in range(2,int(n**0.5) + 1):  # from 2 till square root of (20) + 1 i.e 4 + 1 = 5 
-    if(prime_list[i]):
-        for j in range(i*i, n+1, i):
-            prime_list[j] = False        
-
-
-for i in range(n+1):
-    if(prime_list[i]):
-        print(i, end= " ")
-    
+"""
+iska output bata
+-----------------
+arr = [1,2,3]
+arr.append([4,5])
+print(len(arr))
+""" 
