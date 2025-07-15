@@ -105,6 +105,54 @@ If there are two middle nodes, return the second middle node
 Input: head = [1,2,3,4,5]
 Output: [3,4,5]
 Explanation: The middle node of the list is node 3
+---------------------------------------------------
+struct ListNode* middleNode(struct ListNode* head) 
+{
+    struct ListNode *fast = head;
+    struct ListNode *slow = head;
+
+    while (fast != NULL && fast->next != NULL)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+
+    return slow;
+}
+*/
+
+/*
+19. Remove Nth Node From End of List
+Medium
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+--------------------------------------------------------------------------------------------------
+struct ListNode* removeNthFromEnd(struct ListNode* head, int n) 
+{
+    struct ListNode dummy;
+    dummy.next = head;
+    struct ListNode *fast = &dummy;
+    struct ListNode *slow = &dummy;
+
+    for (int i = 0; i <= n; i++) 
+    {
+        if (fast == NULL) 
+            return dummy.next;  
+        fast = fast->next;
+    }
+
+    while(fast != NULL)
+    {
+        fast = fast->next;
+        slow = slow->next;
+    }
+
+    struct ListNode *temp = slow->next;
+    slow->next = temp->next;
+    free(temp); 
+
+    return dummy.next;
+}
+
 */
 
 

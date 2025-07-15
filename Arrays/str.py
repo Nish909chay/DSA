@@ -247,6 +247,17 @@ print(max_len)
 """
 
 
+str = "aaa"
+c = 0
+
+for i in range(len(str)):
+    for j in range(i, len(str)):
+        subs = str[i:j]
+        if(subs == subs[::-1]):
+            c += 1
+
+print(c)
+
 
 
 
