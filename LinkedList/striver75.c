@@ -152,7 +152,56 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n)
 
     return dummy.next;
 }
-
 */
 
+/*
+143. Reorder List
+Medium
 
+You are given the head of a singly linked-list. The list can be represented as:
+L0 → L1 → … → Ln - 1 → Ln
+Reorder the list to be on the following form:
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+----------------------------------------------------------------------------------------
+void reorderList(struct ListNode* head) 
+{
+    struct ListNode *slow = head;
+    struct ListNode *fast = head;
+    
+    // get to middle
+    while(fast != NULL && fast->next != NULL)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+
+    // now reverse
+    struct ListNode *prev = NULL;
+    struct ListNode *curr = slow;
+    while(curr != NULL)
+    {
+        struct ListNode *next2 = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next2;
+    }
+    // the new head of the reversed list is in prev due to reversal
+
+    // now merge
+    struct ListNode *curr = head;
+    struct ListNode *curr2 = prev;
+    while(curr2 !=  NULL)
+    {
+        struct ListNode *temp = curr->next;
+        struct ListNode *temp2 = curr2->next;
+        curr->next = curr2;
+        curr2->next = temp;
+
+        curr = temp;        // updates the new curr
+        curr2 = temp2;
+    }
+    if (curr != NULL)
+        curr->next = NULL;
+}
+*/
