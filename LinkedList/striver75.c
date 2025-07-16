@@ -205,3 +205,57 @@ void reorderList(struct ListNode* head)
         curr->next = NULL;
 }
 */
+
+
+/*
+142. Linked List Cycle II
+Medium
+
+Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
+Do not modify the linked list.
+
+Example 1:
+Input: head = [3,2,0,-4], pos = 1
+Output: tail connects to node index 1
+Explanation: There is a cycle in the linked list, where tail connects to the second node.
+*/
+struct ListNode *detectCycle(struct ListNode *head) 
+{
+    struct ListNode *fast = head;
+    struct ListNode *slow = head;
+    bool cycle_detected = false;
+    
+    while(fast != NULL && fast->next != NULL)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+        if(fast == slow)
+        {
+            cycle_detected = true;
+            break;
+        }
+    }
+    
+    if(cycle_detected)
+    {
+        slow = head;
+        while(slow != fast)
+        {
+            slow = slow->next;
+            fast = fast->next;
+        }
+        // note that slow is the start of cycle
+        struct ListNode *prev = slow;
+        while(prev->next != slow)
+        {
+            prev = prev->next;
+        }
+        prev->next = NULL;  // Break the cycle
+
+        return slow;
+    }
+    else
+    {
+        return NULL;
+    }  
+}

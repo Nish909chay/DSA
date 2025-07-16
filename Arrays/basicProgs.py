@@ -415,9 +415,14 @@ for i in range(n + 1):
 
 """
 """
-iska output bata
+                iska output bata
 -----------------
 arr = [1,2,3]
 arr.append([4,5])
 print(len(arr))
+--------------
+a = [1, 2, 3]
+a = tuple(a)
+a[0] = 2
+print(a)
 """ 
