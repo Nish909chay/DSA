@@ -428,6 +428,9 @@ print(a)
 -------------------
 a = [1, 2]
 print(a * 3)
-"""
+
 word = "PythonProgramming"
 print(len(word))
+"""
+str = "abaa"
+print(str.count('a'))
