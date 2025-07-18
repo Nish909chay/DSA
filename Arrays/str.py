@@ -247,19 +247,24 @@ print(max_len)
 """
 
 
-str = "aaa"
-c = 0
+s = "abccccdd"
+count = {}
+found_odd = False
+max_len = 0
 
-for i in range(len(str)):
-    for j in range(i, len(str)):
-        subs = str[i:j]
-        if(subs == subs[::-1]):
-            c += 1
+for i in s:
+    count[i] = count.get(i,0) + 1
 
-print(c)
+for i in count.values():
+    if(i % 2 == 0):
+        max_len += i
+    else:
+        found_odd = True
+        max_len += i - 1
 
+if(found_odd):
+    max_len += 1
 
+print(max_len)
 
-
-    
 
