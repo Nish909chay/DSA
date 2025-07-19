@@ -431,6 +431,38 @@ print(a * 3)
 
 word = "PythonProgramming"
 print(len(word))
-"""
+
 str = "abaa"
 print(str.count('a'))
+"""
+
+"""
+118. Pascal's Triangle
+Easy
+Given an integer numRows, return the first numRows of Pascal's triangle
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
+Example 1:
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+"""
+
+n = 5
+arr = [[1], [1,1]]
+
+for i in range(2, n):
+    prev_row = arr[i-1]
+    this_row = []
+    for j in range(len(prev_row) + 1):
+        if (j == 0 or j == len(prev_row)):
+            this_row.append(1)
+        else:
+            this_row.append(prev_row[j-1] + prev_row[j])
+    arr.append(this_row)
+
+
+print(arr)
+
+
+
+
