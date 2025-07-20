@@ -12,7 +12,7 @@ from typing import List
 def partition(self, s: str) -> List[List[str]]:
     res = []
 
-    def backtrack(start, path: List[int]):
+    def backtrack(start, path: List[str]):
         if(start == len(s)):
             res.append(path[:])
             return

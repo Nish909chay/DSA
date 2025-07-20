@@ -406,7 +406,7 @@ print(max_sum)
 """
 
 """
-Kadane's Algorithm : Maximum Subarray Sum in an Array 
+53 - Kadane's Algorithm : Maximum Subarray Sum in an Array 
 
 Problem Statement: Given an integer array arr, find the contiguous subarray (containing at least one number) which
 has the largest sum and returns its sum and prints the subarray.
@@ -543,29 +543,29 @@ for i in range(left,right+1):
 print(sum)
 """
 
-arr = [-1,0,1,2,-1,-4]
-arr.sort()
-sum = 0
-st = set()
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]   # expected = 6
+check = []
+output = []
+left = right = 0
+curr_sum = max_sum = 0
 
-for i in range(0, len(arr)):
-    left = i + 1
-    right = len(arr) - 1
-    if(i > 0 and arr[i] == arr[i - 1]):
-        continue
-    while(left < right):
-        sum = arr[left] + arr[right] + arr[i]
-
-        if(sum == 0):
-            st.add(tuple(sorted((arr[left], arr[right], arr[i]))))
-
-            while(left < right and arr[left] == arr[left + 1]):
-                left += 1
-            while(left < right and arr[right] == arr[right - 1]):
-                right -= 1
-
+while(left <= right and right < len(arr)):
+    check.append(arr[right])
+    curr_sum += arr[right]
+    if(curr_sum < 0):
+        curr_sum = 0
+        check.clear()
         left += 1
-        right -= 1
+        right = left
+        continue
+    elif(curr_sum >  max_sum):
+        max_sum = curr_sum
+        output = [tuple(check)]
+    elif(max_sum == curr_sum and tuple(check) not in output):
+        output.append(tuple(check))
 
-lst = [list(l) for l in st]
-print(lst)
+    right += 1
+
+largest = max(output, key = len)
+print(list(largest))
+
