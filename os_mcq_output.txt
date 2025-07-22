@@ -1,0 +1,1491 @@
+---------------------
+Topic: Process Scheduling
+
+[---------------------
+a) Round Robin  
+b) Shortest Job First (SJF)  
+c) First Come First Serve (FCFS)  
+d) Priority Scheduling  
+Answer: c) First Come First Serve (FCFS)  
+Explanation: FCFS is non-preemptive; once a process gets the CPU, it runs until completion or I/O.
+
+Q2. What is the main drawback of FCFS scheduling?
+a) Starvation  
+b) Convoy effect  
+c) Aging  
+d) High overhead  
+Answer: b) Convoy effect  
+Explanation: Long jobs delay shorter jobs, increasing average waiting time.
+
+Q3. Which algorithm uses time quantum for process execution?
+a) SJF  
+b) Priority Scheduling  
+Q3. Which disk scheduling algorithm is also known as the elevator algorithm?
+d) FCFS  
+Answer: c) Round Robin  
+Explanation: Round Robin assigns a fixed time quantum to each process.
+
+Q4. What is the solution to indefinite waiting in Priority Scheduling?
+a) Preemption  
+b) Aging  
+c) Context Switching  
+d) Swapping  
+Answer: b) Aging  
+Explanation: Aging gradually increases the priority of waiting processes to prevent starvation.
+
+---------------------
+Topic: Threads and Processes
+
+Q1. What is a thread in the context of operating systems?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: c) Round Robin
+Explanation: Round Robin is designed for time-sharing by giving each process a time slice.
+a) A process under execution  
+Q6. What is the main disadvantage of SJF scheduling?
+a) High overhead
+b) Requires knowledge of burst time
+c) Starvation of long jobs
+d) No context switching
+Answer: b) Requires knowledge of burst time
+Explanation: SJF needs accurate burst time estimation, which is difficult in practice.
+b) A lightweight process  
+Q7. Which of the following is a preemptive scheduling algorithm?
+a) FCFS
+b) SJF (preemptive)
+c) Priority (non-preemptive)
+d) Batch Scheduling
+Answer: b) SJF (preemptive)
+Explanation: Preemptive SJF allows interruption if a shorter job arrives.
+c) A type of scheduler  
+Q8. What is the main goal of CPU scheduling algorithms?
+a) Minimize memory usage
+b) Maximize CPU utilization
+c) Minimize disk access
+Answer: b) Maximize CPU utilization
+Explanation: Scheduling aims to keep the CPU as busy as possible.
+d) A memory block  
+Q9. In which algorithm can starvation occur due to continuous arrival of short jobs?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: b) SJF
+Explanation: SJF can starve long jobs if short jobs keep arriving.
+Answer: b) A lightweight process  
+[---------------------
+a) Time from process arrival to completion
+b) Time spent waiting in ready queue
+c) Time spent in I/O
+d) Time spent in CPU only
+Answer: a) Time from process arrival to completion
+Explanation: Turnaround time is total time from arrival to completion.
+Explanation: Threads are smaller units of process, sharing resources but executing independently.
+Q11. Which algorithm is most likely to cause starvation for low-priority jobs?
+a) FCFS
+b) SJF
+c) Priority Scheduling
+d) Round Robin
+Answer: c) Priority Scheduling
+Explanation: Low-priority jobs may never get CPU if high-priority jobs keep arriving.
+
+a) Lower overhead
+b) Better response time
+c) No context switching
+d) No starvation
+Answer: b) Better response time
+Explanation: Preemptive scheduling allows quick response to new jobs.
+Q2. Which of the following is true about threads?
+Q13. Which metric is used to measure the number of processes completed per unit time?
+a) Turnaround time
+b) Throughput
+c) Waiting time
+d) Response time
+Answer: b) Throughput
+Explanation: Throughput is the number of processes completed per unit time.
+a) Each thread has its own memory space  
+Q14. What is the waiting time of a process?
+a) Time spent in CPU
+b) Time spent in I/O
+c) Time spent in ready queue
+d) Time from arrival to completion
+Answer: c) Time spent in ready queue
+Explanation: Waiting time is the time a process spends waiting for CPU.
+b) Threads within a process share memory  
+Q15. Which algorithm is a preemptive version of FCFS?
+a) SJF
+b) Priority Scheduling
+c) Round Robin
+Answer: c) Round Robin
+Explanation: Round Robin is a preemptive version of FCFS using time quantum.
+c) Threads cannot run in parallel  
+Q16. What is the convoy effect?
+a) All jobs finish together
+b) Long job delays short jobs
+c) Jobs are scheduled randomly
+d) No job gets CPU
+Answer: b) Long job delays short jobs
+Explanation: Convoy effect occurs when a long job delays others in FCFS.
+d) Threads are managed by user space only  
+Q17. Which algorithm is easiest to implement?
+a) SJF
+b) FCFS
+c) Priority Scheduling
+d) Round Robin
+Answer: b) FCFS
+Explanation: FCFS is simple and easy to implement.
+Answer: b) Threads within a process share memory  
+a) Starvation
+b) High overhead due to context switching
+c) Poor CPU utilization
+d) No fairness
+Answer: b) High overhead due to context switching
+Explanation: Frequent context switches increase overhead in Round Robin.
+Explanation: Threads of the same process share the process's memory space.
+Q19. Which algorithm is best for minimizing average waiting time?
+a) FCFS
+b) SJF
+c) Priority Scheduling
+d) Round Robin
+Answer: b) SJF
+Explanation: SJF minimizes average waiting time if burst times are known.
+
+Q20. What is the time quantum in Round Robin scheduling?
+a) Maximum burst time
+b) Fixed time slice for each process
+c) Arrival time
+Answer: b) Fixed time slice for each process
+Explanation: Time quantum is a fixed time slice assigned to each process.
+Q3. In a single-core CPU, what is the effect of multi-threading?
+Q21. Which algorithm can suffer from indefinite blocking?
+a) FCFS
+b) SJF
+c) Priority Scheduling
+d) Round Robin
+Answer: c) Priority Scheduling
+Explanation: Indefinite blocking occurs when low-priority jobs never get CPU.
+a) True parallelism  
+a) Arrival time
+b) Priority
+c) Burst time
+d) Waiting time
+Answer: c) Burst time
+Explanation: SJF schedules jobs with the shortest burst time first.
+b) Sequential execution  
+Q23. Which algorithm is most fair in distributing CPU time?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: c) Round Robin
+Explanation: Round Robin gives each process equal opportunity.
+c) Increased isolation  
+Q24. What is the effect of a very small time quantum in Round Robin?
+a) Less context switching
+b) More context switching
+c) No effect
+d) No preemption
+Answer: b) More context switching
+Explanation: Small time quantum increases context switches and overhead.
+d) No context switching  
+Q25. Which algorithm is suitable for batch systems?
+a) FCFS
+b) SJF
+c) Priority Scheduling
+d) Round Robin
+Answer: a) FCFS
+Explanation: FCFS is commonly used in batch systems.
+Answer: b) Sequential execution  
+Q26. What is response time?
+a) Time from arrival to first CPU allocation
+b) Time from arrival to completion
+c) Time spent in I/O
+d) Time spent in ready queue
+Answer: a) Time from arrival to first CPU allocation
+Explanation: Response time is time from arrival to first CPU allocation.
+Explanation: On a single core, threads are scheduled one after another, not truly parallel.
+Q27. Which algorithm can be implemented using a min-heap?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: b) SJF
+Explanation: SJF can use a min-heap to select the shortest job.
+
+Q28. What is the main disadvantage of FCFS in interactive systems?
+a) High throughput
+b) Poor response time
+c) No context switching
+d) No starvation
+Answer: b) Poor response time
+Explanation: FCFS can cause poor response time for short jobs.
+---------------------
+Q29. Which algorithm is best for real-time systems?
+a) Priority Scheduling
+b) FCFS
+c) SJF
+d) Round Robin
+Answer: a) Priority Scheduling
+Explanation: Real-time systems often use priority scheduling for urgent tasks.
+Topic: Deadlock
+Q30. What is the effect of aging in scheduling?
+a) Increases priority of waiting jobs
+b) Decreases priority of waiting jobs
+c) No effect
+d) Increases burst time
+Answer: a) Increases priority of waiting jobs
+Explanation: Aging prevents starvation by increasing priority over time.
+
+Q31. Which algorithm is most likely to cause the convoy effect?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: a) FCFS
+Q1. Which of the following is NOT a necessary condition for deadlock?
+Q32. What is the main advantage of SJF scheduling?
+a) No starvation
+b) Minimum average waiting time
+c) High overhead
+d) No context switching
+Answer: b) Minimum average waiting time
+Explanation: SJF provides minimum average waiting time if burst times are known.
+
+a) Mutual exclusion  
+Q33. Which algorithm is most suitable for systems with frequent process arrivals?
+a) Round Robin
+b) FCFS
+c) SJF
+d) Priority Scheduling
+Answer: a) Round Robin
+Explanation: Round Robin handles frequent arrivals well due to time sharing.
+b) Hold and wait  
+Q34. What is the main disadvantage of Priority Scheduling?
+a) Starvation of low-priority jobs
+b) High overhead
+c) Poor CPU utilization
+d) No context switching
+Answer: a) Starvation of low-priority jobs
+Explanation: Low-priority jobs may never get CPU if high-priority jobs keep arriving.
+c) Preemption  
+Q35. Which algorithm is used in Unix time-sharing systems?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: c) Round Robin
+Explanation: Unix time-sharing systems commonly use Round Robin.
+d) Circular wait  
+Q36. What is the main criterion for Priority Scheduling?
+a) Burst time
+b) Arrival time
+c) Priority value
+Answer: c) Priority value
+Explanation: Priority Scheduling selects jobs based on priority value.
+Answer: c) Preemption  
+Q4. Which of the following best describes a process?
+a) A program in execution
+b) A thread in execution
+c) A memory block
+d) A hardware device
+Answer: a) A program in execution
+Explanation: A process is a program that is currently being executed.
+Q37. Which algorithm is least likely to cause starvation?
+Q5. What is the main difference between a process and a thread?
+a) Threads have separate memory, processes share memory
+b) Processes have separate memory, threads share memory
+c) Both have separate memory
+d) Both share memory
+Answer: b) Processes have separate memory, threads share memory
+Explanation: Threads within a process share memory, while processes are isolated.
+a) FCFS
+Q6. Which of the following is true about threads?
+a) Threads are managed by the OS kernel
+b) Threads cannot run concurrently
+c) Threads always run in user space
+d) Threads are hardware devices
+Answer: a) Threads are managed by the OS kernel
+Explanation: Most modern OS kernels manage threads for scheduling and execution.
+b) SJF
+Q7. What is the Process Control Block (PCB)?
+a) A data structure storing process information
+b) A hardware register
+c) A memory segment
+d) A scheduling algorithm
+Answer: a) A data structure storing process information
+Explanation: PCB contains all necessary information about a process.
+c) Priority Scheduling
+Q8. Which of the following is NOT stored in a PCB?
+a) Process ID
+b) Program counter
+c) File descriptors
+d) CPU architecture
+Answer: d) CPU architecture
+Explanation: PCB stores process-specific info, not hardware details.
+d) Round Robin
+Q9. What is a child process?
+b) A thread created by a process
+c) A process created by the OS
+d) A process that cannot execute
+Answer: a) A process created by another process
+Explanation: Child processes are spawned by parent processes.
+Answer: a) FCFS
+Q10. Which system call is used to create a new process in Unix?
+a) fork()
+b) exec()
+c) wait()
+d) kill()
+Answer: a) fork()
+Explanation: fork() creates a new child process in Unix systems.
+Explanation: FCFS does not cause starvation as jobs are served in order of arrival.
+Q11. What is the main advantage of multi-threading?
+a) Increased parallelism
+b) Increased memory usage
+c) Decreased CPU utilization
+d) No context switching
+Answer: a) Increased parallelism
+Explanation: Multi-threading allows tasks to run concurrently, improving performance.
+Explanation: Preemption allows resources to be forcibly taken, preventing deadlock.
+Q12. Which of the following is true about threads in a process?
+a) They share code, data, and files
+b) They have separate code
+c) They have separate data
+d) They cannot communicate
+Answer: a) They share code, data, and files
+Explanation: Threads within a process share most resources.
+Q38. What is the effect of a very large time quantum in Round Robin?
+Q13. What is context switching?
+a) Switching between processes or threads
+b) Allocating memory
+c) Creating files
+d) Scheduling algorithms
+Answer: a) Switching between processes or threads
+Explanation: Context switching is the act of saving and restoring states between tasks.
+a) More context switching
+Q14. Which of the following is a lightweight process?
+a) Thread
+b) Process
+c) PCB
+d) Scheduler
+Answer: a) Thread
+Explanation: Threads are often called lightweight processes.
+b) Less context switching
+Q15. What is the main disadvantage of multi-threading?
+a) Increased complexity and risk of race conditions
+b) Decreased performance
+c) No parallelism
+d) No memory sharing
+Answer: a) Increased complexity and risk of race conditions
+Explanation: Multi-threading can lead to synchronization issues.
+c) No effect
+Q16. Which of the following is NOT a valid process state?
+a) Ready
+b) Running
+c) Waiting
+d) Terminated
+Answer: All are valid process states
+Explanation: Ready, Running, Waiting, and Terminated are standard process states.
+d) No preemption
+Q17. What is the main function of the scheduler?
+a) Allocates CPU to processes
+b) Allocates memory
+c) Manages files
+d) Handles I/O devices
+Answer: a) Allocates CPU to processes
+Explanation: The scheduler decides which process/thread gets CPU time.
+Answer: b) Less context switching
+Q18. Which of the following is true about process isolation?
+a) Processes cannot access each other's memory
+b) Threads cannot access each other's memory
+c) Processes share all resources
+d) Processes always run in kernel mode
+Answer: a) Processes cannot access each other's memory
+Explanation: OS enforces isolation between processes for security.
+Explanation: Large time quantum reduces context switches but may resemble FCFS.
+Q19. What is a zombie process?
+a) A process that has terminated but not been cleaned up
+b) A process waiting for I/O
+c) A process in running state
+d) A process with no threads
+Answer: a) A process that has terminated but not been cleaned up
+Explanation: Zombie processes remain in the process table until reaped.
+
+Q20. What is an orphan process?
+a) A process whose parent has terminated
+b) A process with no threads
+c) A process waiting for CPU
+d) A process in kernel mode
+Answer: a) A process whose parent has terminated
+Explanation: Orphan processes are adopted by the init process in Unix.
+Q39. Which algorithm is best for minimizing response time?
+Q21. Which of the following is true about exec() system call?
+a) Replaces the current process image with a new one
+b) Creates a new process
+c) Terminates a process
+d) Waits for a process
+Answer: a) Replaces the current process image with a new one
+Explanation: exec() loads a new program into the current process.
+a) SJF
+Q22. What is the main purpose of wait() system call?
+a) Makes parent wait for child process to finish
+b) Creates a new process
+c) Allocates memory
+d) Schedules threads
+Answer: a) Makes parent wait for child process to finish
+Explanation: wait() blocks parent until child terminates.
+b) FCFS
+Q23. Which of the following is NOT a benefit of multi-threading?
+a) Improved resource sharing
+b) Faster context switching
+c) Increased risk of deadlock
+d) Better CPU utilization
+Answer: c) Increased risk of deadlock
+Explanation: Deadlocks are a risk, not a benefit, of multi-threading.
+c) Round Robin
+Q24. What is the main difference between user-level and kernel-level threads?
+a) User-level threads are managed by user libraries
+b) Kernel-level threads are managed by the OS
+c) Kernel-level threads have better concurrency
+d) All of the above
+Answer: d) All of the above
+Explanation: All statements are correct about thread management levels.
+d) Priority Scheduling
+Q25. Which of the following is true about inter-process communication (IPC)?
+a) Allows processes to exchange data
+b) Only works for threads
+c) Is not supported by OS
+d) Requires shared memory only
+Answer: a) Allows processes to exchange data
+Explanation: IPC enables data exchange between processes.
+Answer: a) SJF
+Q26. What is shared memory in IPC?
+a) A memory segment accessible by multiple processes
+b) A memory segment for threads only
+c) A memory segment for kernel only
+d) A memory segment for files
+Answer: a) A memory segment accessible by multiple processes
+Explanation: Shared memory is a common IPC mechanism.
+Explanation: SJF can minimize response time for short jobs.
+Q27. What is message passing in IPC?
+a) Sending messages between processes
+b) Allocating memory
+c) Scheduling threads
+d) Creating files
+Answer: a) Sending messages between processes
+Explanation: Message passing is another IPC method.
+Q2. What is the term for a process waiting indefinitely due to resource unavailability?
+Q28. Which of the following is NOT a thread state?
+a) Ready
+b) Running
+c) Waiting
+d) Terminated
+Answer: All are valid thread states
+Explanation: Threads have similar states to processes.
+Q40. What is the main disadvantage of SJF in practice?
+Q29. What is thread synchronization?
+a) Coordinating thread execution to avoid conflicts
+b) Allocating memory
+c) Scheduling processes
+d) Creating files
+Answer: a) Coordinating thread execution to avoid conflicts
+Explanation: Synchronization prevents race conditions.
+a) High overhead
+Q30. Which of the following is true about multi-processing?
+a) Multiple CPUs execute multiple processes
+b) Multiple threads run on one CPU
+c) Only one process runs at a time
+d) No parallelism
+Answer: a) Multiple CPUs execute multiple processes
+Explanation: Multi-processing uses multiple CPUs for parallel execution.
+b) Requires accurate burst time prediction
+Q31. What is the main advantage of process isolation?
+a) Security and stability
+b) Increased memory usage
+c) No parallelism
+d) No context switching
+Answer: a) Security and stability
+Explanation: Isolation prevents interference and increases reliability.
+c) No context switching
+Q32. Which of the following is true about thread creation?
+a) Threads are created faster than processes
+b) Threads require more resources than processes
+c) Threads cannot be created dynamically
+d) Threads always run in kernel mode
+Answer: a) Threads are created faster than processes
+Explanation: Thread creation is lightweight compared to process creation.
+d) No fairness
+Q33. What is the main disadvantage of process creation?
+a) High overhead
+b) No parallelism
+c) No memory sharing
+d) No context switching
+Answer: a) High overhead
+Explanation: Creating a process is resource-intensive.
+Answer: b) Requires accurate burst time prediction
+Q34. Which of the following is true about thread termination?
+a) Thread termination does not affect other threads
+b) Thread termination kills the process
+c) Thread termination always causes deadlock
+d) Thread termination is not possible
+Answer: a) Thread termination does not affect other threads
+Explanation: Other threads in the process can continue running.
+Explanation: SJF needs accurate burst time, which is hard to predict.
+Q35. What is the main purpose of thread join operation?
+a) Waits for a thread to finish
+b) Creates a new thread
+c) Allocates memory
+d) Schedules processes
+Answer: a) Waits for a thread to finish
+Explanation: Join blocks until the target thread completes.
+a) Starvation  
+Q36. Which of the following is true about thread stack?
+a) Each thread has its own stack
+b) All threads share the same stack
+c) Threads do not use stacks
+d) Stack is only for processes
+Answer: a) Each thread has its own stack
+Explanation: Each thread maintains its own stack for function calls.
+Q41. Which algorithm is most suitable for systems with mixed CPU and I/O bound processes?
+Q37. What is the main risk of improper thread synchronization?
+a) Race conditions
+b) Improved performance
+c) No effect
+d) Increased memory usage
+Answer: a) Race conditions
+Explanation: Lack of synchronization can cause unpredictable results.
+a) FCFS
+Q38. Which of the following is true about process scheduling?
+a) OS decides which process runs next
+b) Processes schedule themselves
+c) Threads schedule themselves
+d) No scheduling is needed
+Answer: a) OS decides which process runs next
+Explanation: The OS scheduler manages process execution order.
+b) SJF
+Q39. What is the main function of the init process in Unix?
+a) Adopts orphan processes
+b) Creates threads
+c) Allocates memory
+d) Schedules I/O
+Answer: a) Adopts orphan processes
+Explanation: Init becomes the parent of orphaned processes.
+c) Round Robin
+Q40. Which of the following is true about thread communication?
+a) Threads communicate via shared memory
+b) Threads cannot communicate
+c) Threads use IPC only
+d) Threads use files
+Answer: a) Threads communicate via shared memory
+Explanation: Threads in a process share memory for communication.
+d) Priority Scheduling
+Q41. What is the main purpose of thread priorities?
+a) Influence scheduling order
+b) Allocate memory
+c) Create threads
+d) Terminate threads
+Answer: a) Influence scheduling order
+Explanation: Thread priorities affect which thread runs first.
+Answer: c) Round Robin
+Q42. Which of the following is true about process priorities?
+a) Higher priority processes get more CPU time
+b) Lower priority processes always run first
+c) Priority has no effect
+d) Only threads have priorities
+Answer: a) Higher priority processes get more CPU time
+Explanation: Priority influences CPU allocation.
+Explanation: Round Robin balances CPU and I/O bound processes well.
+Q43. What is the main function of the exec() family of system calls?
+a) Load a new program into a process
+b) Create a new process
+c) Terminate a process
+d) Wait for a process
+Answer: a) Load a new program into a process
+Explanation: exec() replaces the current process image.
+b) Aging  
+Q44. Which of the following is true about thread pools?
+a) Thread pools reuse threads for multiple tasks
+b) Thread pools create a new thread for each task
+c) Thread pools are only for processes
+d) Thread pools do not improve performance
+Answer: a) Thread pools reuse threads for multiple tasks
+Explanation: Thread pools reduce overhead by reusing threads.
+Q42. What is the main advantage of Priority Scheduling?
+Q45. What is the main advantage of using thread pools?
+a) Reduced thread creation overhead
+b) Increased memory usage
+c) No parallelism
+d) No context switching
+Answer: a) Reduced thread creation overhead
+Explanation: Thread pools improve efficiency by reusing threads.
+a) Handles urgent tasks efficiently
+Q46. Which of the following is true about process termination?
+a) OS releases all resources
+b) Threads continue running
+c) Process remains in running state
+d) No resources are released
+Answer: a) OS releases all resources
+Explanation: OS cleans up resources when a process terminates.
+b) No context switching
+Q47. What is the main purpose of the kill() system call?
+a) Terminate a process
+b) Create a process
+c) Allocate memory
+d) Schedule threads
+Answer: a) Terminate a process
+Explanation: kill() sends a signal to terminate a process.
+c) No starvation
+Q48. Which of the following is true about thread safety?
+a) Thread-safe code can be safely executed by multiple threads
+b) Thread-safe code always causes deadlock
+c) Thread-safe code cannot be executed by threads
+d) Thread-safe code is slower
+Answer: a) Thread-safe code can be safely executed by multiple threads
+Explanation: Thread safety prevents race conditions and data corruption.
+d) High overhead
+Q49. What is the main risk of using global variables in multi-threaded programs?
+a) Race conditions
+b) Improved performance
+c) No effect
+d) Increased memory usage
+Answer: a) Race conditions
+Explanation: Global variables can be modified concurrently, causing issues.
+Answer: a) Handles urgent tasks efficiently
+Q50. Which of the following is true about thread starvation?
+a) Some threads never get CPU time
+b) All threads run equally
+c) Threads always run in kernel mode
+d) Thread starvation is impossible
+Answer: a) Some threads never get CPU time
+Explanation: Starvation occurs when threads are denied CPU due to scheduling.
+Explanation: Priority Scheduling quickly serves high-priority tasks.
+c) Swapping  
+Q43. Which algorithm is most likely to cause poor CPU utilization?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: a) FCFS
+Explanation: FCFS can leave CPU idle during long I/O operations.
+d) Context switching  
+Q44. What is the main criterion for FCFS scheduling?
+a) Arrival time
+b) Burst time
+c) Priority value
+d) Waiting time
+Answer: a) Arrival time
+Explanation: FCFS schedules jobs in order of arrival.
+Answer: a) Starvation  
+Q45. Which algorithm is best for interactive systems?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: c) Round Robin
+Explanation: Round Robin is suitable for interactive systems due to time sharing.
+Explanation: Starvation occurs when a process never gets the required resources.
+Q46. What is the main disadvantage of Priority Scheduling in real-time systems?
+a) Starvation
+b) High overhead
+c) Poor response time
+d) No context switching
+Answer: a) Starvation
+Explanation: Real-time systems may starve low-priority jobs in Priority Scheduling.
+
+Q47. Which algorithm is most suitable for batch processing?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: a) FCFS
+Explanation: FCFS is commonly used in batch processing systems.
+Q3. Which strategy can help prevent deadlocks?
+Q48. What is the main advantage of Round Robin scheduling?
+a) Fairness
+b) No context switching
+c) No starvation
+d) High throughput
+Answer: a) Fairness
+Explanation: Round Robin ensures fairness by giving each process equal CPU time.
+a) Allowing circular wait  
+Q49. Which algorithm is most likely to cause high overhead?
+a) FCFS
+b) SJF
+c) Round Robin
+d) Priority Scheduling
+Answer: c) Round Robin
+Explanation: Frequent context switches in Round Robin increase overhead.
+b) Enabling preemption  
+Q50. What is the main goal of aging in scheduling algorithms?
+a) Prevent starvation
+b) Increase context switching
+c) Decrease CPU utilization
+d) Increase burst time
+Answer: a) Prevent starvation
+Explanation: Aging increases priority of waiting jobs to prevent starvation.
+c) Disabling aging  
+d) Increasing time quantum  
+Answer: b) Enabling preemption  
+Explanation: Preemption can break deadlocks by reallocating resources.
+
+---------------------
+Topic: Memory Management
+
+Q1. What is the main function of memory management in OS?
+a) Scheduling processes  
+b) Allocating and deallocating memory  
+c) Managing I/O devices  
+d) Handling interrupts  
+Answer: b) Allocating and deallocating memory  
+Explanation: Memory management ensures efficient use of RAM and prevents conflicts.
+
+Q2. Which memory area is used for dynamic allocation at runtime?
+a) Stack  
+b) Heap  
+c) Data segment  
+d) Text segment  
+Answer: b) Heap  
+Explanation: Heap is used for dynamic memory allocation during program execution.
+
+Q3. What error occurs when recursive calls exceed stack space?
+a) Out of memory  
+b) Stack overflow  
+d) Deadlock  
+Answer: b) Stack overflow  
+Explanation: Stack overflow happens when the stack exceeds its limit due to deep recursion.
+Q4. Which of the following is a necessary condition for deadlock?
+a) Mutual exclusion
+b) Preemption
+c) Starvation
+d) Aging
+Answer: a) Mutual exclusion
+Explanation: Mutual exclusion is required for deadlock to occur.
+
+Q5. What is circular wait in the context of deadlock?
+a) Each process waits for a resource held by the next process
+b) All processes wait for the same resource
+c) No process waits
+d) Processes wait for CPU only
+Answer: a) Each process waits for a resource held by the next process
+Explanation: Circular wait is a necessary condition for deadlock.
+---------------------
+Q6. Which of the following is NOT a deadlock prevention technique?
+a) Hold and wait
+b) Preemption
+c) Resource ordering
+d) Avoiding circular wait
+Answer: a) Hold and wait
+Explanation: Hold and wait is a deadlock condition, not a prevention technique.
+Topic: File Systems
+Q7. What is the Banker's algorithm used for?
+a) Deadlock avoidance
+b) Process scheduling
+c) Memory management
+d) File management
+Answer: a) Deadlock avoidance
+Explanation: Banker's algorithm helps avoid deadlocks by checking safe states.
+
+Q8. Which of the following is a deadlock recovery method?
+a) Process termination
+b) Resource allocation
+c) Aging
+d) Starvation
+Answer: a) Process termination
+Explanation: Terminating processes is a way to recover from deadlock.
+Q1. Which structure is commonly used to organize directories in modern OS?
+Q9. What is a safe state in deadlock avoidance?
+a) No deadlock can occur
+b) Deadlock is present
+c) All resources are allocated
+d) All processes are terminated
+Answer: a) No deadlock can occur
+Explanation: In a safe state, the system can allocate resources without causing deadlock.
+a) Linked list  
+Q10. Which of the following is true about resource allocation graphs?
+a) They help detect deadlocks
+b) They are used for process scheduling
+c) They manage memory
+d) They are used for file systems
+Answer: a) They help detect deadlocks
+Explanation: Resource allocation graphs are used to detect deadlocks.
+b) Tree  
+Q11. What is the main disadvantage of deadlock recovery by process termination?
+a) Loss of data
+b) Increased CPU utilization
+c) No effect
+d) Improved performance
+Answer: a) Loss of data
+Explanation: Terminating processes may result in loss of data or progress.
+c) Array  
+Q12. Which of the following is NOT a necessary condition for deadlock?
+a) Preemption
+b) Mutual exclusion
+c) Hold and wait
+d) Circular wait
+Answer: a) Preemption
+Explanation: Preemption prevents deadlock by forcibly removing resources.
+d) Hash table  
+Q13. What is deadlock detection?
+a) Identifying deadlocked processes
+b) Preventing deadlock
+c) Avoiding deadlock
+d) Allocating resources
+Answer: a) Identifying deadlocked processes
+Explanation: Deadlock detection finds processes involved in deadlock.
+Answer: b) Tree  
+Q14. Which of the following is true about starvation?
+a) A process waits indefinitely for resources
+b) All processes get resources
+c) No process waits
+d) Starvation is a deadlock prevention method
+Answer: a) A process waits indefinitely for resources
+Explanation: Starvation occurs when a process never gets the required resources.
+Explanation: File systems use tree structures for hierarchical organization.
+Q15. What is the main goal of deadlock avoidance?
+a) Ensure system never enters unsafe state
+b) Increase CPU utilization
+c) Reduce memory usage
+d) Improve throughput
+Answer: a) Ensure system never enters unsafe state
+Explanation: Deadlock avoidance keeps the system in a safe state.
+
+Q16. Which of the following is a deadlock prevention strategy?
+a) Request all resources at once
+b) Allow hold and wait
+c) Ignore circular wait
+d) Disable preemption
+Answer: a) Request all resources at once
+Explanation: Requesting all resources at once prevents hold and wait.
+Q2. What is the role of the kernel in file management?
+Q17. What is the main function of the wait-for graph?
+a) Detect deadlocks
+b) Schedule processes
+c) Manage memory
+d) Allocate resources
+Answer: a) Detect deadlocks
+Explanation: Wait-for graphs are used to detect deadlocks in systems.
+a) Creating and deleting files  
+Q18. Which of the following is true about deadlock recovery?
+a) It may involve killing processes
+b) It always prevents deadlock
+c) It increases throughput
+d) It is a form of deadlock avoidance
+Answer: a) It may involve killing processes
+Explanation: Recovery may require terminating processes to break deadlock.
+b) Allocating memory  
+Q19. What is resource allocation in deadlock context?
+a) Assigning resources to processes
+b) Scheduling processes
+c) Managing files
+Answer: a) Assigning resources to processes
+Explanation: Resource allocation is central to deadlock scenarios.
+c) Scheduling processes  
+Q4. Which of the following is a function of memory management?
+a) Allocation and deallocation of memory
+b) Scheduling processes
+c) Managing files
+d) Handling interrupts
+Answer: a) Allocation and deallocation of memory
+Explanation: Memory management allocates and frees memory as needed.
+Q20. Which of the following is NOT a deadlock avoidance algorithm?
+Q5. What is virtual memory?
+a) Memory that appears larger than physical memory
+b) Memory used for files
+c) Memory used for CPU registers
+d) Memory used for I/O devices
+Answer: a) Memory that appears larger than physical memory
+Explanation: Virtual memory allows programs to use more memory than physically available.
+a) Banker's algorithm
+Q6. Which of the following is NOT a memory allocation strategy?
+a) First fit
+b) Best fit
+c) Worst fit
+d) Round Robin
+Answer: d) Round Robin
+Explanation: Round Robin is a CPU scheduling algorithm, not for memory allocation.
+b) Resource allocation graph
+Q7. What is fragmentation in memory management?
+a) Wasted memory due to small free blocks
+b) Efficient memory usage
+c) Large contiguous memory blocks
+d) No memory wastage
+Answer: a) Wasted memory due to small free blocks
+Explanation: Fragmentation leads to unusable small memory blocks.
+c) FCFS scheduling
+Q8. What is paging?
+a) Dividing memory into fixed-size blocks
+b) Dividing memory into variable-size blocks
+c) Allocating memory to files
+d) Allocating memory to CPU
+Answer: a) Dividing memory into fixed-size blocks
+Explanation: Paging divides memory into equal-sized pages.
+d) Safe state checking
+Q9. What is segmentation?
+a) Dividing memory into variable-size segments
+b) Dividing memory into fixed-size blocks
+c) Allocating memory to files
+d) Allocating memory to CPU
+Answer: a) Dividing memory into variable-size segments
+Explanation: Segmentation divides memory based on logical segments.
+Answer: c) FCFS scheduling
+Q10. Which of the following is true about the heap?
+a) Used for dynamic memory allocation
+b) Used for static memory allocation
+c) Used for CPU registers
+d) Used for I/O devices
+Answer: a) Used for dynamic memory allocation
+Explanation: Heap is used for allocating memory at runtime.
+Explanation: FCFS is a scheduling algorithm, not for deadlock avoidance.
+Q11. What is the main function of the stack in memory management?
+a) Store function calls and local variables
+b) Store global variables
+c) Store files
+d) Store I/O devices
+Answer: a) Store function calls and local variables
+Explanation: Stack is used for function calls and local data.
+d) Managing threads  
+Q12. What is a page fault?
+a) Accessing a page not in physical memory
+b) Accessing a page in physical memory
+c) Accessing a file
+d) Accessing a CPU register
+Answer: a) Accessing a page not in physical memory
+Explanation: Page fault occurs when a required page is not in RAM.
+Q21. What is the main risk of ignoring deadlocks?
+Q13. Which of the following is true about demand paging?
+a) Pages are loaded into memory only when needed
+b) All pages are loaded at once
+c) No pages are loaded
+d) Pages are loaded randomly
+Answer: a) Pages are loaded into memory only when needed
+Explanation: Demand paging loads pages as required.
+a) System hangs
+Q14. What is the main disadvantage of segmentation?
+a) External fragmentation
+b) Internal fragmentation
+c) No fragmentation
+d) Improved performance
+Answer: a) External fragmentation
+Explanation: Segmentation can lead to external fragmentation.
+b) Increased throughput
+Q15. What is the main advantage of paging?
+a) Eliminates external fragmentation
+b) Increases internal fragmentation
+c) No effect
+d) Reduces memory usage
+Answer: a) Eliminates external fragmentation
+Explanation: Paging avoids external fragmentation by using fixed-size blocks.
+c) Improved performance
+Q16. What is the Translation Lookaside Buffer (TLB)?
+a) Cache for page table entries
+b) Cache for files
+c) Cache for CPU registers
+d) Cache for I/O devices
+Answer: a) Cache for page table entries
+Explanation: TLB speeds up virtual to physical address translation.
+d) No effect
+Q17. What is the main function of the page table?
+a) Maps virtual addresses to physical addresses
+b) Maps files to memory
+c) Maps CPU registers
+d) Maps I/O devices
+Answer: a) Maps virtual addresses to physical addresses
+Explanation: Page table translates virtual addresses to physical ones.
+Answer: a) System hangs
+Q18. What is internal fragmentation?
+a) Wasted memory within allocated blocks
+b) Wasted memory between blocks
+c) No memory wastage
+d) Efficient memory usage
+Answer: a) Wasted memory within allocated blocks
+Explanation: Internal fragmentation occurs when allocated memory is not fully used.
+Explanation: Ignoring deadlocks can cause the system to freeze.
+Q19. What is external fragmentation?
+a) Wasted memory between allocated blocks
+b) Wasted memory within blocks
+c) No memory wastage
+d) Efficient memory usage
+Answer: a) Wasted memory between allocated blocks
+Explanation: External fragmentation is unused memory between blocks.
+Answer: a) Creating and deleting files  
+Q20. What is the main function of memory compaction?
+a) Reduces external fragmentation
+b) Increases internal fragmentation
+c) Allocates memory to files
+d) Allocates memory to CPU
+Answer: a) Reduces external fragmentation
+Explanation: Compaction moves blocks to create larger free spaces.
+Q22. Which of the following is true about hold and wait?
+Q21. What is swapping in memory management?
+a) Moving processes between memory and disk
+b) Moving files between disks
+c) Moving CPU registers
+d) Moving I/O devices
+Answer: a) Moving processes between memory and disk
+Explanation: Swapping helps manage memory by moving processes in and out.
+a) A process holds resources while waiting for others
+Q22. What is the main disadvantage of swapping?
+a) Increased disk I/O
+b) Improved performance
+c) No effect
+d) Reduced memory usage
+Answer: a) Increased disk I/O
+Explanation: Swapping can slow down the system due to disk operations.
+b) All resources are requested at once
+Q23. What is the main function of the memory manager?
+a) Allocates and deallocates memory
+b) Schedules processes
+c) Manages files
+d) Handles interrupts
+Answer: a) Allocates and deallocates memory
+Explanation: Memory manager controls memory allocation and release.
+c) No process waits
+Q24. What is the main advantage of virtual memory?
+a) Allows execution of large programs
+b) Reduces memory usage
+c) No effect
+d) Increases fragmentation
+Answer: a) Allows execution of large programs
+Explanation: Virtual memory lets programs use more memory than physically available.
+d) Hold and wait prevents deadlock
+Q25. What is the main function of the buddy system?
+a) Allocates memory in powers of two
+b) Allocates memory randomly
+c) Allocates memory in fixed-size blocks
+d) Allocates memory to files
+Answer: a) Allocates memory in powers of two
+Explanation: Buddy system splits memory into blocks of power-of-two sizes.
+Answer: a) A process holds resources while waiting for others
+Q26. What is the main disadvantage of the buddy system?
+a) Internal fragmentation
+b) External fragmentation
+c) No fragmentation
+d) Improved performance
+Answer: a) Internal fragmentation
+Explanation: Buddy system can waste memory within allocated blocks.
+Explanation: Hold and wait is a necessary condition for deadlock.
+Q27. What is the main function of the free list?
+a) Tracks available memory blocks
+b) Tracks used memory blocks
+c) Tracks files
+d) Tracks CPU registers
+Answer: a) Tracks available memory blocks
+Explanation: Free list helps manage memory allocation.
+Explanation: The kernel handles file and directory operations.
+Q28. What is the main function of the memory protection mechanism?
+a) Prevents unauthorized access
+b) Allocates memory
+c) Schedules processes
+d) Manages files
+Answer: a) Prevents unauthorized access
+Explanation: Protection ensures only valid accesses to memory.
+Q23. What is the main disadvantage of deadlock prevention?
+Q29. What is the main function of the base and limit registers?
+a) Define valid memory range for a process
+b) Define CPU register range
+c) Define file range
+d) Define I/O device range
+Answer: a) Define valid memory range for a process
+Explanation: Base and limit registers restrict process memory access.
+a) Reduced resource utilization
+Q30. What is the main function of the memory allocation algorithm?
+a) Decide where to place new memory blocks
+b) Decide which process runs next
+c) Decide which file to open
+d) Decide which I/O device to use
+Answer: a) Decide where to place new memory blocks
+Explanation: Allocation algorithms determine memory placement.
+b) Increased throughput
+Q31. What is the main function of the page replacement algorithm?
+a) Decide which page to remove from memory
+b) Decide which process to run
+c) Decide which file to open
+d) Decide which I/O device to use
+Answer: a) Decide which page to remove from memory
+Explanation: Page replacement algorithms manage memory pages.
+c) No effect
+Q32. What is the main disadvantage of FIFO page replacement?
+a) May remove frequently used pages
+b) Improved performance
+c) No effect
+d) Reduces memory usage
+Answer: a) May remove frequently used pages
+Explanation: FIFO can evict important pages.
+d) Improved performance
+Q33. What is the main advantage of LRU page replacement?
+a) Removes least recently used pages
+b) Removes most recently used pages
+c) Removes random pages
+d) Removes oldest pages
+Answer: a) Removes least recently used pages
+Explanation: LRU evicts pages not used recently.
+Answer: a) Reduced resource utilization
+Q34. What is the main disadvantage of LRU page replacement?
+a) High overhead
+b) Improved performance
+c) No effect
+d) Reduces memory usage
+Answer: a) High overhead
+Explanation: LRU requires tracking usage history.
+Explanation: Prevention may lead to inefficient resource usage.
+Q35. What is the main function of the working set model?
+a) Tracks actively used pages
+b) Tracks all pages
+c) Tracks files
+d) Tracks CPU registers
+Answer: a) Tracks actively used pages
+Explanation: Working set model helps manage page replacement.
+
+Q36. What is thrashing in memory management?
+a) Excessive paging activity
+b) Efficient memory usage
+c) No paging
+d) Improved performance
+Answer: a) Excessive paging activity
+Explanation: Thrashing occurs when too much time is spent swapping pages.
+Q24. Which of the following is true about preemption in deadlock?
+Q37. What is the main disadvantage of thrashing?
+a) Reduced system performance
+b) Improved performance
+c) No effect
+d) Increased memory usage
+Answer: a) Reduced system performance
+Explanation: Thrashing slows down the system.
+a) Resources can be forcibly taken from processes
+Q38. What is the main function of the swap space?
+a) Stores pages swapped out of memory
+b) Stores files
+c) Stores CPU registers
+d) Stores I/O devices
+Answer: a) Stores pages swapped out of memory
+Explanation: Swap space holds memory pages not in RAM.
+b) Processes always keep resources
+Q39. What is the main function of the memory hierarchy?
+a) Organizes memory by speed and size
+b) Organizes files
+c) Organizes CPU registers
+d) Organizes I/O devices
+Answer: a) Organizes memory by speed and size
+Explanation: Hierarchy helps optimize memory access.
+c) Preemption causes deadlock
+Q40. What is the main function of the cache memory?
+a) Speeds up memory access
+b) Slows down memory access
+c) No effect
+d) Reduces memory usage
+Answer: a) Speeds up memory access
+Explanation: Cache stores frequently accessed data for quick retrieval.
+d) Preemption is not possible
+Q41. What is the main function of the memory management unit (MMU)?
+a) Translates virtual addresses to physical addresses
+b) Translates files
+c) Translates CPU registers
+d) Translates I/O devices
+Answer: a) Translates virtual addresses to physical addresses
+Explanation: MMU handles address translation.
+Answer: a) Resources can be forcibly taken from processes
+Q42. What is the main function of the relocation register?
+a) Adjusts addresses for process relocation
+b) Adjusts file addresses
+c) Adjusts CPU register addresses
+d) Adjusts I/O device addresses
+Answer: a) Adjusts addresses for process relocation
+Explanation: Relocation register helps move processes in memory.
+Explanation: Preemption helps prevent or resolve deadlocks.
+Q43. What is the main function of the memory reference string?
+a) Sequence of memory accesses by a process
+b) Sequence of file accesses
+c) Sequence of CPU register accesses
+d) Sequence of I/O device accesses
+Answer: a) Sequence of memory accesses by a process
+Explanation: Reference string is used in page replacement algorithms.
+---------------------
+Q44. What is the main function of the dirty bit in memory management?
+a) Indicates if a page has been modified
+b) Indicates if a page is unused
+c) Indicates if a file is open
+d) Indicates if a CPU register is used
+Answer: a) Indicates if a page has been modified
+Explanation: Dirty bit shows if a page needs to be written to disk.
+Q25. What is the main function of the resource allocation graph?
+Q45. What is the main function of the valid/invalid bit in memory management?
+a) Indicates if a page is in memory
+b) Indicates if a file is open
+c) Indicates if a CPU register is used
+d) Indicates if an I/O device is used
+Answer: a) Indicates if a page is in memory
+Explanation: Valid/invalid bit helps manage page access.
+a) Visualize resource assignments and requests
+Q46. What is the main function of the reference bit in page replacement?
+a) Tracks if a page has been accessed
+b) Tracks if a file is open
+c) Tracks if a CPU register is used
+d) Tracks if an I/O device is used
+Answer: a) Tracks if a page has been accessed
+Explanation: Reference bit helps in page replacement decisions.
+b) Schedule processes
+Q47. What is the main function of the second chance algorithm?
+a) Gives pages a second chance before replacement
+b) Replaces pages immediately
+c) Replaces files
+d) Replaces CPU registers
+Answer: a) Gives pages a second chance before replacement
+Explanation: Second chance algorithm improves FIFO page replacement.
+c) Manage memory
+Q48. What is the main function of the memory access time?
+a) Measures speed of memory operations
+b) Measures speed of file operations
+c) Measures speed of CPU operations
+d) Measures speed of I/O operations
+Answer: a) Measures speed of memory operations
+Explanation: Access time is key to memory performance.
+d) Allocate files
+Q49. What is the main function of the page frame?
+a) Holds a page in physical memory
+b) Holds a file
+c) Holds a CPU register
+d) Holds an I/O device
+Answer: a) Holds a page in physical memory
+Explanation: Page frames are slots for pages in RAM.
+Answer: a) Visualize resource assignments and requests
+Q50. What is the main function of the memory allocation policy?
+a) Determines how memory is assigned to processes
+b) Determines which process runs next
+c) Determines which file to open
+d) Determines which I/O device to use
+Answer: a) Determines how memory is assigned to processes
+Explanation: Allocation policy affects memory usage and efficiency.
+Explanation: Resource allocation graphs show resource-process relationships.
+Topic: Synchronization (Semaphores, Mutex)
+Q26. Which of the following is true about deadlock detection algorithms?
+a) They periodically check for deadlocks
+b) They prevent deadlocks
+c) They avoid deadlocks
+d) They allocate resources
+Answer: a) They periodically check for deadlocks
+Explanation: Detection algorithms scan for deadlocks at intervals.
+
+Q27. What is the main disadvantage of deadlock avoidance?
+a) High overhead
+b) Improved performance
+c) No effect
+d) Increased throughput
+Answer: a) High overhead
+Explanation: Avoidance algorithms can be computationally expensive.
+Q1. What is the main purpose of a semaphore in OS?
+Q28. Which of the following is NOT a resource type in deadlock?
+a) CPU
+b) Memory
+c) File
+d) Scheduling algorithm
+Answer: d) Scheduling algorithm
+Explanation: Scheduling algorithms are not resources.
+a) Memory allocation  
+Q29. What is the main function of the Banker's algorithm?
+a) Check if resource allocation is safe
+b) Schedule processes
+c) Manage files
+d) Allocate memory
+Answer: a) Check if resource allocation is safe
+Explanation: Banker's algorithm checks for safe resource allocation.
+b) Process scheduling  
+Q30. Which of the following is true about deadlock recovery by resource preemption?
+a) Resources are taken from processes
+b) Processes are terminated
+c) No resources are released
+d) Deadlock is ignored
+Answer: a) Resources are taken from processes
+Explanation: Preemption can break deadlocks by reallocating resources.
+c) Synchronization  
+Q31. What is the main disadvantage of killing processes for deadlock recovery?
+a) Loss of progress and data
+b) Increased throughput
+c) Improved performance
+d) No effect
+Answer: a) Loss of progress and data
+Explanation: Terminating processes may result in lost work.
+d) File management  
+Q32. Which of the following is true about unsafe states?
+a) Deadlock may occur
+b) Deadlock is impossible
+c) All resources are allocated
+d) All processes are terminated
+Answer: a) Deadlock may occur
+Explanation: Unsafe states can lead to deadlock.
+Answer: c) Synchronization  
+Q33. What is the main goal of deadlock detection?
+a) Identify and resolve deadlocks
+b) Prevent deadlocks
+c) Avoid deadlocks
+d) Allocate resources
+Answer: a) Identify and resolve deadlocks
+Explanation: Detection finds and helps resolve deadlocks.
+Explanation: Semaphores are used to synchronize access to shared resources.
+Q34. Which of the following is NOT a deadlock condition?
+a) Preemption
+b) Mutual exclusion
+c) Hold and wait
+d) Circular wait
+Answer: a) Preemption
+Explanation: Preemption prevents deadlock.
+
+Q35. What is the main function of the wait-for graph in deadlock detection?
+a) Shows which processes are waiting for others
+b) Schedules processes
+c) Manages memory
+d) Allocates resources
+Answer: a) Shows which processes are waiting for others
+Explanation: Wait-for graphs visualize process dependencies.
+Q2. Which mechanism prevents multiple processes from accessing a resource simultaneously?
+Q36. Which of the following is true about deadlock prevention by resource ordering?
+a) Resources are assigned a global order
+b) Resources are allocated randomly
+c) No order is assigned
+d) Resource ordering causes deadlock
+Answer: a) Resources are assigned a global order
+Explanation: Resource ordering helps prevent circular wait.
+a) Paging  
+Q37. What is the main disadvantage of deadlock detection?
+a) High computational cost
+b) Improved performance
+c) No effect
+d) Increased throughput
+Answer: a) High computational cost
+Explanation: Detection algorithms can be expensive to run.
+b) Mutex  
+Q38. Which of the following is true about deadlock avoidance?
+a) System checks for safe state before allocating resources
+b) System ignores deadlocks
+c) System always allocates resources
+d) Deadlock avoidance is impossible
+Answer: a) System checks for safe state before allocating resources
+Explanation: Avoidance algorithms ensure safe resource allocation.
+c) Swapping  
+Q39. What is the main function of resource preemption in deadlock recovery?
+a) Reallocate resources to break deadlock
+b) Terminate processes
+c) Increase throughput
+d) Ignore deadlock
+Answer: a) Reallocate resources to break deadlock
+Explanation: Preemption helps resolve deadlocks by reallocating resources.
+d) Aging  
+Q40. Which of the following is true about deadlock in operating systems?
+a) It can cause system freeze
+b) It improves performance
+c) It increases throughput
+d) It is always ignored
+Answer: a) It can cause system freeze
+Explanation: Deadlock can halt system operations.
+Answer: b) Mutex  
+Q41. What is the main goal of deadlock prevention?
+a) Ensure deadlock never occurs
+b) Increase CPU utilization
+c) Reduce memory usage
+d) Improve throughput
+Answer: a) Ensure deadlock never occurs
+Explanation: Prevention strategies aim to eliminate deadlock possibility.
+Explanation: Mutexes ensure mutual exclusion for resource access.
+Q42. Which of the following is true about deadlock recovery by process rollback?
+a) Process is rolled back to a safe state
+b) Process is terminated
+c) No effect
+d) Deadlock is ignored
+Answer: a) Process is rolled back to a safe state
+Explanation: Rollback restores process to a point before deadlock.
+
+Q43. What is the main disadvantage of deadlock avoidance algorithms?
+a) High overhead
+b) Improved performance
+c) No effect
+d) Increased throughput
+Answer: a) High overhead
+Explanation: Avoidance algorithms can be resource-intensive.
+---------------------
+Q44. Which of the following is true about deadlock detection frequency?
+a) It affects system performance
+b) It has no effect
+c) Detection is always continuous
+d) Detection is never needed
+Answer: a) It affects system performance
+Explanation: Frequent detection can slow down the system.
+Topic: CPU Scheduling Algorithms
+Q45. What is the main function of the resource allocation graph in deadlock detection?
+a) Visualize resource-process relationships
+b) Schedule processes
+c) Manage memory
+d) Allocate files
+Answer: a) Visualize resource-process relationships
+Explanation: The graph helps identify deadlocks.
+
+Q46. Which of the following is true about deadlock in distributed systems?
+a) Deadlock detection is more complex
+b) Deadlock is impossible
+c) Deadlock is always ignored
+d) Deadlock improves performance
+Answer: a) Deadlock detection is more complex
+Explanation: Distributed systems make deadlock detection harder.
+Q1. Which algorithm is most suitable for time-sharing systems?
+Q47. What is the main disadvantage of deadlock recovery by process termination?
+a) Loss of progress and data
+b) Increased throughput
+c) Improved performance
+d) No effect
+Answer: a) Loss of progress and data
+Explanation: Terminating processes may result in lost work.
+a) FCFS  
+Q48. Which of the following is true about deadlock prevention by disabling hold and wait?
+a) Processes must request all resources at once
+b) Processes can hold resources while waiting
+c) Hold and wait is allowed
+d) No effect
+Answer: a) Processes must request all resources at once
+Explanation: Disabling hold and wait prevents deadlock.
+b) SJF  
+Q49. What is the main function of the Banker's algorithm in deadlock avoidance?
+a) Check for safe resource allocation
+b) Schedule processes
+c) Manage files
+d) Allocate memory
+Answer: a) Check for safe resource allocation
+Explanation: Banker's algorithm ensures system remains in a safe state.
+c) Round Robin  
+Q50. Which of the following is true about deadlock detection and recovery?
+a) Both are needed to handle deadlocks
+b) Only detection is needed
+c) Only recovery is needed
+d) Neither is needed
+Answer: a) Both are needed to handle deadlocks
+Explanation: Detection finds deadlocks; recovery resolves them.
+d) Priority Scheduling  
+Answer: c) Round Robin  
+Explanation: Round Robin is designed for time-sharing by giving each process a time slice.
+
+Q2. What is the main disadvantage of SJF scheduling?
+a) High overhead  
+b) Requires knowledge of burst time  
+c) Starvation of long jobs  
+d) No context switching  
+Answer: b) Requires knowledge of burst time  
+Explanation: SJF needs accurate burst time estimation, which is difficult in practice.
+
+---------------------
+Topic: Disk Scheduling
+
+Q1. Which disk scheduling algorithm minimizes seek time by servicing requests closest to the current head position?
+a) FCFS  
+b) SSTF  
+c) SCAN  
+d) C-SCAN  
+Answer: b) SSTF  
+Explanation: Shortest Seek Time First (SSTF) selects the nearest request to the disk head.
+
+Q2. What is the main advantage of the SCAN disk scheduling algorithm?
+a) Random servicing  
+b) Serves requests in one direction, then reverses  
+c) Ignores head movement  
+d) No starvation  
+Answer: b) Serves requests in one direction, then reverses  
+Explanation: SCAN moves the head in one direction, servicing requests, then reverses.
+
+---------------------

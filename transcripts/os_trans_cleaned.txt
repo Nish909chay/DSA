@@ -1,0 +1,2969 @@
+It can help in college exam a little bit , in gate you are not
+We are only targeting placement interview , if there 10 questions
+If OS is going to be a deciding factor , we will make it very
+Lets tell which topics we are going to cover , students should
+1st of all, what is OS ? we will discuss it , why it is important
+Why we need to study that , other then this the topics you have
+Like process , memory management ,scheduling algorithms, storage
+Which you all study in college , but we will study it with a
+Till now whatever video I have seen , there are many good videos
+There is no placement specific course on Youtube , in India in
+There are theory related ,academics related but if I have to tell
+Better than those courses ,then what are the factors
+1.It is targeting only placements, 2. We will discuss the
+What answer you have to give , what are the knowledge required
+Interviewer will ask you some questions , like what is OS?
+You will tell the definition only , it will not impress the
+He wants to know , whether you have the understanding por not
+In same way we will explain you considering the background , so
+2nd  we will introduce some questions which we implement, we will
+The interviewer will not ask you to code it , but he wants you to
+So in this way we will keep it practical , students will enjoy
+All the courses , theory part is excellent , we have also studied
+But from the placement point of view , if you implemented it,  let
+You will standout from the rest , this boy knows everything , his
+If that company is Adobe then its great!!
+This video is sponsored by Crio.Do , the worlds leading project
+If we are targeting a good job , problem solving skill , DSA we
+In crio you will get different programs . like Full stack
+Here you are going to do things practically
+After each program you will have  enough projects . Your resume
+There is a fellowship program , in which placement is ensured
+That you will be placed in a product based company
+All programs comes with 1 week free trail
+And you will get assured scholarship
+A link is being showed in the description , from there you can get
+You can use it to get maximum discount , it is applicable to every
+Many OS related questions were asked . At least we are targeting
+Elit world premium questions will be also there , we will have
+So we have understood this , if you have to give one message to
+I will say that OS videos will come from today , you have to be
+Which ever day the video comes, try to watch it , that day if
+We will teach you from the basic , try to watch it that day only,
+Give us the feedback , comment. What will happen from this , if
+Then you will not enjoy it , the interaction that is required will
+Which ever day the video comes, try to watch it , that day only
+If you left some videos , then your brain will tell you to leave
+Which ever day the video comes, try to watch it , that day only,
+Lets talk about the frequency , we will try to upload two videos
+At least two videos will come , it can be more , now we can commit
+When it will end , we will see those things later, 1st see 2 , 3
+Anything else or we should say bye bye ?
+Wait , 1st video will be uploaded today ,tell me in the comment
+Hello ji, how are you all? this is Lakshay
+Today we are going to start the lecture no.1 of OS series
+Things are going to be simple , we will start from the basic
+What is OS? why it is necessary, why it exist?1st of all lets
+What is OS ? I am saying we will study it later , 1st lets discuss
+You all must have used TIK TOK app , if not then its good , time
+To run TIK TOK app in any mobile or tablet what we need
+We need some basic things , 1. CPU, 2. memory ,3. GPU and 4. Disk
+I can say this a small computer, a minimalistic computer , which
+Now you have to use TIK TOK app , you opened it , if there is no
+Memory , GPU, little bit disk but because there is no OS , it will
+Our all resources has been hacked , you will be able to use TIK
+You directed TIK TOK to stop for sometime , to play pubg but
+Pubg will not open, it will go to hang state
+So think carefully, you have the adequate resources to run the
+But you will not able to play pubg, how we will do it
+We have to manage not to give all the resources to TIK TOK, give
+Here we will place a layer of OS, what OS will do?
+TIK TOK stop this dominance mentality, and take 5% CPU
+10% memory ,12% GPU, and so on.
+Because all resources has not been given to it , then pubg can
+It is a heavy app , so we will give it 50% CPU, 50% memory ,
+60% GPU. Now you can see that, something resource management like
+All resources are not being given to one , some to pubg , some to
+So we have seen the no.1 work of OS, we are calling it
+This video is sponsored by Coding Ninjas , Coding Ninjas is one of
+Here you will find many courses, want to do interview preparation
+Or if you want to do DSA course in different languages ,
+You will get all the courses, the best thing about it, one on one
+If you have any doubt will get solved in average 20 minutes,
+The one who has made this courses has already cracked big
+No need to worry about it, if you are interested in paid courses
+I will provide the link in the description, you will get the
+Resource management
+You seen , if OS was not there , what problem will occur
+Now it is using it by resource management
+This is the 1st work of OS, you seen the resource management
+Here OS is working as an interface
+This is the new thing, what is interface? lets see it in layman
+You all go to bank, this is you, you want your 10 thousand rupees
+You go to uncle, this is the bank , and this is uncle, SBI
+You asked uncle for your 10,000 rupees, uncle instructs you to
+You are not going to the treasury by yourself, you are going
+If here I see , this is your treasury , your money is there, uncle
+So uncle is working as an interface here,You are not going to the
+Now if we set our analogy in OS case ,then you are the user app
+The uncle sitting in the bank is interface, OS
+The treasury is the resource
+CPU , GPU, etc
+So now we have understood what is interface, so OS is acting as an
+Lets understand the one more problem if OS is not there
+You think that you all code, built your apps , if I talk about
+For memory allocation what you use, you use malloc, new
+If you need 10 bytes then you tell malloc to give you 10 bytes
+You have no knowledge about it ,you only need your app logic
+If OS was not here, this is your TIKTOK app
+And this is Pubg app, the developer will write its TIKTOK logic ,
+OS is not there, you need to manage the memory by yourself
+So he/she need to write the memory management code by themself,
+Lets assume the developer has written it, also need to run PUBG ,
+See carefully, same code for memory management will be used, same
+From this our app will become bulky
+If normally the app size is 50 mb, so much resource management
+Same thing will also happen with PUBG, apps have become bulky
+If we talk in more technical words, here dry principle is getting
+Bhaiya , what is DRY now?
+DRY means do not repeat yourself, if we take a simple example
+When you do coding, you have one prime finding function, and you
+Then you simply write a function, and call it whenever needed
+This is " do not repeat yourself principle" , here what was
+Here we were writing the memory and resource management code by
+Which is not necessary , DRY principle is getting violated
+When OS will come into the picture, then how it will avoid it
+Now OS will write resource and memory management code within
+Memory management, scheduling , process management, all are
+Work will become more easy , assume you are an application
+You will only think about the logic of weather forecasting app,
+See how OS saved any app from being bulky, this is the 2nd work of
+So if OS is not there , then there is resource management issue,
+There is one more important work OS do ,which we need to discuss
+It provides isolation and protection
+How? lets take one example, this is your memory
+And you have blocks like this
+Lets take one example ,TIKTOK is in the memory
+And PUBG is also in the memory, when you on it, TIKTOK used some
+You can see their memories separately , if OS is not there , no
+What is mean by isolation here? both memories should be apart from
+If OS is not there ,it may be possible TIKTOK may write something
+PUBG was thinking that it is running independently, but other app
+This is very dangerous , this is security violation , there will
+Lets take small example , you are playing PUBG , your health is
+TIKTOK overwrites it , instead of 100% it writes 0%
+Your code will see that your health is 0% , so kill it, you will
+How dangerous it is , you can see it by this example
+If OS comes into the picture ,it will logically store the section
+Assume this is your memory, from 0 I have given memory up to here
+So I give PUBG memory from here to here
+Now OS will control that TIKTOK should be unaware of PUBG
+Both memories should be separated , each existence will be
+So in this way OS will provide memory isolation and protection to
+So if take a look on notes, we have made it for you
+We understood , what if there is no OS
+1.Resource exploitation will happen , 2. You have to write the
+The app will become complex, bulky, 3. there will be no memory
+Think it in a different way, we can say what are the functions of
+The functions of OS are, 1.resource management ,you can call it
+2.It act as an interface between hardware and user app
+3. OS has written all hardware interaction code within itself , it
+How it is happening , you no need to worry
+You are avoiding the complexity
+It underlying complexity of hardware , we can also call it
+4. Facilitates execution of application programs by providing
+And one more thing, access to the computer hardware, now we can
+It is only accessible to OS , if any wants , then it need to go to
+This is access to the computer hardware, now we know the
+Lets see one more thing, what is an OS?
+The formal definition , an operating system is a piece of
+Both hardware and software, and provides an environment in which
+Now it is providing an environment to developer, so that developer
+How memory will be allocated , it can run multiple apps , no
+How it do it
+By hiding underlying complexity of hardware and acting as a
+It acts as a resource manager, this is OS formal definition,
+This is our 1st lecture of OS , we studied some important things
+I hope you must have understood everything , tell me in the
+Hello ji , how are you all? this is Lakshay
+Welcome to the channel Code help ,today we will discuss our
+We are going to discuss some interesting things , 1. Types of OS
+And how they are built ? before directly jumping to it, lets 1st
+What things were kept in mind while making them ?
+What are the goals of any OS?
+1. Maximum CPU utilization ,lets think
+What is the work of an operating system ?,1. you want to run many
+Assume you have a CPU, many processes . You will not want that
+You have some processes , P1, P2 ,P3
+1st CPU started working on P1,P1 went to do I/O , you have put
+So we will say to execute P2 when P1 is doing I/O
+So this is called maximum CPU utilization
+What is process starvation ? as i have given an example
+You have a CPU ,and you have many processes P1, P2,P3
+Assume CPU picked 1st P1 to execute
+now P1 is a big job, assume you have mistakenly written while(1),
+What do you mean by that , that other jobs will not get the
+But this not happen ,your all process should run
+See how dangerous it is that a person writes a program , left
+So there should be no process starvation , this is our 2nd goal
+3. High priority jobs execution
+What is mean by that ? Assume you have many jobs , this the same
+P1,P2,P3 like is many jobs
+In ecosystem of CPU these are the jobs
+All are being executed in a sequence
+These are the normal jobs
+Suddenly some high priority job comes , like anti virus scan ,
+When you put any removable disk , whatever work you are going , a
+So we want that he priority task should be also executed , this
+If any P4 job comes, it will remove all jobs and execute it
+So there should be high priority job execution , these are my
+Now goals are clear to you
+now move to  our main
+This video is sponsored by Crio , worlds leading project driven
+If you are targeting a good job, you want master development so
+You will get different types of programs
+Full stack development program , backend development program , the
+Those are internship level projects
+At the end of every program you will have a lots of projects ,
+There is a fellowship program it will provide you guaranteed
+Youi will be placed in a product based company
+All programs are available with one week trail
+End the end of the trail you will get assured scholarship
+If you are interested I am putting the link in the description
+After using it you will get the maximum available discount
+A coupon code is also being display on screen , using it you will
+Thank you
+Types of OS
+1. single process OS
+This is simple OS , it can be seen by the name
+Single process OS , at one time only one job is executed
+It sis the oldest OS ,e.g- this is your CPU
+Assume I have many jobs P1 ,P2,P3 ...
+At one time only one job is executed , 1st P1 will be executed ,
+Then at 2nd no. P2 will be executed ,
+If I use my brain a little bit , and the goals I have discussed
+Are we utilizing the maximum CPU ? no!!
+In maximum utilization we have seen that if any job has went to
+Then other jobs will start executing
+For example ,P1 went to doing I/O
+Will P2 get the chance ? in this OS P2 will not get the chance
+So maximum CPU utilization is invalid for it
+2. Will there be process starvation?
+Yes , there will be process starvation , how?
+P1 is executing , and P1 is a big job , that while(1) example
+P1 is a big job , time taking
+When P1 is getting executed , 1-2-3 hours has passed , it is still
+P2 is not getting the chance and P3 will also not get the chance
+So there is problem of process starvation
+3. High priority job , only one job is being executed , there will
+Reason is simple ,if any high priority job comes , P1 is still
+So this our basic OS ,single process OS
+Lets see one example , MS DOS is the 1st example , this was single
+Now you are thinking , why they ,made it ?
+All developments happens incrementally , so 1st single process OS
+In world of computers , software is made according to hardware,
+That you made a software , then make such hardware
+If you think a person can make such software, but the hardware is
+So the type of hardware was made at that time that can process one
+So software was also made according to that
+2. Batch processing Os
+Bhaiya what is batch processing OS ?
+Lets understand it with an example ,there are many users , every
+Lets understand the job written in this user , how it submit it ?
+At that time there was punch card
+At present as there is ATM or debit card or credit card , there is
+That contains digital information , it is not written in card
+As you scan it with scanner , it is transformed into digital
+Same thing use to happened at that time
+There were many circles
+Information is filled like , some circles are filled some are
+In this way information was stored , I can call it binary
+This was written on some physical card
+We use to scan it with scanner , it use to got converted into
+So this was the concept of punch card , why you shown us punch
+User use to bring his/her job in form of punch card
+So user 1 brought the job , same way user 2, in same way nth user
+Which job will take how much time?
+It can do the estimation in this way
+It is seeing requirements of jobs from the upper level , and use
+Operator work is to sort the job
+Now it sorted all the jobs , then divided them into batches ,
+Batch processing OS , process will come in batches
+We picked this batch , there are two batches 1 and 2
+These are some similar type of jobs , in batch 1 , we job-1 ,
+job-2,5,7 in batch-2
+Each batch will be submitted sequentially to CPU
+On each batch CPU will work sequentially , like single process
+1st we picked batch -1 , whole batch will go to OS
+OS will direct to schedule it to CPU , now how it will give to
+1st it will give job -1 , then job-4
+In this way batch -1 will be executed
+Similarly after batch -1 , batch -2 will be executed
+See there is no such difference , here we have just divided into
+This way we tried to optimize it
+Lets come back to our 3 goals
+Is maximum CPU utilization is being made here ? no!!
+How? because each batch is working sequentially like single
+The batch -1 went for execution , job-1 and 4 were there
+J-1 took more time in I/O , then j-4 will wait
+So here no maximum CPU utilization is done
+Similarly ,2.process starvation , J-1 took more time , J-4 will
+There will be batch starvation also , assume that batch-1 took
+So batch -2 will starve , it will not get the chance
+3.High priority job ,some high priority job came , until 1st batch
+Here also all goals are not full filling
+This is our 2nd type ,Batch process OS
+Now we will see our 3rd type , these are going to be very
+On these , interview questions are also asked
+1. Multi programing OS ,
+Here the goals will be full filled a little bit
+from here listen it carefully , these are asked in interviews
+In this type of OS , there is single CPU
+Here we put so many jobs in queue
+There is one term , ready queue , there are many jobs in it
+Ready queue means , a queue in which there are many ready to be
+They just want the chance
+Ready to executed jobs are there in ready queue
+In multi programing , we process many processes
+We make such virtual environment , whenever any process goes to
+CPU pick it , and execute it
+Lets take an example , this is your CPU
+In ready queue you have so many jobs J1,J2,J3
+Now what will happen ?
+Assume that J-1 goes for execution , because it is a single CPU ,
+J-1 will go , it is executing , now J-1 got the command to copy
+So it went to copy /(I/O)
+Till I/O is going on , CPU is not doing anything because work will
+So when I/O is going on , CPU must not be idle , I will instruct
+So J-1 will go to wait state and J-2 will start executing
+So this is multi programing OS ,m so we have learned it now
+There is very nice concept "context switching "
+This is very important topic , we will studied about it in detail
+But now just see it, lets take one small example
+As we said , there will be many processes in memory
+Whenever any of it go to I/O , we will direct other process to be
+There is single CPU , so in this the concept which is used
+We call it "context switching " , lets take one example from real
+When you were preparing for boards
+Or any exam , you have physics , you are studying it
+In physics , there will be many books open on the table ,
+There will be many notes
+And you are studying , you have decided to study chemistry from 11
+Now you will remove all the physics books from the table , because
+So you will put book marks , put your pen , and close every book
+Then you will keep them in side , and will open chemistry books ,
+Now see what is happening here , you closed the state of physic
+You had two processes , P1 and P2
+Lets do context switching between them ,CPU was 1st working at
+When P1 will go for I/O ,then we have to bring P2 in execution
+This process is called context switching , here some great work is
+present state , in which position it was executed , what was its
+We will stored that in PCB
+Process control block , this is a data structure
+Process related information is stored in it
+We have to store the state of P1
+We will remove it from the CPU , its current context will be
+All its information will be stored , CPU will take all the
+P2 current context will be restored , it will start working on
+So this save and restore process is called context switching
+We have understood with very nice example , physics , chemistry
+So when here context switching is happening in multi programing
+Now our 4th type ,
+Multi tasking OS
+These multi tasking , multi programing  are similar
+Multi tasking is the logical extension of multi programing , we
+CPU is single , context switching is also used
+Which makes it better , here time sharing is done
+Noe what is time sharing ? in multi programing , context switching
+So it is getting executed from ,long time
+And other job is starving
+So to overcome this thing , we did logic extension
+We will not wait , we will take small time quantum
+100 ms , if any job gets 100ms , its one quantum execution is
+Now give another job the chance
+Lets take one example , this is your CPU , P1 , P2 ,P3
+Like multi programing job went for the I/O , then other will get
+As soon as 1000ms gets over , we will stop P1 execution , and P2
+It means , we are not waiting for I/O to do context switching
+We will give some time this , some to that , here time sharing is
+Here time sharing is going on
+Responsiveness of apps will increase , because each process will
+We were talking about 3 goals , here CPU utilization is happening
+Here CPU will never remain idle , there will be always execution
+Here CPU utilization is more , and here process starvation is also
+Assume P1 was very heavy job
+There is no problem of starvation
+3. If any high priority job comes
+Context switching is also applicable here
+It means as soon as  a high priority job comes
+P4 , an antivirus job , here we will do context switching
+We will do a software interrupt , one higher priority job has come
+Give it the chance , P2 will be removed and P4 will get the
+Till now we see multi tasking is the best
+Nowadays OS are multi tasking , you run many apps , but you feel
+Because time sharing is happening here
+Now there is one more OS type , which is better than this
+Let me explain you ,5th type
+Multi processing OS , what is multi processing OS?
+You studied multi tasking , multi programing , now what is multi
+In this also context switching , time sharing , all these are
+The best thing here is CPU>=1
+There are multiple CPUs , till now we were doing work in single
+Here there is multiple CPUs , here more CPU utilization can be
+Here starvation problem will less , if some high priority job
+If CPU-1 is busy , then CPU-2 will do it
+In this way we are doing improvement , till now we were using
+Nowadays 1 CPU has $ cores /8 cores , it means 8 logical
+This is multi processing OS
+This is CPU-1 , this is CPU-2
+These are your processes
+Now 1st it will get some time , as its time gets over
+P2 will get the chance , mean while these things are going on in
+This will go to CPU-4
+Which job CPU has to pick , OS tells it , it comes in process
+We will study that
+The best improvement in it , the examples we seen before , there
+Now your whole system will fail due to this
+But here this will not happen , if CPU-1 fails
+But CPU -2 is still working , there is increased reliability
+These are your some types of OS , now there are some different
+6th type ,Distributed OS
+Now what is distributed OS?
+We can call it loosely coupled OS
+Lets understand it in this way ,you have an OS
+And there are many CPUs , memories here
+Why am I making so many CPUs and memories, basically there is only
+Till now we were saying , there is one operating system , one CPU
+But here there are CPUs and memories connected in networks
+The CPU box in your home , one is in your home , one in my home
+Those are inter connected , over the internet or LAN
+You have so many jobs P1, P2 ,P3,P4...
+now I have to execute , it may be possible ,it send P1 to this ,
+So you have different systems , you can send different jobs to
+it may be possible that this CPU is of low end , this of high
+It contain graphic card
+We call such system distributed OS , loosely coupled autonomous
+In this way they are working together , there may be multiple
+There are many resources, so we can execute many jobs , there may
+So we call this type of OS distributed OS , one example , you are
+Then it is checked , then there is not one system , there are many
+Whichever is free, gets the work
+In this way there are many computers , are connected over the
+To manage such system ,the OS used is called distributed OS , this
+7th type OS, RTOS -Real time operating system
+What do you mean by real time ?
+Where we need RT OS , we need it where , there is no chance of
+Also at very decimal point your accuracy should be high
+There should be know error
+Any flight control system , they have such hardware
+Which can do very good computation in real time
+So to manage them we use RT OS , because many flights are
+aTC has the most crucial duty , people life are dependent on
+Som we have to do error free computation , and have to do real
+So the OS which full fill this demand , we call it RT OS
+I can tell you the examples where it is used
+Used in ATC ,industrial applications
+like in nuclear plant the system which is used , it should be
+So here RT OS is used , by interview point of view
+You should know all the names , but 1st four are most important
+In which single process , batch , multi programing , multi tasking
+If I tell some examples , 1. single process -> MS DOS
+2.Batch processing -> ATLAS , it used to at batch processing
+Memorize one example of each , and this is your homework also to
+3.multi programing ->THE
+4.multi tasking ->CTSS
+5.Multi processing -> Windows
+6.Distributeed and 7. RT OS , examples of these are your
+Tell me in the comment section
+So this is our types operating system lecture
+I hope you have understand all of this , why it is necessary ,
+In this way they have improved with time , complexity also , and
+So this is our lecture no.2 , I hope you have understood all ,
+And you have to write it in comment section , what are its
+We will meet in the next lecture
+lets summarize it , we have made notes for you
+Accurate and crisp and clear
+1.maximum CPU utilization , 2. less process starvation, 3.high
+You have to keep it in mind ,OS types are made keeping these goals
+There are some examples of OS
+Then there is single process OS , one process is executed at a
+Batch processing OS , we will 1st make in punch card then user
+These 3 are most important , keep them in your mind
+Multi programing , multi tasking , multi processing , interviewer
+Single processor is there in multi tasking and programing
+Multi processing contains more than one processor ,nowadays multi
+Context switching is used , time sharing is used , contains more
+We discussed distributed OS , more than one CPU and GPU , we can
+Distributed OS manages the these computers
+We discussed about RT OS , it is error free , it has to work very
+So this is the notes of lecture no. 2, I hope you liked it , write
+Hello ji, how are you all? this is Lakshay
+Welcome to the channel Code help, so we are on our OS lecture
+Today we are going to discuss an interview question
+What is multi programing , multi processing , multi tasking ,
+Tell me the difference between them ,and about them
+In previous video we have discussed ,What is multi programing ,
+Lets see the differences there is one thing that we have not
+Multi threading
+before seeing the concept of multi threading , lets see what is
+And before knowing this thread , lets see what is process?
+If I take one small example , the code which you write in c++
+Like you written the code to find the prime number
+You write code in text file
+Its extension is " .cpp"
+In an unique way your are writing a,b,c,.. only
+This is collection of some characters
+Now your compiler does what , your compiler compiles the .cpp
+After which an executable file is formed
+Which we call " .exe" file ,If you will open it in a text editor
+You will be unable to see the code , it will be a compiled code ,
+So your executable code , it is platform dependent
+Mac, windows , linux all have different executables
+So whenever you open an exe , lets take a small example, you
+You will see a paint.exe file which gets open , when its get open
+So this is your program , you clicked on exe and a big window got
+If you go to a task manager then you will see the process , which
+So can I say that when you double click on any exe file
+It gets convert into a process , so what is process?
+Process-> program under execution
+A program which you have coded , compiled it when you bring it to
+When you brings it to memory , in disk this is your program
+The compiled code ,but it will not work until it comes to actual
+To the RAM , this is your RAM
+CPU will on work when your program comes to RAM , so when you do
+And we call it process , so whenever any program comes to RAM , we
+Program under execution is process
+Many product based companies like Amazon ,Adobe, Commvault
+Focuses on OS part in technical interviews
+So clear these interviews , your OS part must be strong
+So Coding ninjas provide you in depth course , which covers all
+All the theoretical concepts are taught based on linux OS
+With course you are provided one on one doubt session
+The persons who will teach you are from big tach companies
+You will get more than 12 hours content , you will solve more than
+more than 12 projects
+You will get different type of courses related to CSE
+If you are interested in paid courses , then I will put the link
+You will get the maximum available discount ,thank you
+We will learn in detail about process in process management
+How process is made ? we will discuss it later
+But now learned what is process , you got the overview
+Lets see what is thread
+We call it ight weight process also
+From this you are getting the idea a little bit
+The process which works lesser , we will learn it
+Lets take one small example , process is the code you have
+There are many functions , every function is doing its work ,its a
+Every software is made from small steps , 1st basically it will
+Then do some processing , then it will take something from the
+In this way the whole software is working
+Thread is the least work , which can be executed independently
+Lets take a example , you have a software /app
+It takes detail from the user
+And show it to you , after doing the processing
+When you give the detail to the user , it stores it into the
+Like in facebook , your profile is stored in cloud
+When you are giving user input and some process is going on it
+Mean while it is storing your data on cloud
+We are doing it by a thread
+Thread  is a sub process inside a process , it is write data o
+It is going on in the background , there is no need to know it
+I divided the process into two sub processes , 1. main process 2.
+Writing on cloud
+You made a process , it is an independent work
+So this independent work is happening , we did it with thread ,
+It is way of doing work independently in a process
+Lets take one more example , you are making a JPG to PNG
+What is JPG to PNG converter ?you are trying to convert one form
+This the logic
+It take in input , 100*100 image
+In output it gives 100*100 pixels image ,, which will be in PNG
+The data you got in input is of 100*200
+But your logic will only take 100*100 , and will output 100*100
+So this is your limitation , you can take only 100*100 image
+Now I want to get this work to be done , there are two ways
+1.Sequentially
+It means , this is your image , you broken it into two parts
+And this is your logic /code
+This is part A and this is B
+It will 1st take part A then it will give output A1
+Then it will take the part B , it will give output B1
+Then you will concatenate A1,B1
+1st you taken A1 , then B1
+Then you concatenated them , this is your process
+Here work is going on sequentially , 1st you will get A , save it
+So this is one way . This logic is an independent execution
+It takes data , outputs 100*100 after converting in PNG
+I want to do it asynchronously , it means both should happen
+Both have no dependency on each other , so want them to be
+To do it we use multi threading , I will divide this process into
+I will call it T1 and T2
+Thread is a light weight process , it is a part of process
+So I took T1 ,T2 threads
+Now , I will write in the code to give T1 to A , T2 to B
+T1  will also use same logic
+T2  will also use the same logic , which will convert the image
+This will give A1 , B1. Now what is happening here
+You broken one process , into two threads T1, T2, because both are
+So A passed into T1 , after processing gave A1 , B passed T2,
+And you got it after the independent execution
+Assume that to do it , it takes 10 sec , so when it was going
+Here in this case it will take 10 sec
+It means by doing multi threading , you made your code faster
+Multi threading is not possible in every CPU
+So ,there was single CPU in multi programing , multi tasking , we
+Is it possible to do it in single CPU? no!!
+Because these will be executed parallelly , one CPU will take this
+One CPU use to execute one process
+So T1 is getting executed by one CPU , and T2 will be executed by
+In this way the work will go on
+But where , there is single CPU , there we will have no advantage
+So the work will happen sequentially
+So in which system it will be beneficial , where there is multi
+It means more than one CPU
+Nowadays CPUs are multi processing CPUs
+So there will the benefit of multi threading , so here I tried to
+There you have a process
+You broken it into multiple processes , task A ,task B , task C
+All works independently
+If I say the memory space process is using , the threads are also
+You have given this much part of memory to process
+So in this much part only T1, T2, T3 are working
+some other process has been allocated this much part , we have
+There will be no isolation between two threads , they are the part
+So isolation is not applicable here
+So here you have learned about multi threading
+we will learn about it in detail in process management part
+Interviewer knows that students have confusion between these
+Tell me the difference between multi tasking and multi threading
+Multi tasking is the concept between the multiple processes
+Processes are sharing time between them , doing context
+This is the concept of more then one processes
+You have one CPU and you are scheduling multiple processes
+In multi threading , this is the concept of more than one
+There is single process , and it has many threads , and you are
+In which there are multiple processes , there will be context
+If there is a system in which there are many threads  but one CPU
+There will be no benefits
+We get the benefits only when there is more than one CPU /cores
+2nd there is concept of isolation and memory protection in multi
+And there is no such concept in multi threading
+What do you mean by that ? let me repeat
+One process use to run as a single entity , it use to have
+OS use to ensure it that memories are independently allocated for
+But in multi threading , thread is the part of a process
+There no such thing will happen , more than one thread will use
+Because the OS has allocated a memory block to a process , threads
+If I make a diagram
+This is your memory , processes will be allocated differently in
+Here if I see P1 , T1 ,T2 , threads will work within the P2 area
+So there is no isolation , no protection
+All will be using the same memory and resources
+3rd , processes are scheduled in multi tasking
+and here threads are scheduled
+In multi tasking processes will be scheduled in CPU , CPU-1 will
+Here threads will be processed within the process , T1 ,T2  will
+So these are the differences between multi threading and multi
+What are threads , multi tasking , what are the differences
+Interviewer can add on more and ask what is multi programing
+Differences between multi programing and multi tasking , you have
+What is multi processing , multi tasking ? , he/she can ask, do
+So with this we end this lecture here
+lets move to the notes , we have made a very nice notes for you
+Here we have discussed multi tasking vs multi threading
+Here we learned , what is a program ?
+Program is an executable file , there are certain instructions
+It si stored in disk
+When you double click on it , then it is converted into process
+Process-> program under execution , it resides in RAM
+We call it primary memory also
+Lets move to thread , here we have written many points for it ,you
+Single sequence stream within a process , an independent path of
+We also call it light weight process
+Its major reason is to achieve parallelism in a process
+Lets take its examples , multiple tabs in a browser , if I try to
+When you open a google chrome , we see one tab , you opened
+Then you opened a new tab , new tab is also similar to previous
+In this way you opened many tabs , so basically the developer has
+But here we are shooting one thread , one by one , and new tabs
+So we can call it an example
+One more example which is easy to understand
+Text editor , when you open text editor anywhere , note pad or
+When you try to type on it , it is taking the input
+It is also checking the spellings , type checks , formatting
+All these are different sub tasks
+they are given to different threads
+Actual typing is done by one thread ,spelling checking is done by
+Auto save is also being done by a thread
+These are the sub task of same process
+Which are being done by different threads
+now if there is no multi threading , and we were doing it with
+1st you would have written something , My name is Lakshay
+Only writing is done , no other process will work like spelling
+Those same processes will work sequentially
+1. Typing , 2.spelling check ,3. formatting
+4. saving . So if all these would be done sequentially , until all
+So is a nice example why multi threading is important
+Here multi tasking and multi threading has been summarized
+It is summarized that switching a task simultaneously in CPU
+Multi threading is diving a task into sub tasks
+And those will be executed independently
+So we call it multi threading
+2nd, here concept of more than 1 processes being context switched
+Here more than one threads is being switched
+In multi tasking the no. of CPU is 1 , and here CPU>=1
+now there is one question , What no. of CPUs are required in multi
+Its answer will be ,as much threads my hardware can support , I
+Assume there is only one core in a CPU
+It can execute only one task at a time , here context switching is
+Here you may write the multi threading code
+And divided it into 2 threads , logical you written in this way
+Will it actually beneficial for you ?
+As we discussed , there should be more no. of CPUs in this
+1 thread will use 1 CPU
+Another CPU will take another thread
+If context switching starts happening between threads , then we
+If there is only one CPU , and 2 threads , then both will do
+then there will be no gain , code will be executed but the purpose
+If hardware has 4 cores , 4 logical processors
+I can divide into 4 threads the program , this is allowed
+No. of cores =No. of threads
+There can be one more question , if I say , if multi threading is
+It will also give the same answer, you may divide it into that
+But is that much cores are available to you
+The latest Mac that we have , there is also only 8 cores
+So we should design our code according to the no. of  threads
+So this is a difference
+Isolation and memory protection is applicable in multi tasking ,
+In multi threading there is no such concept, there is only one
+So we discussed this in multi tasking and threading
+Lets see one question which can be asked to you , in one CPU jobs
+1st P1 will be executed then P2 ,
+How threads are scheduled?
+Threads are also scheduled in same way , depending upon the
+This is P1 process , I made T1,T2 threads of it
+when we spawn threads , then I also gives the priority
+That either T1 or T2 has the higher priority
+I can also say both have the same priority , then it will work in
+If T1 has the higher priority , then T1 will will get the more
+Basically related to that P1 process CPU time is allocated
+That CPU executes P1 in some interval of time
+P1 also has two threads ,T1 ,T2 , which one will get more chance
+Basically which one will have higher priority , so T1 has the
+So depending upon the priority, threads are schedule
+So here I have written
+Now there can be one more question
+What is the difference between context switching of threads and
+They are entirely different from each other
+Basically we have studied that in context switching we have to
+and have to restore the process of other thread , same work is
+And here Two processes are being context switched
+We know thread is a part of process , so during context switching
+The particular space in which it is working , will they change?
+We have seen in the video that threads of same process uses same
+So here switching of address will not happen , other things will
+here it will happen , because of isolation and protection
+Here in threads , memory switching is not happening
+So in this case context switching will be fast because here we
+Here switching will be comparatively slower
+4th , there is one thing called cache , we will study about it
+But here I will give you the hint , lets take small example
+CPU is working in a memory area
+My program has been written in such a way , CPU refers a
+OS will put that hashtable in a cache , cache is a storage
+From this my work will become easy ,how?
+Cache is faster than RAM
+So my access will become faster , then my overall process will
+Why I told it , before discussing it , I will say that , every
+If any other process comes then I have to delete the previous item
+So I can say that when context switching is done in threads , then
+So I will not flush the cache , it may be possible that other
+In process context switching we flush the cache
+It may be seen confusing to you , because I have also faced
+Try to understand it , I have tried my best to make you understand
+When we will study process management , we will refer threads
+So I thought to give you the intuition 1st
+When we will actually study it , then you will under stand it in
+So this is our video , lecture-3
+I have tried my best to explain the difference between them , tell
+Hello ji , How are you all? this is Lakshay
+Welcome to the channel Code help. Today we have reached our
+In previous lecture we learned about multi tasking and multi
+1st of all we studied about types of OS, now lets go in detail ,
+Components of OS , that OS is made from what
+If I break OS, there will be two components
+1.User space , 2. kernel
+From user space we can get the idea , that here user apps are
+The 1st work of OS is that it interact with OS
+2. It provides the convenient space to developer so that he/she
+Now these two works will be divided logically , user space is the
+Kernel has the access to underline hardware
+Actually kernel has the hardware access ,and apps will run in the
+So OS components are divided into user space and kernel
+What is user spacwe?
+This video is sponsored by Crio , world leading project driven
+If you are targeting a good job
+If you want to master development , so Crio is the place for you
+Here you will get different programs , Full stack development
+The projects that you will make here are of internship level
+After every program you will have enough projects , your resume
+There is a fellowship program also where placement is guaranteed
+You will be placed in a product based company
+All program s are available with one week trail
+There is assured scholarship also
+If you are interested , I will put link in the description
+By using this you will get the maximum discount
+A coupon code is also being displayed on screen
+By using this also you can get the maximum discount, thankyou
+It just provides the convenient environment to user apps
+For example , when you on your windows
+You see the desktop , here it is start , and some icons
+Whatever you are seeing we call it user space
+We also call it GUI
+The user space in Windows and Mac, we can also call it GUI/CLI
+Actually we call it user space in modern operating system
+That is GUI / CLI, what is GUI?
+GUI stands for graphical user interface
+On which you normally do the work , you have the mouse , you click
+User directly interact with GUI
+So that area is GUI
+When you run command line interface in windows , as Mac has the
+and in linux
+So terminal is your CLI, we call it command line interface
+In windows there is power shell
+What is the difference between GUI and CLI?
+We write some commands in CLI and system takes it and executes it
+And this way it works
+The work which GUI do , we can also do it using CLI, lets take one
+If you have to create a new folder , in windows you do right click
+A new folder will be created , similarly you can run a command in
+For you go to CLI in linux , you can use MKdir command to create a
+In GUI also you will get the new folder button
+The new folder button in GUI is being run by MKdir command
+What is MKdir command? it basically internally calls the system,
+It directs file management system to create a directory
+We can do this through CLI and also through GUI
+Where user interacts we call it user space
+What is the 2nd work of user space ? it interacts with the
+Till now we have studied OS work is to interact with hardware
+The area where user works , it will go through kernel to access
+See how much things are layered
+Its 3rd work is that interacts with kernel
+Bhaiya what is kernel?
+Kernel is the heart of OS ,, it is the most important thing
+It directly interacts with the hardware
+User space gives it command , it reads the command , than directs
+So user space has to request kernel to implement the work
+So these are your kernel and user space
+Lets talk in terms of diagrams
+This is your user space , this is kernel
+This the hardware
+User space and kernel forms the OS
+Kernel will interact with hardware, and user space will interact
+So this is the architecture , these are the main components of the
+Is this clear to you? lets move forward
+Lets take a example ,If I make a small script
+Hello world .sh ,.sh is the extension of shell script
+Here I will write Hello world
+When you will go to command line , and execute it
+./HelloWorld .sh
+Then what will happen?, simply you will click , processing will
+And HelloWorld will be printed
+You run it in CLI, we are calling it shell
+You run it, we call it user space
+When user space is printed , there some computation has been
+For computation it goes  to kernel , user want to print something
+Then has yo do some computation , so do it
+This kernel will request CPU for some computation cycles
+CPU will do the computation , and Hello world will be printed , so
+So this much is clear to us , write cleared in comments
+Lets discuss the functions of Kernel, till now whatever we have
+Lets see what are the functions of  kernel ?
+The basic functions are, 1. process management
+For now learn this , you will get the theory in notes in the
+So process management is the 1st work , it will take  3-4 videos
+Let me brief it, process creation ,termination, these are the part
+2.Process and threads scheduling
+User has made the processes , now how those will be executed which
+The high priority , there should be no process starvation
+That is the work of kernel , process management will do it
+Kernel also do context switching and time switching
+To synchronize the process
+And to communicate between the processes
+Many times , two processes need to communicate with each other
+As we studied now , there are two processes P1 ,P2 are isolated
+Both are getting executed independently
+Many times we need to communicate them
+This is also done by kernel
+So process management is done by kernel
+2. Memory management
+You have RAM, a2 GB RAM , how will you  allocate memory in it ?
+Or to deallocate , free space management
+Whenever you allocate memory , you allocated much memory
+Some processes exists in the middle , that memory area gets free
+Now OS should has the knowledge which areas are vacant
+Now if execute a new job then you need space for it
+It keeps the track of free space , you studied memory management ,
+It can be asked in interview , so you have to brief them
+There is one more work file management
+It creates and deletes file
+Directory management
+What is directory management ?
+The file management works in such way that our OS make a
+Like tree ,if I tell you how structure is made in linux
+A sub directory comes out of it, there is a Lakshay named folder
+And a Ramesh named folder
+There is one more OS folder in Lakshay
+And 1 more folder ABCD , it may be possible there is  a lakshay
+So in this way , it maintains a tree structure
+After sometime Babbar bhaiya will teach you tree , so see the real
+The tree which we study , you are unable to know why we study
+So this is the implementation here  to maintain directory
+It is easy to maintain it as a tree because if you have to search
+Then here , here and here
+Basically things are manageable here
+So in this way you saw the implementation of tree
+And how file management stores the directory qin hierarchical
+I/O management is one more work
+I/O management is an important work, how?
+You are using laptop or PC , and you want to add game controller
+Or an USB , so you want to put USB port
+So this type of things is supported by kernel only
+If you connected a pen drive , it knows that you connected a pen
+It also provides the method to access the pen drive in my
+So all these works of I/O management is done by kernel
+It is managing and operating all the I/O operations
+I have given you the example of management and controlling
+As you will plug it , it will notify you , this has been plugged ,
+After reading it kernel will send information to user space ,
+You can access it from here , it will enable you to access through
+So these are somethings of I/O management ,3 most important works
+1.Spooling , 2. Buffering  ,3.caching
+These type of works are also done by it , we will discuss it in
+What is it?
+So these are the 4 works of kernel
+So we have understood the 4 functions of kernel , 1. process
+Lets see the types of kernels, there are different types of
+Types of kernel
+It is of three types
+1. Monolithic kernel
+What is monolithic kernel?
+Monolithic means all functions is done by kernel only
+This type of kernel is called monolithic kernel
+If I explain you with diagram , then I can say
+This is your user space , this is kernel , and this is hardware
+All the 4 works process/ file / memory / I/O management
+Are present in kernel , so we call it monolithic kernel
+This the oldest kernel type
+All the four works of OS lies in it, we are calling it monolithic
+Now what is its speciality ?
+The one advantage is that , all the 4 works are being present in
+So the communication between these works is very efficient
+How? if I take a small example
+There are two things , user mode and kernel mode
+These are basically two different parts of OS
+Kernel mode has the more hardware access , user mode interacts
+OS keeps them separated , whenever CPU is in user mode , then it
+When it goes to kernel mode , then it only do kernel mode work
+We do the switch between kernel and user mode by software
+Now what is software interrupt?
+Software interrupt
+Whenever you are working in OS , if you have to say something
+Till now your this work has been  going on , now remove it and do
+You are studying , and your father comes and say leave all the
+So this is an interrupt , so these types of interrupts are used in
+There is hardware interrupt also ,it will be like suddenly your
+Then RAM will send an interrupt , this interrupt will tell the OS
+So you have to stop the execution , so we call is interrupt
+To notify the process in the middle , this type of work  is called
+So what is software interrupt ?
+Interrupt generated by some software means
+It is not made by hardware , OS is generating it by itself
+So it is switched between user and kernel mode
+Basically switching is going on, sometimes it is working in user
+Lets see the example ,When you are writing command in CLI,MKdir
+This is a directory command , a folder is made by this
+When you are writing the command , then you are in user mode
+As soon as you will press the enter
+It will decode MKdir
+Then it will see that a new folder is need to be created , making
+It will go to File management , it will switch to kernel mode
+It will basically go to file management part , and say to create a
+So you saw an example of switching between kernel mode and user
+As directory will be formed , a feedback will go , that directory
+So to tell this it will return , basically it will switch to
+1st we were in user mode ,.,then switched to kernel mode
+Then kernel deed some work , then we again switched to user mode
+So this is called kernel and user mode switching , it is basically
+As you give some command , if kernel has some work then you switch
+When it is completed you switch to user mode
+So basically in this way it works
+How it happens?  it happens through software interrupt
+So we basically saw the biggest advantage of kernel
+Because everything is here , so communication is more efficient
+So the 1st advantage is ,fast communication between different
+things are centralized here , there is a big disadvantage also
+Kernel will be bulky
+One more disadvantage can be , it is less reliable
+Assume that memory management is not working because of some
+So the whole kernel will stop working because everything is
+So if any component stops working , then all will stop
+So it ia less reliable
+One example is Linux and Unix , MS DOS
+All are the examples of monolithic kernel
+So we have understood monolithic kernel
+2. Micro kernel
+Now what is micro kernel?
+Here we keep the major functions in the kernel , and rest
+If I try to make it diagram , so it will be like this
+User space , this is kernel space
+The core functionality that kernel has are memory management and
+I will put both here , this is related to RAM
+This is related to CPU, so we put only core functionalities in
+The rest functionalities , file and I/O management are put here
+I put memory and process management in kernel , and in user space
+So in this way I deed some bifurcation
+What is the advantage of this? here it is bulky
+In advantage I can say , here it is less bulky
+and more reliable
+How? I have reduced the chances of failing of things ,how?
+I put file and I/O management here , if there any crash comes in
+Then kernel will be still working , because main functionalities
+Now can say that things have become more reliable , so it will be
+but there will an impact at its performance
+If I talk about disadvantage
+Performance will be less here
+How performance will reduce? because here things kept switching
+lets take an example , if any process is going on
+It starts in user mode , 1st it will go to process management , we
+Then we will send it to memory management , it also needs memory
+1st process was in user space , then it switched to kernel mode
+now process is going on , it needed to do I/O , that it has to
+Now again it will switch to user mode
+Now your I/O is done , and it has to deallocate space from memory
+It will again come to kernel space
+Now it got the memory , in command it has given to write file
+Then it will go to file management , then again it will switch to
+If you see carefully , I am switching between user mode and kernel
+Here you have to switch again and again
+Because of this your overhead is becoming bulky , both kernel mode
+Here also you have to do one type of context switching
+So because of this you increased the overhead , what is overhead?
+You have to switch again and again , there is a cost of every
+So performance will be reduced
+Basically in micro kernel your performance got reduced , here
+Between user and kernel mode
+In starting it was looking less bulky , more reliable ,stable  you
+You want it to be less bulky ,more reliable but would you want
+Till now everything was good
+We have studied micro kernel , but now we are unable to understand
+So it has a next part also , but before reaching to that next part
+L4 Linux, Symbian OS, etc
+Have you used NOKIA mobile ? touch phone used to come
+In which there were good games , so NOKIA had used Symbian OS at
+Symbian OS comes under micro OS , its performance was very bad , I
+So in this way we  have seen two examples
+Now one very interesting interview question is coming in my mind
+The two processes which are being going on in user and kernel mode
+In kernel memory management is going on , basically how they
+There is one question, How communication is being done between
+Now if there is need of communication , the file management
+Then how communication will be stabilised between them?
+There is a method that OS provides , OS process management part
+I call it IPC- > Interprocess-communication
+Now what is interprocess-communication ?
+Till now we have studied that two processes are being executed
+So both have different resources , memories , so for each other
+But many times they have to communicate with each other , so how
+There is a method IPC ,so it will be done by IPC
+What is IPC ? Interprocess-communication , here what happens
+This is P1 and this is P2 process , P1 is running in user mode and
+And both want to communicate with each other
+There is a method for interacting 1.Shared memory
+What is this? I will put a memory in the middle
+Assume that P1 has to communicate something from P2 , P1 is trying
+So P1 written the data in the memory space , 123
+123 is required to P2
+1st P1 will write then P2 will come and read it
+So by shared memory I passed the message , so I accomplished it
+So this is the shared memory method, 2nd method is
+2.Message passing
+now what is massage passing ?
+OS provides you a method /function , we also call them system
+if you have to talk between two processes , we can do message
+What is this?  we establish a direct pipe between them
+Basically we made a channel
+Through this we communicate them
+There are some proto calls to do this
+We use the system calls to pass , by message passing we can talk
+If someone will ask you if process in running in user space and
+Interprocess  communication can be done in two ways , shared
+Both methods are supported  in different scenarios
+Lets continue , we have studied two types of kernel monolithic and
+And we are unable to decide which is better
+Whenever happens that we have two extreme things , each has some
+Easiest way to solve this is to merge them , take the advantages
+And create a hybrid system
+3rd type is Hybrid kernel , now what is this?
+It contains the advantages of both monolithic and micro kernels
+So in this way we will take a combined approach
+In Hybrid , we will put file management in user space
+And rest in kernel process/memory/ I/O management
+Till now we have only put process and memory management in kernel,
+File management is still there , here we have taken a combined
+This is user space and this is kernel , so what is the benefit of
+Now there is only one part in file management , so the overhead
+So speed will increase
+We kept the advantages of both , and made a hybrid approach ,
+Stability also increased
+If I/O management fail ,then kernel will also fail
+So we kept the advantages of both , and made a hybrid approach
+here overhead will be reduced , lets see some examples
+Mac OS ,Windows NT, 7+ are called windows NT
+So we put the advantages of monolithic and micro kernels here
+And Mac and windows are using this approach
+There are two more kernels
+Nano and Exo kernel ,these are not much important as interview
+But still this is your H/W , read it in detail, try to take the
+We will study about calls , how user space and kernel interacts
+We will study about it in next video
+Lets see the notes , we have made the notes of lecture -4
+1st we studied user space then kernel
+What comes in user space , CLI , GUI
+In user space your applications run , user is working in user
+Kernel is the heart , very 1st part of OS to load on start-up
+Kernel is the 1st component of OS that starts
+Then we saw what is shell?
+This is a implementation of CLI
+Operating system that receives commands from the users and gets
+What are the functions of kernel? it is an important topic
+1. process management , basically creating/deleting scheduling
+Synchronize it
+Then memory management , this is an important task ,
+File management is also written her , you can read it
+Manges and controls I/O operations and I/O devices
+3 things come under this , we will discuss it later
+Buffering is one part
+caching , spooling , what is spooling?
+We spool data between two jobs in advance ,
+Its example is print spooling , when you command printer for 10
+Printer basically spools them in an area , the 10 jobs because you
+What is buffering ?within a job /process , we have to use a data
+So we buffer it in advance
+eg. Youtube , then caching
+In this video I gave a brief about it
+Then types of kernel , its an important topic , you should know
+What are the examples which are available in market
+monolithic kernel , these are the disadvantages
+here we get high performance , but it is bulky
+eg. Linux ,Unix ,MS DOS
+Then micro kernel , major functionalities are kept in kernel rest
+Size is small , it is reliable , stable
+but performance is low
+Overhead occurs
+eg. L4 Linux ,  Symbian OS , MINIX
+then the Hybrid , we combined both to make this
+Its advantages are , it is the best
+We have put the advantages of monolithic and micro kernels in it,
+Modularity and stability of micro kernel
+Its eg. Mac OS , Windows NT/7/10
+Then there comes these two kernels
+Study it , and tell me in the comments , what are these?
+Then we studied how communication happens between two processes
+Basically there will be some processes in component F and there
+Then how communication happens between them , it is done through
+There are two ways to do it, shared memory and message passing .
+Hello ji , how are you all? this is Lakshay
+Welcome to our OS placement series , today we have reached lecture
+Today we are going to discuss very important topic ,System calls
+You must know this terminology and also the in depth
+Before double clicking on system calls , lets discuss what we have
+In last video we studied two things in components of OS
+2.kernel space
+There is a distinction between them , because these are separate
+Here we basically do switching , we have discussed it
+Application is running in user mode but the actual work is done by
+In user space if any app was running, it has no access to
+So how can I bypass this distinction ?
+Its answer is system calls , how?
+System call it a interface by which I provides the mechanism to
+The apps which are running in user space TIKTOK , then I will
+So that it can interact with kernel space , because kernel space
+So we have understood it, if I have to interact with kernel space
+To take memory, to request CPU cycles , if any user app has to do
+Then it need to go to kernel
+Kernel and user space are two separate things
+So system calls provides the mechanism between them to interact
+So system call is the only way by which we can switch between user
+I say if I have to do anything, lets take one example
+I need to do malloc , before coming to memory TIKTOK requires some
+When it will switch from user mode to kernel mode , system calls
+It is the only way by which we can switch from user to kernel
+So we have understood it , basically what is system calls
+This video is sponsored by Coding ninjas
+Many product based companies like Amazon , Adobe ,Commvault
+Focuses on technical interviews on OS part
+So to clear these interviews , your OS part should be strong
+Coding Ninjas provide you comprehensive and in depth course ,
+All theoretical concepts are taught based on Linux OS
+One on one doubt session is also provided
+who will teach you are from big companies
+You will get more than 12 hours content
+You will solve more than 150 problems
+You will hand on more than 12 projects
+You will also get different course related to CSE
+If you are interested in paid courses
+Then I will put the link in the description, you will get the
+If  I take one example ,your aim is to create a directory , a new
+You have brought movies from your friend and you have to copy them
+movies named . How will you make it?
+You have to click on my computer , then right click , basically
+It is a easy work but who made it easy? GUI has made it easy
+It is looking easy but it is not, it is looking easy because of
+When you click on new folder button in  GUI
+Or 2nd method is you are using CLI
+I will open the command prom and run the MKdir command , it is
+I will write MKdir  movies , and form the folder
+Both are doing the same work but GUI method is for standard users
+And this is for pro users
+So you created the new folder but as easy it looking
+It is not, how?
+Because the button GUI is using of new folder , it is calling
+what is MKdir doing? you have a user space and a kernel space
+There is hardware
+User space , kernel space and hardware
+There is a layer , both are separate
+Whenever you clicked on movies new folder
+Or ran  MKdir movies then what happened ?
+as you clicked the new folder button or ran Mkdir command , User
+To an interface , this interface name is SCI ->system call
+Take me to implementation in the kernel related to MKdir
+SCI is basically an entry point of kernel space
+So your this command went to SCI, tell me what I need to do
+There will be an implementation corresponding to MKdir in kernel
+SCI will tell to find the implementation
+After that kernel space will run it
+Then what will happen ? basically at whatever position you ran the
+It will go there , there it will add anode in its tree which name
+Assume you are running the command in root, so this movies folder
+And in GUI you will see GUI folder
+So this type of complex work is coming on , basically kernel is
+In kernel there is an implementation which is doing it , basically
+So the actual implementation of MKdir is written in C
+Can I say that all system calls are implemented in C
+This is more low level C than we use
+Where it can directly access to hardware
+System calls are basically implemented in C language
+But what you are seeing is just an implementation
+It may be possible that multiple processes and code are being
+What you are seeing is basically an interface to that C
+So this is a small introduction to system calls
+Why it is necessary?
+Because there is no other way to go from user space to kernel
+Because both are separate areas
+Kernel space has the access to hardware , if you have to work on
+Then you have to use system calls , your user app has to use the
+So this is your small introduction to system calls
+If I take one more example, if you executed a small process
+Assume you have compile Hello world .exe
+You ran it, it will find a system call of execution
+Which will be provided by SCI
+It will switch to kernel mode  the work
+Then we will go to process management , it will create the
+For that you will allocate some memory in RAM
+If that process is accessing hardware or any other I/O devices
+All these work will be done by kernel
+A process will be created finally, as process is created
+Then we will again switch to user mode, why?
+Because kernel mode work has been finished
+Now all the information will be given to user space
+You will see it in task manager or activity center this particular
+Or the GUI
+So in this way flow goes
+You have clicked on .exe in user mode , then you went to kernel
+Through system call , system call is an interface
+Kernel will do all the relevant work
+Then again you will give the information to user mode
+Then we will again switch to user mode , finally it will stop
+All these works are going on in background
+How this kernel mode and user mode switch happens?
+Whenever you execute a process , we call a software interrupt
+Nothing you are doing a work , you told CPU to stop , and do this
+So we switch from kernel to user and vice versa using software
+So in this way it works
+These are two examples of system calls
+We can discuss the categories of system calls
+Lets take a look on notes , here a nice definition has been
+If interviewer ask you  how do apps interact with kernel ?
+Your answer will be system call, he/she will be happy and ask you
+In example we have written MKdir , you made folder , it will be
+Similarly we are creating processes
+Basically how we will switch from user mode to kernel mode,
+Lets see its definition
+System call is a mechanism using which user program can request a
+system call is used for it
+Lets see its diagram
+In diagram you will get one more extra information , there is user
+From user app you are calling system call , if I talk normally
+In a common Linux system , it a C implemented library
+It is basically used to call SCI, system call interface
+So you 1st call the Glbc , or your in user mode , then a software
+It tells us to move from user to kernel mode so we call SCI
+SCI see that the corresponding implementation of MKdir which is
+It will be mapped on kernel , kernel will run it
+That work will be done on hardware , that particular folder will
+So in this way movies folder will be created , and will  return
+So this is our one example from this diagram
+Lets move to types of system calls
+There are 5 types
+1. process control , 2. file management , 3. device management ,
+Process management is related to creating the process ,deleting
+Set the attributes of process
+2nd category is file management , now the example which we taken
+Creating a file ,deleting it ,opening and closing, read and write,
+you want to read from 20th position ,for that reposition is used ,
+Security, if you see any files , there are permissions
+Assume there is a file lak.txt, its permission is only to lak
+So there are such calls which is used to create securities
+We will also discuss some examples
+There is device management, reading and writing in a device
+Getting and setting of its attributes , attach and detach
+These are done in device management system
+What happens in information management ? mainly information of
+Information management is used for that only
+Then there is communication management, in last video we have
+So what was inter process communication?
+There are two separate processes  working separately , and they
+So basically it is the mechanism for this
+For doing that there is communication management
+One example , there are processes A and B, and we need a pipe to
+So creating it , deleting it , maintaining it is done by
+Remote devices like LAN comes in communication management
+Now if I take some examples , I have tried to take the examples of
+In process control there are createprocess() , fork()  are used
+for exitprocess() exit() is used Waitforsinglobject() wait()
+Fork() creates any process
+When any system runs , when PC on , there is a root process ,call
+All new processes that are formed after it are the child
+Fork(0 creates the child of any process
+You on terminal
+You are making a process , basically some executable
+And you are running it , then I can tell terminal, it is its
+So fork() always forms child process
+Exit() is to exit the process
+It will deallocate memory, basically it will write that it has
+There are some examples of file management open() ,read()
+It means that we can read and write it or only read it , these
+chown() changes the ownership
+The example that I have given that this file can be accessed only
+Some examples of Device management read() ,write() ,ioctl()
+In information management getpid() ,alarm() ,sleep() ,there is
+Normally if you write date in terminal, then it will show date and
+In communication we talked this is A and this is B , we use pipe
+I have told in IPC there are two ways ,shared memory and message
+Shared memory is done through shmget(),this is used to access that
+There is mmap() ,it maps and unmapas devices in memory
+I will give you one H/W , seach about all the system calls
+No need to know very much , what ever I have discussed you should
+Read about all
+You will get the intuition which system call do what
+No one will ask you to tell the name of all the system calls
+Amin is the working of system call
+Let me give you an example, of system call in process management
+I want to give the example of process control system calls example
+If I open the terminal, lets move to desktop
+I make a script Hello. sh
+I am making a temporary document , when I will edit it
+And we are doing like this
+file ,true  ,then do  ,then I will print Hello Code help
+Then sleep
+Then done
+till now I have created a temporary document , it will be formed
+Because I was in the desktop , basically file management work will
+I am in desktop ,and I am going to save it, it will go to that
+There it will create the file and save it
+Now how we will save it ,
+wq! save , now you see a file has came
+Here we just created a file by using a system call , here open()
+Then we typed it then write() has been used , when we edited the
+So implementation corresponding to write() has been used
+Now I have created a file , now I will run it
+Now what will happen ?  think, now process management system call
+The child of particular terminal will be formed , we will use
+A process has been created
+Bhaiya you are lying , let me give youb the proof
+See how process is formed , there is a command ps -a, here process
+We also got the P ID
+When I ran the ps -a command , for formation of this table
+And it has brought a particular p ID , which is written here
+You can see how works are going on
+1st file management system calls has been used , then process
+Then the information management system calls
+As I have told you fork() makes child of  a parent
+ps-a al  ,here you can see a p ID
+p Id is its process ID
+now we want to kill it
+I will use kill()-9 command
+Because I want to kill forcefully
+In next terminal it has been killed
+Kill is also a system call
+As you kill , it went to kernel mode from user mode ,, particular
+So in this way things work , given you a small example
+In H/W read about all the commands , you can also read from the
+If I use man then kill , then here will get the information
+It process a signal , there are different type of attributes ,
+3 -> quit ,9->kill ,abot, etc
+Read all these topics , give it time , all are not necessary but
+So this is a video on system calls , I hope you have understood
+You will search about them in net and read
+Also run them if you want
+Hello  ji ,how are you all ? this is Lakshay
+We have reached our OS lecture no-6, today we are going to discuss
+When you On your computer , switch on to open of screen
+What happens in between them ?
+In short if I say, what happens when you turn on your computer ?
+We are going to discuss about it, so this is going to be a very
+here you will practically know , when you on your system and you
+The complex things that happens in between , what are they?
+Nowadays computers open quickly , if I talk about Mac due to M1
+It opens very quickly
+But instead of being fast there are many things which happens and
+Today we will discuss about them, but before starting lets give
+This video is sponsored by Crio worlds leading project driven
+If your are targeting a good job ,Or want to master development
+So Crio is the place for you , here you will get different type of
+Full stack development program , Backend development program
+the development which you will do here  will be of internship
+After every program you will have enough projects , that your
+There is a fellowship program , in it you will get guaranteed
+You will placed in a product based company , all programs are
+You will also get the assured scholarship
+If you are interested then I will put the link in the description,
+A coupon code is being displayed on screen , you can get the
+What happens when you turn on your computer , we will know it in 5
+1.Power on
+You on the switch and on the system power button
+Your supply will go to power supply, it is a component of computer
+Now mostly all use laptops , if you have seen the system , the
+The wire is connected to a component , from which many wires are
+some to GPU, 1st electricity will go to power supply, its simple
+So power supply will go to mother board , hard disk , storage
+Lets move to 2nd step , now CPU has also gotten the supply
+CPU is the main component for turning on the computer
+CPU loads BIOS and UEFI
+2nd step is looking complex , CPU loads BIOS and UEFI , these are
+Which is not OS , before that there is small program present in
+This is BIOS chip, it is an non volatile chip, I will call it ROM
+You know the difference between RAM and ROM, this is non volatile
+Program is stored in it
+What is UEFI?  it is the upgraded version of BIOs, traditionally
+Basic input output system
+Unified extensible firmware interface  ,BIOS were used earlier
+Like if I talk about intel UEFI , there are some addition
+To manage computers connected on LAN
+UEFI is advanced version of BIOS
+When I will be talking of BIOS or UEFI ,that both have the same
+So CPU loaded BIOS , the 1st work will be , there are programs
+1st CPU will be initialized
+When CPU is initialized, it goes to chip
+Which ill call as BIOS, CPU is going to BIOS chip ,why?
+Because it wants to load the program that will the further work,
+1st step , you on it , CPU went to non volatile storage , loaded
+3rd step ,
+BIOS or UEFI runs a test, so that all the hardware got
+loads some settings from a memory area
+basically loads some settings  , it is backed by CMOS battery
+Lets understand this ,till now your memory is not loaded and disk
+So there is a storage area backed by CMOS battery  ,complementary
+basically its a battery , it is there in CPU
+if off the power, then also it will be in CPU, storage , settings
+The clock you see in system , when you on it gets synchronized
+But beside that also clock is running in CPU, whenever you will on
+You have to sync it, it may be possible there is no internet
+All settings of BIOS are stored in this area , charged by CMOS
+did you ever tried? I have tried
+The 1st computer I had got , I opened it
+The is small cell , that it CMOS battery, if I removed it, and
+I used to think is it working due to small battery ,I am providing
+basically it is not getting the settings , we reset the area where
+So this CMOS battery is important , there are some settings to on
+So you loaded the settings , these are some low level settings
+Now what will happen?
+As soon as you on the settings , BIOS program will be loaded with
+Some instructions are written in it , these instructions will
+Power on self test ,now what is this?
+Related to every hardware there will be some test cases
+Like , RAM is working or not ,I will go to it and run some test
+I will see by writing some thing or deleting some thing, is RAM
+If it is available  then it will move ahead ,if not then it will
+If you remove RAM from the computer , then your computer will not
+So here it tests that is there all essential hardware or not
+So these are your 3 steps , in 3rd step you initialized you
+Move to 4th step ,till now BIOS have done all the works ,BIOS is a
+4th step ,BIOS or UEFI will hand over thing to actual boot
+here important works are going on, what is boot device?
+Boot device is the area or device where OS boot related
+BIOS saw everything is initialized , every hardware is working
+Now I need the actual program which will ON OS
+I need that program , how it will find it?
+Which one can be boot device?
+Your disk (HDD or SDD) , CD or USB drive
+When there is no OS ,then we are booting through USB or CD drive
+Because BIOS has done the all work, now it actually need a program
+And we call this program boot loader
+It will find the boot device , there will be instructions in it
+Now all work will be given to boot loader , and it is also a
+Now where boot loader are present ?
+1st place is MBR ->master boot record
+It is an area of disk , where your boot loader actually exists
+It is trying to find an area , where actually boot loader is
+From here BiOS gives instruction to CPU to on the boot loader,
+MBR use to be in old systems , it is still in use but mostly used
+When I am using two terms BIOS and UEFI , BIOS used to use MBR
+UEFI uses a new program EFI, lets understand it
+EFI-> Extensible firmware interface , UEFI uses it
+Till now in MBR we had this disk , MBR is at 0th index
+You have seen partitions in disk, c drive ,e drive
+EFI is nothing , we just created a separate partition
+And in this partition boot loader is present, basically the
+Master boot record is at 0th index
+MBR is used by BIOS  in old systems
+But  EFI is used by UEFI, EFI is a separate partition
+There boot loader is present, BIOS had done all work now it has to
+It got the boot loader at two places in MBR or EFI
+As it got boot loader , BIOS will say that it has the boot
+Now 5th step this is the final step
+Boot loader loads the full OS
+Till here BIOS has handled all the steps , now boot loader will
+Boot loader is a program which initializes actual OS
+It is not a single program , in Windows their is bootmgr.exe
+In mac boot.efi program which manages this work
+If I talk about Linux , GRUB do this
+UP to 4th step everything is handled by BIOS , from 5th step boot
+Because every OS is initialized in different way, every
+Here our all processes finishes
+Now system is being handled by boot loader , boot loader will do
+It will see where your GUI is , it will on it
+It will also on the chats , some devices
+It will on some programs , so all these works are OS specific, so
+In 5 steps your OS is turned on
+Tell how are these steps? , these are very much important
+As a computer engineer you should know it, it is a simple
+I have also created its notes , you can read it
+Whatever I have explained , all are written here , if I want to
+That all these terminologies , UEFI  ,MBR , read little more about
+So lets stop here , tell me in comment section , what you feel
+Hello ji , how are you all ? this is Lakshay
+We have reached to lecture no-7 of our OS series
+Today we will discuss a very interesting topic or question
+32 bit vs 64 bit OS
+Basically what is this? why I am using it?
+If I make CPU chip , it looks like this
+Embedded on motherboard , there are many transistors inside it
+In billions
+what is transistor ? It is individual digital circuits , you have
+By implementing those circuits we create resistors , there is a
+It basically holds the addresses , when you do addition ,
+And in this way computation is done
+If I make a small resistor , it is a memory block . If I see
+This is a resistor
+This is a four bytes resistor
+what do you mean by that ? At a time we can store 4 bytes in it
+32 bit system  resistors can hold upto 32 bit data
+This is the 1st byte , there will be 8 bits
+1 byte=8 bits
+This is a 32 bit processor , if the  hardware is of 32 bit then we
+As we have talked in our previous lecture , 1st hardware is formed
+So we have understood this that there is a resistor
+Where actual computation is done , it looks like an array of
+There will be 32 indexes
+Similarly if I says 64 bits , there will be 64 bit array
+And in 64 there are how much bytes? 8 bytes
+So there are two separate processors , this is CPU 1 and this is
+In one resistor is of 32 bits , and this it is 64 bits
+So these are two different architectures , one can hold 32 bits at
+If I says both are different architectures
+So these two type of CPU exists . The OS which we use in 32 bit
+Many product based companies like Amazon ,Adobe , commvault
+on OS part . So to clear these interviews , your OS part should be
+So it provides comprehensive and in depth course
+Which covers all these concept , all theoretical concepts are
+One on one doubt session is also provided
+The educators are from big companies
+You will get more than 12 hours content , 150+ problems , 12+
+Here you will also get different CSE related courses
+If you are interested in paid courses , then I will put the link
+What are the benefits?
+We understood the array part
+CPU fetches data from memory addresses
+This is your RAM  from 0 to nth address , there some data
+I have to fetch them , this is my CPU
+It can fetch data from 0 , from 0+1 also , like this it can also
+this is 0th address , this is 1st , 2nd , nth address
+The 32 bits CPU , in this location there can be 0/1
+In 32th block also there can be 0/1
+So if I say , if there is one block then 2^1, and if 32 then it
+Are the no. of unique addresses my CPU can locate
+It means that one 32 bit CPU can locate 32 unique addresses
+A 32 bit CPU can support only 4 GB RAM
+It is not good , nowadays you will see 16 GB RAM in mobiles
+So we have understood A 32 bit CPU can support only 4 GB RAM
+So this is our limitation , to remove it we created a larger
+If I make it 0-64, then I can allocate up to 2^64 addresses
+If we calculate it , 2^64= 17179869184 GB
+You will get mad while making this size of RAM
+So this is a great solution , that we doubled the size of
+Now we can support greater amount of memory , can allocate more
+Till early 90s 32 bit system were common
+Recently also I have used 32 bit system , in it 4 GB RAM is
+But gradually the demand increased we improved the hardware , and
+Your 32 bit system can take 32 data at a time
+Now you have to plus two no.s , one is 32 number and you have two
+It is easy . Now if there is a 64 bit no. and we have to add them
+This is your 64 size array , this is the data
+this is basically your operand  on which you want to do the
+If you have written a+b , and the value is greater as 64 bit and
+Then to adda them in 32 bit CPU is a difficult job
+1st it will take this 32 bit part then add them , then it will
+Then this 32 bit also , then two cycle is needed to add one 64 bit
+But if I do the same this work in 64 system , this is the
+this is the data , CPU will take the data in resistor
+And will do the operation in 1 sec
+In case of CPU cycle is very important , that how many cycles you
+The T.C you think , which Babbar bhaiya is teaching you , here we
+If I have two carry 64 bit data , then I need two CPU cycles , and
+So 64 bit is more efficient , and can do greater amount
+So this is your introduction , basically all is the game of
+In CPU where actual calculation is done , all data is loaded in
+What is the advantage of 64 bit on 32 bit ? we have discussed two
+Lets discuss more
+1. addressable spaces
+32 bit can address 2^32 different locations
+The RAM in the CPU , there are 0-2^32 addresses
+0th address is the 1st address , then 2 , 3 ,4 ,.5...
+How will a 32 bit resistor load it? this are 4 bytes
+00000001
+This is your 1st address
+i am writing in hex , the last address will  be FFFFFFFF
+This is your last address . If I say here 2^32 addresses are being
+If I talk in 64 , it will go from 0-2^64 -1
+We have to insert everything in 8 bits , this are my 8 bits
+0000000000000001
+In same way the last address will be FFFFFFFFFFFFFFFF
+So I can visualize in this way the addresses
+So here we saw the differences , in 64 we can allocate this much
+2. this is extension of 1st difference . Resource usage is
+In 32 if I install an extra RAM , it is not useable
+I can do this in 64 bit
+I put one more 4GB RAM , I can use it in  64 bit system , so
+3. Performance
+if I have to do calculations , CPU work is to do calculations
+So it is fast in 64 bit because it can process more amount of data
+If I have to do add subtract , then also it can do in one go
+In 32 bit I have to break 64 into two part to do operation
+performance wise 64 is better than 32
+if I summarize this then I can say , your 32 bit processor in one
+64 bit can process 64 bit data at a time
+So it can do double amount of work in one cycle
+Cycle is very important in CPU , if i want to define cycle
+In CPU in 1sec there can be billions of cycles depending upon your
+1 gigahertz ,2 , it means how much cycles it can perform in one
+One instruction cycle can fetch more data inn 64 bit , then 1 sec
+Because in 1sec 1000s of cycle is performed , so 64 bit is better
+Lets come to notes
+We have discussed 1 ,2 ,3 points4. compatibility
+64 bits CPU can run both 32 bits OS and also 64 bits OS
+Because from 0-32 will be filled and rest will be empty
+5. 64 bits system has better graphics performance
+In graphics heavy computation is done , the games which you play ,
+In 64 bits 8 bytes graphics calculation will be done at a time as
+Here graphics calculations will be better , so applications will
+So these are your 5 points which are indicating that 64 bit system
+These are some points , you have to tell this in interview , 3-4
+Main points are addressable , performance these are important
+Hello ji , how are you all? this is lakshay
+We have reached to our lecture no-8, we are going to discuss a
+Today we will discuss the types of storages
+What is storage ? you all know , file is stored there
+data is stored , instructions
+So how many types of storages are used in PC
+This video is sponsored by Crio , worlds leading project driven
+If you are interested sde profiles , or QA
+So Crio is the place for you, here you are going to make many
+Also you will build set of guided and also independent work like
+Saalanium with Java ,etc
+Here is a program also that guarantee  the placement, you can make
+At the end you will have many projects , your resume will become
+If you are interested then there is 1 week free trial program ,
+I will add the link in the description , you will get the maximum
+Get the placement , then give me the party , thankyou
+Types of storages
+If I talk  then you have listen RAM ,harddisk , but apart from
+If I make a hierarchical structure , let me show you in the
+You will see something like this
+1st resistor , then cache , main memory which is RAM
+then disk of different type , resistor component is near to CPU
+Resistor is the smallest unit of storage , it means CPU is working
+There is array type structure containing 0/1
+You all know that PC works on 0/1 , it only knows high voltage or
+So in resistor 0 and 1 are stored , and CPU is working directly on
+I can say that resistor is smallest storage of unit
+All instructions are fetched in it , and CPU works on it
+Cache is the second level of storage
+Cache is an additional memory that it use to store data
+It can be instruction , data , it is used in those cases which are
+Whenever you run a program , there are many instructions
+It is working on many data , there are two things data and
+Sometimes there are repetitive instructions , if sorting algo is
+OS is intelligent , it identifies that there are some instructions
+Instead of fetching them from the main memory keep it more closer
+Not all the instructions , some particular instructions which are
+I put them in cache , now CPU can take it from there , there is
+Accessing from memory is costlier in these primary memories
+Accessing anything from cache is less costlier , here access time
+For fast execution we keep the repetitive part in cache, so that
+Then comes the main memory , here processes resides
+CPU contacts to main memory , from there CPU gets the
+After main memory comes the secondary memory , Hard disk . Here
+As we discussed in previous video , program ->under execution
+Program is in secondary memory , then I brings it to main memory
+Here are your files , media ,programs
+Your projects
+We particularly discussed everything , I can say that storages are
+1. Primary memory , 2. secondary memory . There are 3 memories in
+1. main memory , 2. cache , 3. resistor . Resistor is closer to
+Cache little far where we keep the repetitive task
+Then the main memory . In secondary memory , there are many disks
+So this are different type of storage devices
+Now we will discuss their comparison , we will do it on 2-3
+1. cost , here I am talking about money , what is the cost of
+Resistor is the costliest , why?
+Because it consists of transistors , which is closest to CPU
+Inside there is silicon ,rare metals are used
+So I create it with best material , that why it is costly
+Then the cache , it is cheaper than resistor but costlier than
+Main memory
+Secondary storages are cheaper , you can get 1 TB hard disk in
+2. Access speed
+Resistor has the speedy access, then cache then main memory
+Secondary in last
+3. Storage size
+Resistor has the smallest storage , it is of 32 bit or 64 bits
+Cache has little more in some KBs  then main memory in GBs
+And you know about hard disk 1TB -2TB
+Why it is like this?
+1. Because of cost , it is costlier , to make 1 TB resistor/cache
+4. Volatility
+Vanish off . The primary memory data are vanished after shutting
+So these are your 4 points , we studied the comparison
+So you saw different types of storages , and you have got the idea
+Which has greater size , why it is greater ? which has the fast
+With this we will end the video , we will meet in the next lecture
+Hello ji , how are you all? this is Lakshay
+Today we have reached to our lecture no-9, today we will
+What is process ? How it is created ? Which steps OS flow while
+Which data structures are used ? when we move it from one state to
+we have already discussed about some of that little bit , but
+Many product based companies like Amazon , Adobe, commvault
+To clear these interviews your OS part must be strong , so CN
+Which covers all the concepts, all theoretical concepts are being
+Here you also get one on one doubt session support , educators are
+In this course you will get 12+ hours content , 150+ questions ,
+Hre you will also get different courses related to CSE
+If you are interested in paid courses then I will put the link in
+Start with process ?
+Before learning process tell me how we write program ?
+If I simply write C++ program , you create a .cpp file
+And give this to compiler
+it compiles it , and create an executable
+This final  product , we call it program
+Program is a code /data ready to execute
+The code written in text file is not ready to execute , it
+Its work is to make it executable
+Program is an executable , it resides in disk
+Like you have GTA in my computer , when you double click then it
+The program is in the disk , what is the process ?
+I will take the example of TIKTOK
+The app is a program , it is basically in the storage , it has not
+You will tap on it , now the process will start
+OS will convert program into process
+This is small definition , program under execution
+you can simply tell this
+So this is our process , process is an unit of work done by
+You want computer to do some work , Pc is  a logical association
+And you want computer to do some work , process is used to do it
+Now if you have understood the what part
+Lets discuss one small part , why?
+Its simple answer is , User want to do some work , there is a way
+Process is executed by OS ,
+This is basically the introduction to OS
+We studied that program is inside the disk
+Lets know about the steps that are involved between program
+All works have been done by operating system
+How OS creates a process ?
+There are 5 steps
+1. Load the program and static data to memory
+Memory ->RAM , your program data will go to memory , while loading
+The data used for initialization is called static data
+lets understand it , you write code in  C++ , IO written a code
+=" Lakshay" , allocated it
+This is written in your program , you have not allocated it
+It is written , I will call it static data
+When program is loaded all the instructions are loaded , along
+Because when this program will be converted in process , a name
+That data is your static data , OS basically copies OS data , as
+We assign the relevant  data
+This data is copied as static data , whenever is needed
+It should know what is to assign to variable
+So this is my static data , used for initialization
+Assume some array , int a =0, how will we know that we have to
+Static data is copied , so this is your 1st step , lets move to
+We will now allocate stack at run time
+Two things are used in process 1. stack , when you do recursive
+When you call one function from other function , here all data is
+Then you jump to other function
+In this way it works
+Till know process data is loaded
+We have to allocate the stack
+Stack is a part of memory used for local variables , function
+You know local variable , at that time what ever function is
+when you call function , the arguments that you give , return
+Stacks we need to call functions
+Heap is needed to allocate dynamic data at run time
+At runtime we will give malloc ()  or new call and allocate memory
+That part of memory is also allocated , part of memory used for
+These are our 3 steps , 4th step
+I/O tasks , if I take example , in Unix system I/O descriptors are
+What do you mean buy that
+Input means , when ever process needs to i/o
+To enable i/o we allocate i/o handles
+Similarly , where the output of the program will be written for
+And one error handle , if program generates an error
+if I take a simple example of C++, in fprintf(std err, " hang")
+Google the arguments of fprintf
+1st argument can be a file descriptor or an error handle
+The standard error handle used in C++ is , we call it stderr ,
+Basically we handle this type of handles , i/o related task ,
+After this our whole process is created , OS did the 4 steps
+To run the process it has allocated sufficient stack , sufficient
+Now start the execution , so you have seen in C++
+main() , your program always starts from here
+As calls main , from here process is handles by OS
+OS handoff control to min()
+Now program will control the CPU
+Basically process s scheduled , because program is under execution
+Process has the control of CPU , ,memory
+Now process will do its work , OS work is finish here
+So this is your process
+Lets discuss one more thing , at end you write return 0
+What is its meaning?  it means , we had discussed that processes
+Whenever OS created this processes
+It will have some parent , that has created this child process
+i will  call it OS , it is a sub part of OS , so we will call it
+OS called P1 , whenever this P1 will be executed , OS should have
+Why ? because it may be possible that program has written , if it
+If inside program there , there are some function calls , if I
+OS will assume that program has been successfully executed
+It may be possible you have written -1 here  or exit
+OS will direct exit from here , from here 0 is not returned so OS
+So program handles that error according to itself
+What OS interprets from the value that main() returns
+So we understood this , so our process has been completed
+Now process is allocated , it has entered in the memory
+Now what will be its architecture in the memory
+How it looks? Lets draw it
+It is famous
+This is your process architecture , your process is looking like
+1st component is text , text is compiled code
+Which you have loaded from the disk
+I am giving a H/W , open an executable by clicking right in a
+That is also a file , your node pad is not able to read it , but
+This is memory area , there is some part , there it will be in
+Then the data section , in C++ you declare global
+It is accessible from one module to other module , if it is
+In data segment you have global variables , static data , we
+Global and static data , then heap and stack , in the starting of
+Heap and stack are far apart
+So that they can get sufficient space to execute the program
+If you have used recursion
+Many times it has given stack overflow , why?
+Because whenever you give recursive call
+I am at this stage , I stores its all variables
+When call goes , one more stack area is located , and new function
+When you do call again and again , there is no exit condition
+In that case , your stack get larger , after a certain limit it
+When it reaches heap , then stack overflow condition occurs
+There is one more type of error memory insufficient error
+In that case , you have a certain amount of RAM , you process also
+It will not give all RAM to one process , many times you allocate
+There are some programing languages where there is no need to
+But in C++ , in this if you have allocated , then you also have to
+If any developer allocates in heap again and again , and not
+At one point heap will also touch stack and one error will be
+But lets discuss how to avoid it 1. stack overflow , 2. out of
+How will we avoid it?? there is one way , see your code
+So set the base case , so that it can stop somewhere , and unbind
+When you call stack , it is called at different levels , when base
+If you not do it then stack overflow will occur , so write the
+Out of memory error , whatever unnecessary objects that you have
+So this is your architecture of process , now will discuss
+The features required to identify the process
+If you loaded the process , many processes will be loaded , then
+What are points on which it differentiate them
+Lets discuss , Attributes of process
+P! ,P2 ,P3,P4, OS is the manager
+Writes these on a table I call it process table ,
+this is a table type structure , 1.P1 ,2.P2 ,3.P3 , 4.P4 ,like
+It knows the no. of processes present currently
+One entry is PCB -> process control block
+OS keeps all processes at process table to manage them , each
+It is a data structure , which stores all the information related
+In last lecture in which we have studied little bit context
+All data is stored in PCB  temporarly
+Every process has it own personal PCB ,OS recognises process
+To recognize a process I will have to go to PCB , lets double
+Last time we have not discussed PCB , PCB is itself a data
+PCB looks something like this , there are many blocks
+Visualize it in mind , you have seven type of information
+1. what is process ID? It is an unique identifier embedded by OS
+You are 23 unique process , 24 , in this way unique ID is given
+Why used ? OS want to differentiate between two processes
+program counter
+Whenever your program is running , if I go to this
+this is your code , here you have written something
+When it is compiled , it is converted into instructions
+If i give example them , 12ADD , converted into instructions
+It is a collection of instructions
+CPU is dumb
+It simply wants the instructions , it will execute it
+OS associates a program counter related to every process , which
+As it is executed , it adds it , then next , again plus , same
+this is a program counter , currently now I am at which address ,
+Its work is to track it
+Why is it necessary? if it is not there I will be unable to know
+It will look  something like this
+Fetch the instruction from address in PC , then Pc++
+then execute it and I will do it in loop
+1st I will be at zeroth position , there instruction will be
+It is a pointer pointing to that address
+CPU will 1st see at which program counter it is ,. it is at 1
+Then I have to fetch instruction corresponding to it , PC is
+It will decode it and fetch it , then PC++
+Then execute the instructions , then move to next
+It goes like this till program terminates
+In this way program counter works
+Lets move to process state
+We will study it in next video , process basically passes from
+Inside PCB the process state stores current state of process
+Lets come to priority we have red it , it is necessary in CPU
+How high priority job will be decided , corresponding to that job
+From that it will be decided its priority
+Here priority is written
+lets come to resistors ,there are many resistor inside CPU
+SP ->stack pointer , BP-> base pointer resistor , no need to
+Google them , know little bit more , then you will enjoy it
+CR-> control resistors
+Whenever your program is executed , P1 is being executed by CPU
+Its time limit finishes , either it went to wait state , or its
+It may be possible , CPU is doing particular operation related to
+During context switching , it will save it as it is in register
+this is your CPU registers , when this process will get again the
+In context switching we are restoring old state , so in tis way
+Open file list , it may have opened some file
+So things related to that is written here
+device descriptors , some devices may have opened some processes
+Those are listed here , in PCB everything related to process is
+So this is an introduction of PCB
+So these are your attributes of process , you should know them
+We will learn about process state in next video , let me show you
+All things have been written in concise way
+You have  to watch the video , we have written all things
+Architecture of process , attributes , structure of PCB
+So this is lecture no-9, I hope you have understood it
+One thing I want to say in last , whatever you are getting new ,
+Then you will learn it
+My target is to make you understand in easy way , you will also
+We will meet in the next lecture ,  thankyou
+Hello ji , how are you all? this is Lakshay
+we have reached OS lecture no-10, here we will discuss about
+in previous video ,we discussed about PCB , attributes of
+In PCB there is a block , process state , PCB also stores the
+Lets discuss process state
+This video is sponsored by Crio , it is worlds leading work
+Where you can enhance your software skills , and also grab the top
+but by building real projects in real building environment
+at the end of each program , you will have enough projects , your
+You can see the tech that you will use in full stack and backend
+Here you will also get personalized career assistant , so that you
+I will put the link in the description , from there you can get
+So go to the description , and use the link , take good placement
+So what is process state ?
+If I talk about the life cycle of process
+from its new state ,from generation to termination
+What happens between them , we will discuss about that
+lets continue , 1. New state , now what is new state ?
+When your OS is converting program into process , when this
+When program is being convert into process
+We call it new state , process is being created
+2. ready state , what is this ?
+Process is created and we have brought it to the memory , we call
+Process is in the memory , in ready queue
+Why I am calling it ready queue? because it is ready for execution
+There can be many processes in ready queue , in multi programing
+That we can reach degree of multi programing , so this is your 2nd
+3. Running state , finally from ready queue a process has been
+I can say that P1 has given CPU , now it is being executed
+Sometimes i/o instructions come , we go to waiting state
+4.waiting state , it waits for i/o completion , to continue
+5. Termination state /terminated state
+process is finished
+Let me explain with diagram
+This is representing the life cycle of process
+1st we discussed new state , program is being converted in
+Its state will be new state , things are coming from disk
+here it is in new state
+As it is converted into process , then we moved them to ready
+OS has a separate module that provides CPU to the ready
+Now process is in running state
+There are two ways , either it will do i/o , it will come to
+Assume process is at waiting state , there can be 2nd thing that
+It will again come to ready queue , we have discussed that
+P1 time is finished go back
+we are sending it back through interrupt
+The jobs which went for i/o , and is in waiting state , it will to
+There was a comment , bhaiya if it is in running state , then it
+Will it again come to running state , no it will not come to
+now it is the responsibility of schedular to give it the chance ,
+In this way it will work . Now if any process it executed
+Then it will be terminated , so in this way it will work
+If I elaborate the , what I was talking previously , then
+P1 ,P2 ,P3 are there in ready queue
+I will schedule P3, it will go to running state
+It will be removed from here
+P3 got the interrupt of i/o , it went to waiting state
+When it goes to wait state , here run state will become empty ,
+As P3 went to do I/O , within fraction of time , P2 is executed
+Then it will be removed from here
+If P3 completed the i/o, then it will go here
+Now p3 will get chance later
+So we understood the life cycle of process
+Lets talk about different types of queues
+1. Job queue , process is in new state , so all the processes
+This is our job queue , P1 ,P2 ,P3
+All the processes are in new state
+Now they will go to ready state
+So to do this work the code that is used , we call it job
+we also call call it long term scheduler , why?
+Programs are inside the disk , which are ready to execute
+We have to schedule them here
+this work is done by job schedular /long term schedular , why?
+We will come to it later
+This is a big pool , there are many ready to execute programs
+job schedular takes them converts them in new state , then to
+In ready queue you inserted many processes , now I have to go to
+It sis a module , it picks processes from ready queue according to
+The module that CPU provides , we call it dispatcher
+These are two types of schedulers , 1. job scheduler/LTS 2. CPU
+Lets revise it , job scheduler pick many processes from the pool
+Ready state to running state depends on CPU scheduler
+Why job scheduler is called long term scheduler?
+Because it depends on frequency , the time intervals in which they
+Cpu scheduler works on very high frequency
+How? assume there  is a process P1 , it is scheduled here
+Within fraction of seconds while running , it got the i/o , and it
+Now CPU is empty , our CPU scheduler ideal time is more
+when it scheduled P1 , it thought to see P1 after 1 min , if this
+We have discussed that it should not be ideal
+In this case , we will keep the frequency minimum
+As it scheduled P1 , as P1 went for i/o
+CPU schedular will check whether it is empty or not, if it is
+We are calling it short term scheduler because , ideal time is
+It always check whether CPU is empty or not
+t=0 , it put 5 jobs in ready queue , then after t+1  it will check
+One more interesting thing is degree of multi programing , at one
+if I take the example , 5 processes can be there in ready queue
+Who is governing it / managing it . It is done by job scheduler
+because it is taking jobs from pool to ready queue
+Degree of multi programing is handled by it , question can come
+Long term scheduler do it
+Lets summarise it through notes
+1st we saw the states of process states , process revolves
+1st new state , run state , waiting , ready , terminated
+Keep this in mind , from pool to ready queue LTS puts the job
+Then CPU scheduler dispatches the jobs here , CPU will execute the
+then we discussed types of queues , job and ready queue , there is
+Waiting queue , when it goes from running state to i/o , there is
+P1 ,P2 ,P3 , 1st you scheduled P3 , after running for a while it
+CPU scheduler saw that CPU is empty , so it put P2
+When it went to running state , then it came to i/o, now P1 is
+this is also a ready queue, this is basically CPU , this is ready
+this is job queue , so I have these 3 types of queues , we
+We also discussed dispatcher , I told you to be familiar with
+I hope you understood it, tell  me in comment section are you
+Hello ji , how are you all? this is Lakshay
+we have reached OS lecture no-11 , we are going to solve 4
+1st we will discuss swapping , then context switching , orphan
+Differences between orphan and zombie processes are being asked in
+And how it is formed , I will show you live
+We will do it on terminal
+1st discuss the swapping part but 1st I want to discuss that in
+We have two schedulers 1. STS and 2. LTS
+STS is also called CPU schedular and LTS is also called job
+Its diagram look like this , we have a job queue , ready queue
+This is CPU ,this is job queue , it is present in secondary
+Here your LTS works , here STS works
+So this is your logic diagram
+LTS produces mix of processes , user has given many processes , P1
+LTS also has the job to choose the mix of processes
+What is mix of processes? you can have i/o intensive processes ,
+You want good mixer of both the processes to get a good ready
+If I will put all CPU intensive processes in ready queue , then
+If I put i/o then also it will increase , I want the mix
+Job schedular has the job to create mix of processes
+STS is also called CPU scheduler it takes a process , and dispatch
+There is one more type of scheduler , that we have not discussed
+But before discussing 1st give shout out to our sponsors
+This video is sponsored by Crio , worlds leading project driven
+If you are interested in sde type profiles , or want to learn Qa
+Then Crio is the platform for you , where you will make many
+You will also built diverse set of guided  as well as independent
+To master API technics , DevOps , selenium , Java , etc
+Its program comes with placement guarantee , so that you can be
+At the end of their program , you will have many projects , your
+If you are interested , the program comes with 1 week free trail
+Assured scholarship is also provided , I will add the link  in the
+You can get maximum possible discount from there , after placement
+Coming back to the video , lets discuss MTS->Medium term
+We learned LTS and STS, now this
+What is its work? It is introduced lately , in classic OS there
+MTS has been introduced lately , in nowadays system MTS is there
+Many times it happens that you increased the degree of multi
+It has been done by LTS
+You put many things in ready queue , degree of multi programing is
+After increasing , when CPU starting running it , then it saw that
+In that case memory is getting over , there is not sufficient
+Now I have to swap out some processes
+This is your ready queue , there are P1, P2, P3....
+Assume that P1 ,P2 started doing memory intensive job , and you
+If I give practical example , you have ran many programs
+If I talk about android pr IOS phones , when you open many apps ,
+There are many apps that you can see , but it takes time to
+Because it was not in the memory , it was in other area
+P1 ,P2 were more memory intensive , no space left for P3 ,P4
+There is a area which we call swap space
+We will take these processes , and swap them out
+P3 ,P4 may not be executed fully, then both are in ready queue
+It may possible that both have executed half , I will take that
+Swap space is generally a secondary space , SDD  ,HD , so you
+And saved in this swap space , you reduced the size of ready queue
+Now P1 , P2 will be working properly
+Now P1 is terminated
+P1 was taking lot of memory , now I have the space that I can
+I call it swap in, swap out
+We call it swapping , lets understand it again , I have created  a
+You have a ready queue , there are many processes , you have the
+This is waiting queue , i/o, here your partially executed swapped
+You have many processes , degree of programming has increased so
+In this case you swapped out some processes
+To swap out we will help CPU, there are instructions for context
+Ultimate performer is the CPU
+It will swap out some jobs , P3 ,P4
+This is the secondary storage , and we know that secondary storage
+So I pushed processes here , P1 ,P2 will do their work , then
+Whole process is called swapping , it is done by medium term
+The best thing about OS is that there is optimization in even
+I was able to do my work by LTS and STS, but when there are many
+Then I will put a medium term scheduler , I will put the process
+All current context processes will come here , this is type of
+So we have understood swapping , lets discuss about context
+we have started discussing it from 2 or 3rd lecture , but lets
+We have studied about process state , process attributes , PCB
+When I earlier told that what is context switching , that time we
+If I give the practical example of context switching, lets take an
+Or game , while you are playing game your papa comes from behind ,
+If you were listening songs , you will pause it, close the phone ,
+I mean that the context that you have in your mind , you will save
+And you will  go down and take deliver from the swiggy boy, and
+As you completed it, and came back , again put on head phones
+And went back to your previous context , this is called context
+Basically we do it many times in daily life
+If I talk in OS terms , you have P1 , P2 processes
+We have learned that processes have attributes , which I represent
+I will take main things , program counter , register
+here also
+state
+PID , PID
+These are two processes , and have respective PCBs ,PCB1 ,PCB2
+You have a process table , its entry is PCB, it is a data
+What is the meaning of context switching, when CPU has to context
+Process time quantum finished in time sharing system
+A particular process which time quantum has finished , or went to
+because it will not have the CPU, CPU will execute another
+Now CPU has P1 , CPU has some registers , SP, CP
+Assume your program is executing at a particular location
+Its address is 1, save the current context, it will write the
+All CPU registers , in different CPUs , there are different
+Its counts are also different  ,it will store the current value in
+And will change the current state
+It will save the current context in PCB corresponding P1
+Now it has to schedule P2 , P2 would also have been save earlier
+It will copy the value of that time in register
+Program counter will tell that you have to execute from here ,
+It will be given back , that means I have restored P2
+P1 context has been saved , I call this whole process context
+Which system do it? It is done by kernel in OS, all the low level
+Whenever context switching happens , it is pure overhead
+What do you mean by pure overhead? whenever we are doing context
+The program written in kernel that enables context switching, it
+Whenever it happens , then no process it executed in ready queue ,
+CPU is not busy on any process , no useful work is happening
+I am simply context switching, this is overhead
+The user defined processes in ready queue , no one is working,
+This is a pure overhead by user perspective
+Because no useful work is happening
+The speed of context switching depend on register performance ,
+We used to talk that this is DDR 2 RAM ,DDR-3 RAM , DDR-4 RAM ,
+So context switching time reduced , so system became fast
+So we discussed context switching depends on what, it is different
+Speed is different, so on
+This is context switching, we discussed again
+Orphan process
+What is orphan?
+What is Orphan process ? It is a process that has no parent
+Before discussing it, we have discussed that , any process is made
+Any parent process calls forkc  and creates a child process
+In any operating system , any process will be child of some one
+The 1st process is the single process
+If I take example of Linux system , init is the 1st process
+its PID is also 1, after that further processes are created
+1st process is called init process
+We discussed it
+lets move to exact topic
+You have a process P1
+It is in run state
+You fork()  a child process P2 , it is also in running state
+P1 got exception due to its code
+It is the responsibility of programmer  if he/she is making a
+Now how will OS track it, as saw in diagram , 1st there is init
+a tree structure is forming , there will be a process that creates
+So you detached its parent , now what will happen to this
+Will it create more processes ?  OS here shows cleverness
+that you have written like this , ultimately there should be
+But some programmers writes like this , in this case OS is
+OS gives the linkage of parent process to init
+P1 used to parent of P2, it has exited , now  its parent will be
+It is the 1st process of OS
+Os needs the track  of all the processes , I am making init its
+There is lot of tree implementation in OS
+So this is orphan process , lets create it on system
+1st line is just to saw , 2nd line has been commented
+See this sleep 200, if I run it, 1st I will see the PID of
+9161, Ran it,
+And if I see here , 1st find 9161
+Zsh , terminal is open , it ran bash orphan process , its PID is
+Its 9161 , which is PID of terminal
+Here we can see sleep , 9185 which is orphan process PID, it is
+This is normal flow , in few times sleep will exit
+Then it will also exit, its parent also, 9185 , bash will also
+Parent is basically waiting
+If I try to understand it, we have terminal
+It ran opraphan.sh. it called sleep 200
+it is working
+this is parent of this , this is parent of this
+As sleep 200 will end , it will know , its parent
+Orphen.sh waiting for sleep 200 to end , if it ends , then it will
+Similarly when orphan.sh will end , then it will tell that it has
+So in this way things work, if I try to tell one thing more
+Whenever child process is formed from parent, parent process will
+Parent waits to know what child has returned , is it successfully
+It reads the return statement, then it see that is it executed
+When it reads it, then child process entry is deleted
+parent knows that what happened to child , now remove it from the
+Lets come back to orphan process , it is still running, lets try
+Now there is no process , we still have 9161 process , terminal is
+it was normal execution
+Now I will change it little bit
+I removed it, and put this , & initiates it as new process ,
+bash script was running , now sleep 200 will also run separately
+Clear it, terminal is running, with 9161 PID
+Now I will run it, now see
+what happened that your process ran , the sleep call that it made
+It detached from orphan process , orphan.sh exited , here you can
+Now if I see sleep 200, its PID 9228was , now its PPID is 1
+PPID is whose PID, that is init process PID
+Lets understand what happened here , we have the terminal
+It shooted orphan.sh ,fork() basically
+then orphan 200 called sleep 200 with &, it means that this
+orphan exited , this sleep 200 became orphan process
+here we can see that sleep 200 has became orphan, its PID has
+its parent entry has became 1 ,it is given to init process
+, this is the live example of orphan process , 4th thing
+Zombie process , what is it?
+I will make a  diagram , I have P1 process
+It fork() P2, it will be parent
+P2 is child , child is executed
+Child make the call to exit, lets complete the diagram
+Now what happened here , 1st we have the P1 process
+it fork() P2, child process is exiting, it exited before time
+Now what happened that normally parent process waits for child
+Then it will read the exit status , after that, to read exit
+I will call wait command , exit will be red , then it will know
+When both will happen , from process table child entry will be
+In this case wait()  waited for longer time , assume it waited for
+In this 3 minutes gap, P2 process will become a zombie process
+Why I am calling it zombie process? when exit call is made , the
+It will release all, resources have became free but child process
+Due to that process table may be completely filled , any OS
+In H/W you will see that what will be the no. of entries in
+When exit call happens all resources are released ,but process
+due to that process table will be exhausted , then there no new
+If you created too many zombie processes , for that time no new
+This is a big problematic situation, now how work flow happens ,
+It will be there in entry until parent process calls wait()
+When it reads exit status
+After that its entry will be remove from process table , then your
+We call it ripping of zombie process , I deleted zombie process
+Parent called wait(), then red its exit status  ,so this is
+By calling wait() , I read the exit status , parent is satisfied
+Or if parent process exited , in this I will say there is some bug
+Many zombie processes will be accumulated , after certain point it
+And your resource will be leaked
+So this is your zombie process theory , lets see it practically
+back to screen , now we have written a program , so we have made a
+we have a for loop , we will shoot many processes , when we shoot
+If I have not written & when for loop ran
+then it would wait, that this sleep will exit, then next sleep
+Now we ran a for loop ,one by one given the & ,and made new
+So there will be many processes named sleep
+I will stop this bash script for 100 sec
+If I run it now , but 1st we will see is there any zombie process
+this z is command for grap ,I will run it bash zombie.sh, and ran
+Now I will see here , you can see so many sleep commands , all are
+Lets understand what happened , so this is your terminal , its PID
+It launched this sleep 100 command , this is your bash script
+It ran zombie.sh, which has been replaced sleep 100
+It replaced , using same PID replaces it
+This is sleep 100, this is particular bash script
+9569 bash script shooted many sleep processes in for loop
+So all sleep have same PPID,9569 has called many sleep process
+We created sleep 1 process of 1sec , it has passed , due to 1sec
+Many processes that has to be executed for 1 sec  is waiting
+All are waiting for parent to maker the wait() call to read the
+So that they can exit from the process table
+Parent process has exited , now if I see ps -al
+Then we can see this much entry, this is your terminal entry
+At that time you were having zombie processes in your system
+And as parent red the the exit status of all the processes that it
+All zombie process has been removed , if we try to understand it
+1st we called terminal, then a bash script
+It deed two things , it created many sleep processes
+Which were running for 1sec , then exited
+Then I replaced bash command with sleep100  command , it was in
+When it was in running state , these all exited for 1 sec but
+because parent process has not still red the exit status of all
+After 100 sec when exit status becomes 0, then your zombie
+So this is the summary of zombie process
+Lets see the notes , 1st we studied swapping , it is done by MTS
+We understood its diagram , we have discussed context switching
+That particular process is adapte by init process , init is the
+Then we come to zombie process , we also call it defunct process ,
+In some as defunct process , zombie processes are those processes
+These are normally the child processes , we saw the example , we
+Whenever parent reads the exit status , basically zombie process
+We also call it reaping of zombie process , all 4 are important
+Orphan and zombie process are very important topic , keep it in
+We will meet in the next video, Bye!!
+Hello ji , how are you all? this is lakshay
+Today we have reached OS lecture no-12, we will start discussing
+Before that you should know some terms , which we will be using in
+Lets see what is process scheduling?
+we have already discussed about this in previous lectures , but
+Here STS dispatches any process , here will lots of processes like
+LTS provides the processes at ready queue
+OS picks process from the ready queue , and gives to CPU,
+Process are executed , after some time quantum process comes back
+In this way things works
+So your work to pick from ready queue , which process will be
+Then scheduling it is done by CPU scheduler , it tells the process
+Selection process is done by scheduling algorithm
+I also call it CPU  scheduling algorithm , giving control of any
+So what is the work of CPU scheduler? whenever CPU is idle , then
+It will be given to CPU, and it will be going on, we call it CPU
+Before moving ahead lets give shout out to our sponsors
+Like Amazon ,Adobe , Commvault , focuses on their technical
+So to clear these interviews , your OS part must be strong
+So coding ninjas provides you comprehensive and in depth course ,
+All theoretical concepts are taught based upon Linux operating
+You will also get one on one doubt support is available
+Educators are from big companies , you will get 12 + content
+150+ problems , 12+ projects
+You will also get various courses related to CSE
+If your are interested in paid courses , then I will put the link
+We have two type of scheduling algorithms , 1.non-preemtive
+Ones you given process to CPU, you have P1 process
+This is your CPU, ones you given it to CPU
+It will occupy CPU until it is terminated
+or goes to wait state , i/o
+These are the two ways in non preemptive scheduling algorithm , it
+Or wait/ i/o
+I call it non preemptive scheduling method, ones it got the CPU,
+What we are missing here ? time quantum is missing here ,we
+While executing if time quantum has finished , CPU will leave that
+Timing sharing is not there in non preemptive
+2. preemptive scheduling
+It happens that when it will be terminated it will leave the CPU
+When it will go to wait state, then also it will leave CPU
+But there is one more thing , when time quantum is expired
+Then also process free CPU, goes to ready queue , so these are the
+If I want to compare them , what is starvation ? any process is
+If any job has occupied CPU for longer hours
+Other jobs in ready queue are not getting the time , so they are
+If I compare , in which process starvation will be more ? Non
+Because time sharing part is missing in non preemptive , if I got
+And there is no i/o instruction , it will terminate after 20 -30
+In preemptive there is no starvation because of time sharing, it
+Other process will get the chance
+There is less starvation in preemptive
+Which has the more CPU utilization?
+You may have got the idea by seeing the starvation
+Preemptive has the more CPU utilization, because more processes
+So CPU will work on more no. of processes at a time
+In CPU there is high CPU utilization, 3rd
+Overhead
+In preemptive there is more overhead, why?
+Because aside that i/o, termination, there is extra overhead that
+CPU will have to execute new process after 1 sec, STS will give
+Basically if we are changing in 1se , then 10 processes will be
+Comparison of preemptive and non preemptive scheduler
+Lets discuss goals , goals of CPU scheduling algorithms
+If I am using my OS, or designing it
+When I would be coding the management part , the process
+On which parameters I will make it, what will be full filled by
+Lets discuss about that goals , 1.Maximum CPU utilization, we are
+2.Minimum turn around time . What is TAT?
+Whenever job 1st comes to ready queue to the termination time
+P1 came to ready queue , it deed i/o , gone to wait state
+again came to ready queue
+When it will exit, the in between time , is the turn around
+I want it to be less , if process has came to ready queue , I want
+3. Minimum wait time , what do you mean by it?
+I want process to wait for CPU for very less time
+Whenever any process goes to ready queue , CPU preempts it
+Now it wants to execute another process , in that case I want
+If there is more waiting then there will be more starvation,
+What is response time ? it is the time when process came to ready
+The difference , your process came to ready queue , when it got
+I want when any process comes to ready queue , I want it to get
+At least its program should start to execute
+It should not happen that process has entered the ready queue, but
+I also not want this , 5.
+Max.throughput, what is throughput?
+It is the no. of processes completed per unit time , this is the
+I want my through put to be the maximum so that it can take
+Why we are doing this ? The main goal is the maximum CPU
+So I am deciding these goals , I  am keeping them in mind
+Lets elaborate these points , through notes
+So we have written all the definitions , throughput - no. of
+Then there  is arrival time , time when process is arrived at the
+A time line is going on
+In that clock at which point the process came to ready queue will
+Burst time -Time required by process for execution
+Actually the time required to process to be executed
+Assume there is no other process , there is only one process
+How much time it will required , we are calling it burst time
+Turnaround time - time taken from the 1st time process enters
+Now I will discuss completion time , time taken till process gets
+After arrival it got response time , then it got scheduled , then
+again scheduled , time quantum expired again went to ready queue ,
+Completion time is , when long term scheduler actually put it into
+The difference is the completion time., you can get confused what
+it is CT-AT, completion time - arrival time , I am calling it
+Time process spends waiting for CPU ,WT=TAT-BT, turnaround time
+Why it is WT=TAT-BT, when that process came to ready queue ,till
+BT is the actual time that it will take if it is the only process
+I want it to be less , WT=TAT-BT
+, so we have discussed , lets move to our 1st scheduling
+FCFS- 1st come 1st serve , it is the simplest algorithm
+The process which will come 1st in ready queue , I will send it to
+P1 ,P2 ,P3 , all have came in line like this
+Now what will FCFS scheduler will do , it will dispatch the one
+When P1 will be executed , then P2 ,then P3, it is the simplest
+But there is a big problem in this algorithm , Convoy effect,
+Lets say we have an example , there are some processes , like
+Like this , I have created a scenario
+There is a table of processes , where PID is written
+We have given the arrival time , and the burst time
+We want to find all the values , so we will use a technic Gantt
+Now how will I create it , when I say t=0
+Which process came at t=0
+The one which has the 1st arrival time , in this case it is 0, I
+Up to when it will run , its burst time is 20, it will run up to
+After that P2 will come in the memory, its burst time is 2
+Gantt chart tells the time , if 20 sec has been completed ,
+Then P3 will come , 22+2=24sec
+P2 ->22 sec , its 24 sec
+If I try to find out the turn around time , it is CT-AT
+Lets find it, it will be 20 , 21 ,23
+WT=TAT-BT ,here it will be 0, because it got executed when it
+It waited 19 sec , this 20 sec , there is mistake it will be 22
+22-BT , will be 20,
+If I do the  sum, if I see this , these are the destructive
+This si my ready queue ,, this is waiting time , now if I find the
+My average waiting time is 13
+If I change the order of processes , if i take P1 process to last
+1st came P2 , then P3  ,then P1
+P2 ,P3 burst time is less , P1 has the most burst time , lets see
+1st P2 , then P3  ,2+2=4 units , P1 , 24
+If I write the completion time , this taken 2 ,then 4  ,24
+If I find the turnaround time , it is CT-AT, it will be 2 sec ,
+Its 22 sec , if I try to find WT, it will be 0 ,1 ,2
+If now I find the average waiting time , it will be 1 unit
+This called convoy effect, the job having the maximum burst time
+If it comes first , then rest jobs will have to wait
+Because if the 1st job will run  20 sec , rest jobs  will have to
+Average waiting time of this system  is 13, we increased because
+Then my average waiting time is 1 sec
+We call it convoy effect, If I read its definition
+If there is any process that have higher BT, it will have major
+If 1st will have the more BT, then waiting time for rest will
+It is not necessary that convoy effect happens in processes or in
+Not only in CPU , if you talk about another resource , and one
+are not able to use it, so there waiting time will increase , I
+I can call it poor management of resources , because resource is
+This is my goal , for CPU scheduling
+So we discussed some  jargons , what is AT ,BT ,TAT ,CT, response
+We also understood the goals , what is preemptive and non
+What is convoy effect, it is asked directly in interviews
+So this is a interview question, lets end this video
+We will meet in some next lecture , Good Bye!!
+Hello ji how are you all
+This is lakshya and we are on lecture number 13 of OS
+And we are going to continue some algorithms of cp schedule
+In last lecture we have learnt about FCFS scheduling algorithm
+Which is the most simple scheduling algorithm
+Now we going to learn about some more scheduling algorithms like
+SJF, shortest job first of this we will learn about its preemptive
+Then comes our priority scheduling and will learn about its
+Then comes our special algorithm which is round robbing, ok
+This video is sponsored by coding ninjas,
+Many product based companies like amazon, adobe, commvault
+Focus mainly on OS part in their technical interviews
+So for clearing this interviews your OS part should be very
+So coding ninjas provides you comprehensive and in-depth course
+Which covers all these concepts very well
+Along with that, all the theoretical concepts are teached by
+Along with course they provide you one on one doubt session
+And the faculties are from nvidia microsoft like big companies
+Other than that, you will get content for more than 12 hours
+You will solve 150 + problems and hands on in 12+ projects in this
+other than that in coding ninjas you will get many different types
+If you are interested in paid courses, I will paste link in the
+By which you will get maximum available discount, thank you
+So at first we will start with SJF which is shortest job first
+Shortest job means, the job which have the shortest brust time,
+That is the jobs which is inside the queue, in that I will check
+Shortest brust time means which will execute most quickly, that is
+So I will give that to CPU first, ok
+Then later I will give them which have more brust time
+Why I am doing so, first let write it
+Process with least brust time will get CPU
+But why I am doing this like that
+We have seen in the previous lecture, that in FCFS  when we were
+Then average scheduling time get increased, I call it as convoy
+So by resolving it slightly there is a SJF algorithm is there
+Now we are discussing the non preemptive version of it
+That means if the process gets the CPU, there is no chance of
+In this the main problem is that we say the process which have the
+We will give it the CPU, but this is hard task
+Say which process comes
+Lets take a example P1  P2  P3 are there
+Now I have to find the BT of them
+Now I have not scheduled it yet, before that OS is applying
+Heuristics means it is trying to guess, it will try check if any
+It will guess the burst time of P1, it will check its size, code
+According to that I am trying to find the burst time , that means
+So this is fully based on estimation, ideally finding the burst
+So I am going in this hope, that the burst time my algorithm have
+On this behalf I will schedule that
+This can be possible, like you have found this burst time as 2
+So for P1 the burst time is minimum so I will give CPU to it
+But this could be possible that that the BT for that is not 2
+So this is the big problem with this, this is a drawback of it to
+Now how its work, lets go to that
+So lets take a example, small example
+This are processes
+So this is my problem statement
+Now I will try to make its gantt chart according to shortest job
+Gantt chart will be like this, I will start at t=0
+You should take care of that it is non preemptive
+before that I will discuss, the BT here are found by estimation I
+So first will come whose arrival time is 0
+So P1 is in queue, I have scheduled P1
+As it is non preemptive it will not preemptive opposite
+So it will run up to its burst time, so its run for 8 second
+Now when 8 seconds got over in clock
+so I will have these three processes, right
+As its arrival time is 3, latest process arrival time is 3
+So in ready queue this three process have came
+Now I will take P2, so its burst time is 4, 8+4 = 12 seconds
+So P2 got over at 12 seconds
+Now if I see I have two jobs remaining
+Now I will match whose burst time is minimum
+So its burst time is minimum
+Now instead of P3  P4 will schedule here
+In case of FCFS P3 will get schedule, but in this case we will
+Now P4 will run for 5 seconds, so total will be 17 seconds
+Now remaining is P3 we will schedule that and it will run for 26
+Now I write its CT quickly
+Ct will be 8 12 26 26 17
+If I find its turn around time, so TAT will be CT -AT
+Turn around time, BT, CT this terminology we will use in coming
+So make these terms clear by watching my lecture 12
+Lets find the turn around time for this it will be 8 second this
+For this 24 second and for this it will be 14 second
+This is not burst time I say this as wait time, WT = TAT - BT
+For this it will be 0 seconds this will come 7 this 15 and for
+f I find its average then its average will be wait time will be
+So we have done a example of non preemptive version and observed
+So as we solved a example what is our criteria to pick the
+that is arrival time and BT
+On behalf of BT, we are looking on the arrival time the processes
+Another one whose burst time is minimum that will be my criteria
+So this criteria is used in SJF
+Now I go to its preemptive version, preemptive SJF
+Now saw in non preemptive that, if a process get a CPU then I
+Assume that P1 process which comes at arrival time 0, its burst
+Then if you see, only first job run for 80 seconds remaining jobs
+So this will be a victim of convoy effect
+Rest jobs will be starving as they will not get the CPU ones
+Lets solve it slightly, try it optimize it using preemptive
+Lets solve this example only for this version
+Let me draw the question first, so quickly I have drawn the
+So this is our ready queue, liker this after some time it will
+Now what will be its criteria here, criteria will be AT +BT but
+That is here will be preemption, and that will be like
+At that particular point
+Assume at starting arrival time is 0 so P1 process will come
+So when there is only a process in ready queue, in this case only
+But as P1 starts running, P1 get s the CPU and it starts to
+And it executed for 1 second, then another process will come in
+Now what is the burst time for P2, that is 4
+That is lesser than burst time of P1
+In this case I will preempt P1
+First P1 will schedule run for 1 second then P2 will come 4 second
+So P1 will now preempt
+Now create its gantt chart and try to understand from that
+In staring when time be t=0 we will schedule P1, it will run for 1
+When it run for 1 second P2 will come whose burst is less, because
+After the preemption of P1, I scheduled P2, P2 will come here
+Now P2 will rum for how much, P2 will run for 4 second as at the
+I will have the processes up to that time
+that means P3 and P4 will also came, but the burst time of P3 and
+So P1 will run, full up to termination state it will be
+5 second will come here as it run for 4 second
+Now it have executed, P2 is done
+And ne thing we have forgotten that when P1 ran for 1 second
+So its remaining burst time will be 7
+Now I will see, that which process is of minimum burst time
+S here P4 is of the minimum burst time that is 5 seconds
+So I have taken P4 and scheduled it for 5 seconds and total will
+Now after this whose burst time is minimum, is P1
+Now P1 will get completely scheduled as P1 have less burst time
+And no other process is coming in this ready queue
+So I will schedule it completely that is 17 seconds
+Now remaining is P3 P3 will run for 9 seconds that will be 26
+So we have drawn its gantt chart, now I will write its CT
+CT will 17 seconds for this, 5 seconds for this, 26 seconds for
+And TAT will be 17 seconds for this, 4 seconds for this, 24
+Now if I find WT that is TAT- BT will be 9seconds for this, 0
+15 seconds for this and 2 seconds for this
+Now if I find the average wait time then it will come 6.5
+Now I have done some optimization, and after that its WT got
+Now lets ask a question, that is there will be convoy effect in
+So convoy effect will not be there in this , reason is
+Assume that a first job comes and its burst time is very high lets
+Then also this will start to run, but whenever process comes
+We preempt the first job and provided CPU to the next job
+In this case there is no convoy effect, because whenever any
+Will come we will schedule that, then if another will come with
+So this way we are avoiding convoy effect
+Why convoy effect is not coming in this, first you have to
+If in first, a job comes whose burst time is very high then it
+And remaining job will starve for that time, so that is convoy
+But in these our criteria is that whose BT is less I will give
+So whenever a job comes whose BT is lower, then it will schedule
+So, the longer jobs whose BT is high, they will shift lower and
+Because of that average waiting time will be the lowest
+But in this the big challenge in SJF is, it is nearly impossible
+If I see practically that how I can know it before hand that this
+Ideally the programmer have thought that my program will run
+But lets say there is a while one loop in it, which will make the
+So the programmer had assumed the burst time to be 70 seconds but
+So this is the main issue in SJF, so we discussed SJF
+And we learned that preemptive version is better than non
+So it is a algorithm with less starvation
+Next we will start discussing the algorithm, which is priority
+Up to here we are discussing about the base time of the jobs no
+So I can say SJF is a special case of priority scheduling as
+There is no assigned priority other than burst time
+So I can say which have lowest burst time at that time that will
+But in this algorithm, what we do is we basically we assign
+This is our ready queue, when job comes in ready queue P1 P2
+So I will set priority, lets say its priority is 2 its priority is
+Now I say which have the highest priority that will be scheduled
+Firstly I discuss its non preemptive version of that
+You got up to here that non preemptive is useless, so this is also
+Lets see it with a example, I quickly draw a example
+This is, I can say a question so how we schedule it
+So lets make a gantt chart this is vert important
+So what is the criteria here, here our criteria is priority
+Whose priority is higher at that point of time, that will be
+As it is non preemptive version so once any job gets the CPU then
+So lets start, so at t=0 we have P1 so P1 get scheduled
+once it get the CPU then it will execute for 4 seconds, as it
+So what jobs we have whose arrival time is up to 4 seconds ?
+1 get executed now 2 3 4 5, in them more priority will be of P4
+So next P4 will schedule, so it will execute for 5 seconds so
+So as 9 seconds got completed so all the processes will come into
+Now I will pick up the process which have the highest priority
+So highest priority among them will be of P6 as so total will be
+After P6 P7 priority is the highest that was 9 so that will run
+That is up to 19, then comes the 5th process,P5
+that will run for 1 seconds, then P3 will come
+P3 will run for 3 seconds so it will run up to 23
+Now P2 is remaining for 2 seconds it will run up to 25
+So that is our gantt chart
+Now we will write its values
+CT will be 4 for this, 25, 23, 9, 20, 13, 19
+One thing here is to notice very time we lower the lowest priority
+And schedule the highest priority jobs, by this a problem arise
+And TA and WT I ant to calculate it by yourself I quickly draw it
+Average waiting time is 9.714 seconds
+Now lets go to its preemptive version
+Preemptive priority scheduling
+Lets discuss its preemptive version, priority is assigned in this
+But at that point of time as the arrival time increases process
+Whenever a process of higher priority comes current process which
+That we will preempt
+So my criteria here will be I will go according to the higher
+Lets draw a example of that  and drawing the gantt chart of that
+Lets draw its gantt chart if this
+At first at t=0, we have P1 process, that will be scheduled
+Whenever P1 process gets scheduled and it runs for 1 second
+So ten P2 also comes, If P2 comes to ready queue then I will
+Whose priority is higher scheduled is P1 but priority is higher
+So after 1 second it will run for 1 second and P2 get scheduled
+So as it run for 1 second so we write its burst time as 3 instead
+Now P2 will run for 1 second, now why it  is running for 1 second
+We assume as our algorithm checks after each second that any
+It is assumption and is based on implementation how you implement
+So P2 will run for 1 second then another process will come P3
+IS P3 priority is higher, yes it is higher then P3 will schedule
+And run for 1 second, now burst time for P2 is now 1 second
+Now P3 will run for 1 second P4 will come now priority of P4 will
+Now P4 will execute, now next higher priority job is coming after
+So it will run for 2 seconds, as it run for 2 seconds now arrival
+Now here whose priority is highest, so here priority will be
+As it ran for 2 seconds and P6 will schedule as P6 is the highest
+P6 will run for 4 seconds so 5+4 is 9
+Now P6 is out, now I have the highest priority is P4
+So I will schedule P4 again it will run up to termination so it
+We did a mistake here, P4 has ran 2 seconds so it will run up to
+Now P4 is also done now we have P7 as it have the highest priority
+P7 will run upto 6 seconds that it will run upto 18 seconds
+Now I have P5 as the highest priority that is 8
+And it will run for 1 second only then it will be 19 seconds
+Now P5 is also out of the game, now I have P3 remaining
+After P5 I will run P3, and it will run for 2 seconds that will
+After that which process will come as P3 is out that is P2 it will
+Then I remain with P1, P1 will run 3 seconds up to 25 seconds
+Look how much hardwork we did for solving this It having that much
+You are requiring this much hadrwork to solve this, so the
+It have to do many context switching for doing 1 job
+So in this case there is many overheads
+And you can see the lowest criteria process gets down and down and
+So there is no respect for lowest priority in this game
+If I write the CT will see from right to left So CT of P1 is the
+For this it is 22, for this it is 21,for this it is 12, for this
+P7 has ran at 18 second, you can see hare even though for P2 job
+So ideally if it was SJF then we would have executed it before
+But in this case it s taking 22 seconds, now for this reason
+How, lets say any higher priority job is coming again and again
+Means that job whose first time is high and it is coming
+So the lowest priority jobs will get shifted to lower and lower
+Even though burst time of lowest priority jobs are 1 second or 2
+So in this case average wait time will increase, this is your
+You find the average wait time and check that is right or not, my
+You can see how high is this average wait time it is
+It is higher than its non preemptive version
+Now if I check there is convoy effect is there or not, convoy
+As higher priority begin to come, the lowest priority job get
+So this is the most problematic thing in this, convoy effect
+Now there is a extreme of convoy effect, which I call indefinite
+So it biggest drawback, in both preemptive and non preemptive
+Is indefinite waiting, I can call it as extreme starvation
+Now what that means, lets assume this is your ready queue
+This is your P1 and P2  job and this will start to schedule
+Now P3 P4 P5 job comes and this is of highest priority
+Lets assume it as 100 its 101 and its 102
+Now this will schedule on there self, lets assume this got execute
+Now you have taken P6 job and is of highest priority lets say
+I am taking the numbers randomly but you take that priority is
+Now this lowest priority jobs take them as 1 and this as 2, so
+As your system is running continuously,
+Now assume your system is on for a long time and your highest
+The lowest priority jobs will go in indefinite wait
+They will never get CPU
+I am calling this as indefinite waiting
+So I am giving a extreme example of indefinite waiting
+The rumor is that IBM 7094 basically this is the system MIT
+This system was on in 1967 and submitted some jobs
+So many would got submitted in that like P1  P2 and so on
+The lowest priority jobs got stucked in ready queue due to this
+They never got the CPU, they checked it at 1973
+The lowest priority jobs got stucked in ready queue for this many
+So this are extreme examples of indefinite waiting
+So for solving this problem we use a way
+See this algorithm is good as when we are learning types of
+There is a criteria we will execute first the highest priority
+So this problem is very big but there is a solution is also there
+Solution to indefinite waiting, solution is ageing
+WE add another criteria ageing
+We gradually increase the priorities of lower priority jobs
+Its example like, in the IBM problem we saw the lowest priority
+If I used ageing method, then in every 15 seconds (this time is
+So the priority of lowest priority jobs will increase gradually
+So after some they will definitely get chance as ageing will
+So ageing is a way, which I use to save indefinite victims and
+So we have learnt that what is priority scheduled algorithm, is a
+But in this the biggest drawback is indefinite waiting
+We are solving it through ageing, so we have learnt about
+If I ask you a question , is there is convoy effect, yes it is
+Indefinite waiting is a extreme version of convoy effect
+The highest priority jobs only getting the time even though it
+So average waiting time of ready queue will increase gradually
+So it is having extreme convoy effect
+Now we move on to our next algorithm, which is Round Robin(RR)
+Why it is called Round Robin, as it give chance to each process
+Means every process at least will get CPU quickly
+So wait time is very less in this
+So I can say in this algorithm starvation is lowest
+As another process will get chance after some time
+As starvation is less so convoy effect is also not there
+And this is the most popular algorithm
+Today this is used in different levels of operating system
+Apart from that this is preemptive version of FCFS
+There is no criteria like priority
+Its criteria is AT +TQ( time quantum)
+And its does not depend on BT
+So the problematic area of SJF was that you have to find the burst
+Then only it will get scheduled, finding burst time is ideally not
+So this is not the case here, in here we use AT and time
+Now here time constant is coming, so this design is done for time
+So we have learnt that time sharing, in which we preempt any
+Taking back it to ready queue, so in this we use this
+As AT and TQ are basic criteria so this is easy to implement
+It is easy to implement, we will discuss it when we draw the
+And it is created for time sharing system, time sharing used in
+So it popularly used in multitasking OS
+Lets go directly to its diagram, diagram is in the notes
+Lets directly go to the notes
+See carefully, we have a ready queue, in this ready queue
+In this ready queue there are many process are there, arrival time
+I will pick a process by FCFS method, whose At is 0 I will take
+And I will check, that the burst time of that process is less than
+Time quantum will be decided by the developer or designer of OS
+If time quantum is more than burst time, process can be executed
+So in that case we will execute it and process will get
+And if time constant is more than burst time, then in that case
+I will execute it execute it up to time constant
+And when time constant get expired I will preempt that process
+This can be possible that, our time constant is set 2 seconds
+And in that process remaining burst time is 2 seconds, then it
+So see this is a simple diagram, I have to execute for time
+Burst time not required here, if burst time get increased we did
+First of all there is no estimation happening here, process are
+If burst time is less, there is no estimation in burst time
+In real life practically it is executing for 2 seconds, then it
+If not terminated then I will put it in ready queue and if get
+This way the things are going here
+So it is easy to implement
+Lets try to solve a question of it also
+When we solve the question you notice on thing, that in this how
+Is there is any overhead, if yes then how many are there
+Lets solve a question of it
+Quickly I am drawing it, So this is my question now I will try to
+Simply I will be making its gantt chart
+Now look, my criteria here is arrival time and time constant
+Here 0 arrival time is for P1, so P1 process will execute first
+But we are assuming tine quantum TQ as 2 seconds
+So P1 will run for 2 seconds, now at that point where P1 has ran
+I am creating a queue here also, P1 has came to queue first, when
+Now which jobs have came to queue, P2 and P3 have came to queue
+So P1 has ran for 2 seconds and not went to terminate state
+So I will preempt P1 again to queue
+For the time over up to now, which jobs are in queue
+Now I will schedule P2, it will run for 2 seconds
+Before that in P1 2 seconds are remaining, as P1 has ran for 2
+Now P2 will run for 2 seconds, i write 4 seconds in gantt chart
+Now when 4 seconds got completed, all the processes have came to
+Means I have P4 and P5 in the queue P3 is already there in there
+When it ran for 2 seconds, we have change its burst time to 3
+Now P2 will preempt, let write P2 here
+After that I have P3 process in the queue and I will schedule P3
+P3 will run for 2 seconds, and then it will go to terminate
+So in 6 seconds, P3 will fully terminate
+Now in this process P6 have came to ready queue
+Now P1 will process and I will pick P1 from here P1 will run for 2
+It have 2 seconds remaining then this will exit this also get
+Now when P1 terminated, no process has came as last arrival time
+Now next process will come is P4, I will schedule P4
+P4 will try to run for 2 seconds, but before that its burst time
+S in this case also this will exit 9 seconds
+now I will take P5 process, P5 will run for 2 seconds
+As it run for 2 seconds then here 4 seconds will remain
+This will be 11 seconds then again P5 will preempt ok
+Now P2 will get chance, it will run for 2 seconds and here 1
+This will be 13, then P2 will preempt again after P5 P2 will again
+Now I will have P6 here, I schedule P6 this is very boring
+P6 will run for 2 seconds, here 1 second will remain 13 14 15
+P6 will again preempt, after P2 P6 stand in the queue
+After that P5 will schedule, I take P5 and it will run for 2
+15 16 17 P5 will go again in the queue
+Now P2 will schedule, it will run for 18 seconds
+As 1 seconds was remaining there
+Now P2 got terminated, then P6 process will come
+P6 will run for 1 second and up to 19  seconds
+And I have P5 remaining, i will run P5 whole so total it run up to
+You can see here that it is very hard to make the gantt chart
+Because after each TQ(time quantum)I am check that I will preempt
+In this case overheads will increase
+Means the context switching is much more in round -robin
+Although we have removed starvation completely and convoy effect
+But for this reason overheads got increased
+We want balance of both of them
+We want minimum convoy effect as well as minimum overheads
+We tried to 0 the convoy effect but the consequence is overheads
+In this case another major problem is there, we assume TQ as 2
+If I change it to 1  second, then context switching will be more
+So there could be a question that which determines overheads in a
+That determines the time quantum, if time quantum is more then
+And time quantum is less then overheads will be more
+So this way the round robin algorithm works
+So this is the last algorithm of simple algorithm
+In the next lecture we will discuss multi level queue scheduling,
+This are bit more complex, up to this implementation is simple
+in the next lecture we will discuss implementation which are
+Before ending this lecture, as always let take a look on  the
+I have tried to put most informative and precise information
+In shortest job first, we have talked about preemptive and non
+its criteria is AT+BT, its impossible task is to find its BT
+After that in preemptive version there is no convoy effect
+We talked about priority scheduling, priority scheduling
+In this we saw heights of convoy effect indefinite waiting extreme
+For that our solution is ageing
+Round robin algorithm we have discussed preemptive of FCFS
+Time quantum is used in that in time sharing system
+This is a diagram of it
+Other than that I will personally suggest you that you implement
+you are following DSA course of love bhaiya, he is teaching you
+So by using that data structures you try to solve this scheduling
+You can do it like we are doing gantt charts here like that you
+As example you can implement SJF by min heap
+You insert all the process in inside min heap and it will place
+Assume P3 have lowest BT so it will be placed above by min heap
+So min heap can be used in min heap
+Similarly you see for round robin, priority scheduling can use
+So implement them this is your homework, you will enjoy it
+In my time I have implemented them and I felt very nice
+So lets meet in the next lecture, ok BYE !!

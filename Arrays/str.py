@@ -271,10 +271,32 @@ else:
 
 print(prefix)
 
-prefix = 
 if "flow".startswith("flo"):
     print("yes")
 """
+"""
+1957. Delete Characters to Make Fancy String
+Easy
+A fancy string is a string where no three consecutive characters are equal.
+Given a string s, delete the minimum possible number of characters from s to make it fancy.
+Return the final string after the deletion. It can be shown that the answer will always be unique.
+
+Example 1:
+Input: s = "leeetcode"
+Output: "leetcode"
+Explanation:
+Remove an 'e' from the first group of 'e's to create "leetcode".
+No three consecutive characters are equal, so return "leetcode".
+"""
+s = "leeetcode"
+new_str = ""
+for i in range(len(s)):
+    if i >= 2 and s[i] == s[i-1] == s[i-2]:
+        continue
+    new_str += s[i]
+
+print(new_str)
+
 
 
 

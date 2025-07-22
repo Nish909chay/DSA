@@ -542,30 +542,3 @@ for i in range(left,right+1):
 
 print(sum)
 """
-
-arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]   # expected = 6
-check = []
-output = []
-left = right = 0
-curr_sum = max_sum = 0
-
-while(left <= right and right < len(arr)):
-    check.append(arr[right])
-    curr_sum += arr[right]
-    if(curr_sum < 0):
-        curr_sum = 0
-        check.clear()
-        left += 1
-        right = left
-        continue
-    elif(curr_sum >  max_sum):
-        max_sum = curr_sum
-        output = [tuple(check)]
-    elif(max_sum == curr_sum and tuple(check) not in output):
-        output.append(tuple(check))
-
-    right += 1
-
-largest = max(output, key = len)
-print(list(largest))
-
