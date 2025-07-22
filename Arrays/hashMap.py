@@ -611,7 +611,7 @@ for i in range(len(arr)):
     dict[arr[i]].append(i)
 
 print(dict[target])
-"""
+
 arr = [5,7,7,8,8,10]
 target = 8
 left = 0
@@ -646,7 +646,36 @@ while left <= right:
 res = [l,r]
 
 print(res)
-    
+"""
+"""
+852. Peak Index in a Mountain Array
+Medium
+You are given an integer mountain array arr of length n where the values increase to a peak element and then decrease.
+Return the index of the peak element.
+Your task is to solve it in O(log(n)) time complexity.
+
+Example 1:
+Input: arr = [0,1,0]
+Output: 1
+"""
+arr = [0,2,1,0]
+
+left = 0
+right = len(arr) - 1
+
+while left < right:
+    mid = (left + right) // 2
+    if arr[mid] < arr[mid + 1]: # your on increasing slope - so peak at right side
+        left = mid + 1
+    else:       
+        right = mid
+# when left == right loop ends and that is the PEAK
+print(right)
+
+
+
+
+
     
 
 
