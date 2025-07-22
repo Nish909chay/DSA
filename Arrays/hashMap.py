@@ -542,3 +542,55 @@ for i in range(left,right+1):
 
 print(sum)
 """
+
+"""
+81. Search in Rotated Sorted Array II
+Medium
+There is an integer array nums sorted in non-decreasing order (not necessarily with distinct values).
+Before being passed to your function, nums is rotated at an unknown pivot index k (0 <= k < nums.length)
+Given the array nums after the rotation and an integer target,
+ return true if target is in nums, or false if it is not in nums.
+
+You must decrease the overall operation steps as much as possible.
+
+Example 1:
+
+Input: nums = [2,5,6,0,0,1,2], target = 0
+Output: true
+"""
+arr = [2,5,6,0,0,1,2]
+target = 0
+low = 0
+high = len(arr) - 1
+found = False
+
+while low <= high:
+    mid = (low + high) // 2
+    if arr[mid] == target:
+        found = True
+        break
+    if arr[mid] == arr[low] == arr[high]:
+        low += 1
+        high -= 1
+        continue
+    if arr[mid] >= arr[low]:       # at left side
+        if arr[mid] > target >= arr[low]:    # confirm at left side
+            high = mid - 1
+        else:
+            low = mid + 1
+    else:       # right must be sorted
+        if arr[mid] < target <= arr[high]:
+            low = mid + 1
+        else:
+            high = mid - 1
+
+if found:
+    print("found")
+else:
+    print("not here")
+
+        
+
+
+         
+
