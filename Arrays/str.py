@@ -246,6 +246,49 @@ if(found_odd):
 print(max_len)
 """
 
+"""
+14. Longest Common Prefix
+Easy
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+
+Example 1:
+Input: strs = ["flower","flow","flight"]
+
+s = ["flower","flow","flight"]
+
+if not s:
+    prefix = ""
+else:
+    prefix = s[0]
+    i = 1
+    while i < len(s):
+        while not s[i].startswith(prefix):
+            prefix = prefix[:-1]    # remove char from end 
+            if not prefix:      # if prefix is empty - break - means no commo prefix at all
+                break
+        i += 1
+
+print(prefix)
+
+prefix = 
+if "flow".startswith("flo"):
+    print("yes")
+"""
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
 
 
                     

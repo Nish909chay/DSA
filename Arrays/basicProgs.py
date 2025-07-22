@@ -461,6 +461,12 @@ for i in range(2, n):
 
 print(arr)
 """
+arr =[1,2,3,4,5]
+for i in arr:
+    if i == 3:
+        break
+else:
+    print("loop done")
 
 
 
