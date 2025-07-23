@@ -657,7 +657,7 @@ Your task is to solve it in O(log(n)) time complexity.
 Example 1:
 Input: arr = [0,1,0]
 Output: 1
-"""
+
 arr = [0,2,1,0]
 
 left = 0
@@ -671,17 +671,36 @@ while left < right:
         right = mid
 # when left == right loop ends and that is the PEAK
 print(right)
+"""
 
+"""
+1695. Maximum Erasure Value
+Medium
+You are given an array of positive integers nums and want to erase a subarray containing unique elements. 
+The score you get by erasing the subarray is equal to the sum of its elements.
+Return the maximum score you can get by erasing exactly one subarray.
+An array b is called to be a subarray of a if it forms a contiguous subsequence of a, that is, if it is equal to a[l],a[l+1],...,a[r] for some (l,r).
 
+Example 1:
+Input: nums = [4,2,4,5,6]
+Output: 17
+Explanation: The optimal subarray here is [2,4,5,6].
+"""
+arr = [4,2,4,5,6]
+left = 0
+right = 0
+max_sum = curr_sum = 0
+s = set()
 
-
-
-    
-
-
-
-        
-
-
-         
-
+while right < len(arr):
+    if arr[right] not in s:
+        s.add(arr[right])
+        curr_sum += arr[right]
+        right += 1
+    else:
+        while arr[right] in s:
+            s.remove(arr[left])
+            curr_sum -= arr[left]
+            left += 1
+    max_sum = max(max_sum, curr_sum)
+print(max_sum)
